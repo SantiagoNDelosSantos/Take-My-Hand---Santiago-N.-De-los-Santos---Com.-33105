@@ -15,9 +15,8 @@ html{
 }
 
 body{ 
-    background-color:#60b6e545;
+    background-color:#60b6e571;
     font-family: 'Montserrat'; 
-    color: #0C3575;
     text-align: center;
     line-height: 1.5;   
 }
@@ -28,7 +27,7 @@ body{
 /* Nav bar */
 
 header{
-    background: linear-gradient(90deg, rgba(15,17,77,1) 0%, rgba(18,22,162,1) 50%, rgba(15,17,77,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,32,1) 0%, rgba(16,19,98,1) 50%, rgba(0,0,32,1) 100%);
     padding: 1rem;
     border-bottom: 0.20em solid #ffffff;
     display: inline-block;
@@ -40,8 +39,7 @@ header{
 }
 
 .enlace{
-    position: absolute;
-    padding: 2px 5px;
+    padding: 0px;
 }
 
 .logo{
@@ -55,13 +53,14 @@ header{
 
 ul{
     position: fixed;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background-color:#030f79cb;
+    background-color:rgba(0, 0, 32, 0.685);
     top: 60px;
     left: -100%;
     text-align: center;
     transition: all .7s;
+    padding: 0px;
 }
 
 li{
@@ -81,7 +80,7 @@ a{
 
 a.active, a:hover{
     background: rgb(255, 255, 255);
-    color:  #0C3575;
+    color: rgba(0, 14, 70, 0.86);
     transition: all .3s;
 }
 
@@ -143,7 +142,6 @@ h1, h2{
 }
 
 h1{
-    padding-top: 64px;
     font-family:'Montserrat';
     font-weight: 700;
     font-size: 3em;
@@ -152,15 +150,16 @@ h1{
     width: 100%;
     height: 30vh;
     text-transform: uppercase;
-}
-
-.dobleL{
-    padding-top: 39px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
 }
 
 h2{
     color: rgb(255, 255, 255); 
-    background: linear-gradient(90deg, rgba(15,17,77,1) 0%, rgba(18,22,162,1) 50%, rgba(15,17,77,1) 100%);      
+    background: linear-gradient(90deg, rgba(0,0,32,1) 0%, rgba(16,19,98,1) 50%, rgba(0,0,32,1) 100%);     
     margin: 25px 0;
     font-weight: 500;
     font-family: 'Orbitron';
@@ -180,7 +179,7 @@ h3{
 }
 
 p{ 
-    color: #0C3575;
+    color: rgba(0, 14, 70, 0.86);
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 14px;
@@ -227,6 +226,9 @@ iframe{
     width: 50%;
     border: 0.30em solid rgb(255, 255, 255);
     border-radius: 50%;
+    background: #BEE1F4;
+    box-shadow:  9px 9px 18px #adcdde,
+                -9px -9px 18px #cff5ff;
     margin: 0 25%;
 }
 
@@ -475,7 +477,7 @@ iframe{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 97%;
+    height: 100%;
     border-bottom: 0.20em solid white;
 }
 
@@ -522,7 +524,7 @@ input{
     border-radius: 0.50em;
     margin: 0.50rem;
     text-align: center;
-    background: linear-gradient(90deg, rgba(15,17,77,1) 0%, rgba(18,22,162,1) 50%, rgba(15,17,77,1) 100%);      
+    background: linear-gradient(90deg, rgba(0,0,32,1) 0%, rgba(16,19,98,1) 50%, rgba(0,0,32,1) 100%);      
 }
 
 .enviar{
@@ -536,7 +538,7 @@ input{
 /* Enlaces externos */
 
 .linkUPH, .linkPHV3, .contactarCon{
-    background: linear-gradient(90deg, rgba(1,53,92,1) 0%, rgba(45,96,170,1) 50%, rgba(1,53,92,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,32,1) 0%, rgba(16,19,98,1) 50%, rgba(0,0,32,1) 100%);
     padding: 0.70em;
     border: 0.20em solid rgb(255, 255, 255);
     border-radius: 3em;
@@ -552,6 +554,7 @@ input{
 input:hover, .linkUPH:hover, .linkPHV3:hover, .contactarCon:hover{
     background: white;
     color:black;
+    border: 0.20em solid black;
     transition: .3s;
 }
 
@@ -565,7 +568,7 @@ footer{
     border-top: 0.20em solid #ffffff;
     display: flex;
     justify-content: space-evenly;
-    background: linear-gradient(90deg, rgba(15,17,77,1) 0%, rgba(18,22,162,1) 50%, rgba(15,17,77,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,32,1) 0%, rgba(16,19,98,1) 50%, rgba(0,0,32,1) 100%);
     height: 132px;
     width: 100%;
 }
