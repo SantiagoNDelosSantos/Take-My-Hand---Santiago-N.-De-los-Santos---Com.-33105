@@ -170,7 +170,7 @@ h2{
 }
 
 h3{
-    color: #0C3575;
+    color:  rgba(0, 14, 70, 0.86);
     font-weight: 600;
     font-size: 14px;
     margin-bottom: 25px;
@@ -503,7 +503,7 @@ iframe{
 /* Formulario */
 
 form{ 
-    color: #0C3575;
+    color:  rgba(0, 14, 70, 0.86);
     font-weight: 600;
     font-size: 11px;      
     padding: 0;  
