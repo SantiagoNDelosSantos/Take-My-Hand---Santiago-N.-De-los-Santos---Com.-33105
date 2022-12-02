@@ -226,9 +226,9 @@ iframe{
     width: 50%;
     border: 0.30em solid rgb(255, 255, 255);
     border-radius: 50%;
-    background: #BEE1F4;
-    box-shadow:  9px 9px 18px #adcdde,
-                -9px -9px 18px #cff5ff;
+    background: #B9DEF1;
+    box-shadow:  5px 5px 10px #90adbc,
+                -5px -5px 10px #e2ffff;
     margin: 0 25%;
 }
 
