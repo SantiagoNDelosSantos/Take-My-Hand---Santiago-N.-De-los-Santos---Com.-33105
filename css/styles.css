@@ -517,7 +517,7 @@ form{
     font-size: 11px;      
     padding: 15px;  
     text-align: center;
-    margin: 0 7%;
+    margin: 0 28px;
     border-radius: 20px;
     background: #B9DEF1;
     box-shadow:  5px 5px 10px #90adbc,
@@ -546,7 +546,6 @@ input:hover{
     color: rgba(255, 255, 255, 0.86);
     background: linear-gradient(90deg, rgba(0,0,32,1) 0%, rgba(16,19,98,1) 50%, rgba(0,0,32,1) 100%);
     box-shadow: none;
-    transition: .3s;
 }
 
 .enviar{  
