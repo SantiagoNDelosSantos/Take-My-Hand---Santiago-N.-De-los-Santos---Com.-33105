@@ -65,10 +65,8 @@ ul{
 
 li{
     display: block;
-    margin: 4em 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    line-height: 1em;
+    margin: 63px 0px;
 }
 
 a{
@@ -151,7 +149,6 @@ h1{
     background-color: rgba(6, 6, 6, 0.329);      
     width: 100%;
     height: 30vh;
-    text-transform: uppercase;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -484,9 +481,11 @@ iframe{
 
 .fondo1, .fondo2, .fondo3 ,.fondo4, .fondo5 {
     background-image: url(../assets/img/fondos/fondo1.jpg);
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
+    background-position-y: 9%;
     width: 100%;
     height: 100%;
     border-bottom: 0.20em solid white;
@@ -1042,7 +1041,7 @@ border-radius: 4em;
 .mainGridHis{
     display: grid;
     grid-template-areas: 
-    "fondo4" 
+    "fondo4"
     "section1GridHis"
     "section2GridHis";
     margin: 0 0 25px 0;
