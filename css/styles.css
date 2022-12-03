@@ -55,7 +55,7 @@ ul{
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background-color:rgba(0, 0, 32, 0.685);
+    background-color:rgba(0, 0, 32, 0.79);
     top: 60px;
     left: -100%;
     text-align: center;
@@ -64,9 +64,8 @@ ul{
 }
 
 li{
-
     line-height: 1em;
-    margin: 11vh 0px;    
+    margin: 11vh 0px;
     display: flex;
     justify-content: center;
     align-items: center;
