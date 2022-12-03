@@ -64,9 +64,9 @@ ul{
 }
 
 li{
-    display: block;
+
     line-height: 1em;
-    margin: 5.5em 0px;    
+    margin: 11vh 0px;    
     display: flex;
     justify-content: center;
     align-items: center;
