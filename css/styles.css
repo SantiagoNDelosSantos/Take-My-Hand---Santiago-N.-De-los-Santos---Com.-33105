@@ -267,6 +267,32 @@ iframe{
     grid-area: footerGridH;
 }
 
+.h3-FooterH{
+    grid-area: h3-FooterH;
+    color: white;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-FooterH{
+    grid-area: li-FooterH;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-FooterH{
+    grid-area: p-FooterH;
+    color: white;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .embolturaH{
     display: grid;
     grid-template-areas: 
@@ -283,6 +309,16 @@ iframe{
     "section1GridH"
     "section2GridH";
 }
+
+.footerGridH{
+    display: grid;
+    margin: 0em;
+    grid-template-areas: 
+    "h3-FooterH"
+    "li-FooterH"
+    "p-FooterH";
+}
+
 
 
 .headerGridM{
@@ -313,6 +349,32 @@ iframe{
     grid-area: footerGridM;
 }
 
+.h3-FooterM{
+    grid-area: h3-FooterM;
+    color: white;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-FooterM{
+    grid-area: li-FooterM;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-FooterM{
+    grid-area: p-FooterM;
+    color: white;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .embolturaM{
     display: grid;
     grid-template-areas: 
@@ -329,6 +391,15 @@ iframe{
     "section1GridM"
     "section2GridM"
     "section3GridM";
+}
+
+.footerGridM{
+    display: grid;
+    margin: 0em;
+    grid-template-areas: 
+    "h3-FooterM"
+    "li-FooterM"
+    "p-FooterM";
 }
 
 
@@ -360,6 +431,32 @@ iframe{
     grid-area: footerGridA;
 }
 
+.h3-FooterA{
+    grid-area: h3-FooterA;
+    color: white;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-FooterA{
+    grid-area: li-FooterA;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-FooterA{
+    grid-area: p-FooterA;
+    color: white;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .embolturaA{
     display: grid;
     grid-template-areas: 
@@ -376,6 +473,15 @@ iframe{
     "section2GridA"
     "section3GridA";
     margin:0 0 25px 0;
+}
+
+.footerGridA{
+    display: grid;
+    margin: 0em;
+    grid-template-areas: 
+    "h3-FooterA"
+    "li-FooterA"
+    "p-FooterA";
 }
 
 
@@ -403,6 +509,32 @@ iframe{
     grid-area: footerGridHis;
 }
 
+.h3-FooterHis{
+    grid-area: h3-FooterHis;
+    color: white;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-FooterHis{
+    grid-area: li-FooterHis;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-FooterHis{
+    grid-area: p-FooterHis;
+    color: white;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .embolturaHis{
     display: grid;
     grid-template-areas: 
@@ -419,6 +551,16 @@ iframe{
     "section2GridHis";
     margin:0 0 25px 0;
 }
+
+.footerGridHis{
+    display: grid;
+    margin: 0em;
+    grid-template-areas: 
+    "h3-FooterHis"
+    "li-FooterHis"
+    "p-FooterHis";
+}
+
 
 
 .headerGridD{
@@ -453,6 +595,32 @@ iframe{
     grid-area: footerGridD;
 }
 
+.h3-FooterD{
+    grid-area: h3-FooterD;
+    color: white;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-FooterD{
+    grid-area: li-FooterD;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-FooterD{
+    grid-area: p-FooterD;
+    color: white;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .embolturaGridD{
     display: grid;
     grid-template-areas: 
@@ -472,6 +640,14 @@ iframe{
     margin:0 0 25px 0;
 }
 
+.footerGridD{
+    display: grid;
+    margin: 0em;
+    grid-template-areas: 
+    "h3-FooterD"
+    "li-FooterD"
+    "p-FooterD";
+}
 /* Fin Grid Area */
 
 
