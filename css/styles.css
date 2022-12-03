@@ -687,7 +687,7 @@ iframe{
 form{ 
     color:  rgba(0, 14, 70, 0.86);
     font-weight: 600;
-    font-size: 11px;      
+    font-size: 13px;      
     padding: 15px;  
     text-align: center;
     margin: 0 28px;
@@ -698,13 +698,14 @@ form{
 }
 
 label{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 input{ 
     color:  rgba(0, 14, 70, 0.86);
+    font-family: 'Montserrat'; 
     font-weight: 600;
-    font-size: 12px;
+    font-size: 13px;
     padding: 0.50em;
     border: none;
     margin: 0.50rem;
