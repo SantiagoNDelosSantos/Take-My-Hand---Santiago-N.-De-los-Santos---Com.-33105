@@ -1,0 +1,76 @@
+
+img{
+    width: 86%;   
+    height: auto;    
+    margin: 0 7%;    
+    border-radius: 2em;
+
+    @media (min-width: 500px){
+
+            width: 100%;
+            margin: 0;    
+    }
+
+    @media (min-width: 1024px){
+        width: 70%;
+        height: 60%;
+    }
+
+}
+
+.redondeadoProtesis{
+    border-radius: 3em;
+}
+
+iframe{   
+    width: 80%;
+    height: 11%;
+    margin: 0 10%;
+    display: flex;
+    justify-content:center; 
+    border-radius: 2em;
+
+    @media (min-width: 500px){
+        width: 100%;
+        height: 23.2%;
+        margin: 0;
+    }
+
+    @media (min-width: 1024px){
+            width: 80%;
+            margin: 0 10% 0 10%;
+    }
+
+}
+
+.circulo{
+    padding: 1em;
+    height: 50%;
+    width: 50%;
+    border: 0.30em solid rgb(255, 255, 255);
+    border-radius: 50%;
+    background: #B9DEF1;
+    box-shadow:  5px 5px 10px #90adbc,
+                -5px -5px 10px #e2ffff;
+    margin: 0 25%;
+
+    @media (min-width: 500px){
+        height: 70%;
+        width: 70%;
+        margin: 0 15% 0 15%;
+    }
+
+    @media (min-width: 1024px){
+        width: 50%;
+    }
+
+}
+
+.logoForm {
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    background: #B9DEF1;
+    box-shadow:  5px 5px 10px #90adbc,
+                -5px -5px 10px #e2ffff;
+}

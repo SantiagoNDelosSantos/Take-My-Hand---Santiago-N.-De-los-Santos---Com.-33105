@@ -1,0 +1,32 @@
+
+.linkUPH, .linkPHV3, .contactarCon{
+    color:white;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(0,0,32,1) 0%, rgba(16,19,98,1) 50%, rgba(0,0,32,1) 100%);
+    padding: 0.70em;
+    border: 0.20em solid rgb(255, 255, 255);
+    border-radius: 3em;
+    margin: 25px 0 0 0;
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    box-shadow:  5px 5px 10px #90adbc,
+            -5px -5px 10px #e2ffff;
+
+
+            @media (min-width: 700px){
+                margin-left: 0%;
+                margin-right: 0%;
+                width: auto;
+            }
+}
+
+.linkUPH:hover, .linkPHV3:hover, .contactarCon:hover{
+    color: rgba(0, 14, 70, 0.86);
+    background: white;
+    transition: .3s;
+    border: 0.20em solid rgba(0, 14, 70, 0.86);
+}
