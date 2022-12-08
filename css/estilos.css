@@ -285,46 +285,19 @@ p {
 
 /* Fin textos */
 /* Imagenes e iframes */
-img {
+img, iframe {
   width: 86%;
-  height: auto;
   border-radius: 2em;
 }
 @media (min-width: 500px) {
-  img {
+  img, iframe {
     width: 100%;
     margin: 0;
-  }
-}
-@media (min-width: 1024px) {
-  img {
-    width: 70%;
-    height: 60%;
   }
 }
 
 .redondeadoProtesis {
   border-radius: 3em;
-}
-
-iframe {
-  width: 80%;
-  height: 11%;
-  display: flex;
-  justify-content: center;
-  border-radius: 2em;
-}
-@media (min-width: 500px) {
-  iframe {
-    width: 100%;
-    height: auto;
-    margin: 0;
-  }
-}
-@media (min-width: 1024px) {
-  iframe {
-    width: 80%;
-  }
 }
 
 .circulo {
@@ -356,6 +329,16 @@ iframe {
   height: 30%;
   background: #B9DEF1;
   box-shadow: 5px 5px 10px #90adbc, -5px -5px 10px #e2ffff;
+}
+@media (min-width: 500px) {
+  .logoForm {
+    width: 40%;
+  }
+}
+@media (min-width: 900px) {
+  .logoForm {
+    width: 30%;
+  }
 }
 
 /* Fin imagenes e iframes */
@@ -464,6 +447,7 @@ iframe {
     font-size: 15px;
     text-align: center;
     padding: 2em;
+    gap: 25px;
     border: 0.2em solid white;
     border-radius: 2em;
     margin: 0px;
@@ -482,6 +466,11 @@ iframe {
     margin-bottom: 0px;
   }
 }
+@media (min-width: 900px) {
+  .embolturaH .mainGridH .section2GridH .contenedorForm .formPrimero {
+    font-size: 16px;
+  }
+}
 @media (min-width: 500px) {
   .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo {
     width: 50%;
@@ -493,6 +482,11 @@ iframe {
 @media (min-width: 500px) {
   .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo label {
     font-size: 15px;
+  }
+}
+@media (min-width: 900px) {
+  .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo label {
+    font-size: 16px;
   }
 }
 .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo input {
@@ -508,6 +502,11 @@ iframe {
   background: #B9DEF1;
   box-shadow: inset 5px 5px 10px #90adbc, inset -5px -5px 10px #e2ffff;
 }
+@media (min-width: 900px) {
+  .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo input {
+    font-size: 16px;
+  }
+}
 .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo input:hover {
   color: rgba(255, 255, 255, 0.86);
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);
@@ -521,6 +520,11 @@ iframe {
   font-family: "Orbitron";
   font-size: 13px;
   box-shadow: 5px 5px 10px #8eabba, -5px -5px 10px #e4ffff;
+}
+@media (min-width: 900px) {
+  .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar {
+    font-size: 16px;
+  }
 }
 .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar:hover {
   color: rgba(0, 14, 70, 0.86);
@@ -612,9 +616,19 @@ iframe {
   display: grid;
   grid-template-areas: "h1GridM" "section1GridM" "section2GridM" "section3GridM";
 }
+@media (min-width: 1024px) {
+  .embolturaM .mainGridM {
+    grid-template-areas: "h1GridM       h1GridM       h1GridM" "section1GridM section2GridM section3GridM";
+  }
+}
 @media (min-width: 500px) {
   .embolturaM .mainGridM .section1GridM {
     margin: 20px 20px 0px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaM .mainGridM .section1GridM {
+    margin: 15px;
   }
 }
 @media (min-width: 500px) {
@@ -628,15 +642,16 @@ iframe {
 @media (min-width: 700px) {
   .embolturaM .mainGridM .section1GridM .phoenixP1 {
     width: 65%;
-    margin-right: 20px;
-    margin-bottom: 20px;
   }
 }
 @media (min-width: 900px) {
   .embolturaM .mainGridM .section1GridM .phoenixP1 {
     width: 50%;
-    margin-right: 20px;
-    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaM .mainGridM .section1GridM .phoenixP1 {
+    width: 100%;
   }
 }
 @media (min-width: 700px) {
@@ -644,6 +659,13 @@ iframe {
     width: 84%;
     margin-left: 8%;
     margin-right: 8%;
+  }
+}
+@media (min-width: 700px) and (min-width: 1024px) {
+  .embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
 @media (min-width: 1024px) {
@@ -658,7 +680,7 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid .carousel-control-prev {
-    margin-left: 6em;
+    margin-left: 1em;
   }
 }
 .embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid .carousel-control-next {
@@ -666,12 +688,17 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid .carousel-control-next {
-    margin-right: 6em;
+    margin-right: 1em;
   }
 }
 @media (min-width: 500px) {
   .embolturaM .mainGridM .section2GridM {
     margin: 40px 20px 0px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaM .mainGridM .section2GridM {
+    margin: 15px;
   }
 }
 @media (min-width: 500px) {
@@ -686,7 +713,12 @@ iframe {
   .embolturaM .mainGridM .section2GridM .phoenixV2-1 {
     width: 55%;
     margin-right: 47px;
-    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaM .mainGridM .section2GridM .phoenixV2-1 {
+    width: 100%;
+    margin-right: 20px;
   }
 }
 @media (min-width: 700px) {
@@ -694,6 +726,13 @@ iframe {
     width: 76%;
     margin-left: 12%;
     margin-right: 12%;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaM .mainGridM .section2GridM .phoenixV2-1 .conteiner-fluid {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
 @media (min-width: 1024px) {
@@ -708,7 +747,7 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section2GridM .phoenixV2-1 .conteiner-fluid .carousel-control-prev {
-    margin-left: 6em;
+    margin-left: 1em;
   }
 }
 .embolturaM .mainGridM .section2GridM .phoenixV2-1 .conteiner-fluid .carousel-control-next {
@@ -716,12 +755,17 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section2GridM .phoenixV2-1 .conteiner-fluid .carousel-control-next {
-    margin-right: 6em;
+    margin-right: 1em;
   }
 }
 @media (min-width: 500px) {
   .embolturaM .mainGridM .section3GridM {
     margin: 40px 20px 20px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaM .mainGridM .section3GridM {
+    margin: 15px;
   }
 }
 @media (min-width: 500px) {
@@ -736,7 +780,12 @@ iframe {
   .embolturaM .mainGridM .section3GridM .phoenixV3-1 {
     width: 55%;
     margin-right: 47px;
-    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaM .mainGridM .section3GridM .phoenixV3-1 {
+    width: 100%;
+    margin-right: 20px;
   }
 }
 @media (min-width: 900px) {
@@ -744,6 +793,13 @@ iframe {
     width: 76%;
     margin-left: 12%;
     margin-right: 12%;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaM .mainGridM .section3GridM .phoenixV3-1 .conteiner-fluid {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
 @media (min-width: 1024px) {
@@ -758,7 +814,7 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section3GridM .phoenixV3-1 .conteiner-fluid .carousel-control-prev {
-    margin-left: 6em;
+    margin-left: 1em;
   }
 }
 .embolturaM .mainGridM .section3GridM .phoenixV3-1 .conteiner-fluid .carousel-control-next {
@@ -766,7 +822,7 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section3GridM .phoenixV3-1 .conteiner-fluid .carousel-control-next {
-    margin-right: 6em;
+    margin-right: 1em;
   }
 }
 .embolturaM .footerGridM {
@@ -853,6 +909,9 @@ iframe {
   display: grid;
   grid-template-areas: "h1GridA" "section1GridA" "section2GridA" "section3GridA";
 }
+.embolturaA .mainGridA .section1GridA {
+  margin-bottom: 0px;
+}
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section1GridA {
     margin: 20px 20px 0px 20px;
@@ -883,6 +942,7 @@ iframe {
     height: auto;
     margin-top: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 500px) {

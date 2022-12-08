@@ -33,7 +33,7 @@
                     width: 40%;
                     margin: 0px 20px 10px 0px;
                 }
-
+                
             } 
 
         }
@@ -66,6 +66,7 @@
                     font-size: 15px;
                     text-align: center;
                     padding: 2em;
+                    gap: 25px;
                     border: 0.20em solid white;
                     border-radius: 2em; 
                     margin: 0px;
@@ -84,6 +85,10 @@
                         margin-bottom: 0px;
                     }
 
+                    @media (min-width: 900px){
+                        font-size: 16px;
+                    }
+
                 }
             
                 .formSegundo{
@@ -98,6 +103,10 @@
         
                         @media  (min-width: 500px){
                             font-size: 15px;
+                        }
+
+                        @media (min-width: 900px){
+                            font-size: 16px;
                         }
         
                     }
@@ -114,7 +123,12 @@
                         border-radius: 8px;
                         background: #B9DEF1;
                         box-shadow: inset 5px 5px 10px #90adbc,
-                                    inset -5px -5px 10px  #e2ffff;   
+                                    inset -5px -5px 10px  #e2ffff;  
+                                    
+                        @media (min-width: 900px){
+                            font-size: 16px;
+                        }
+
                     }
         
                     input:hover{
@@ -132,6 +146,11 @@
                             font-size: 13px;
                             box-shadow:  5px 5px 10px #8eabba,
                                         -5px -5px 10px #e4ffff;
+                        
+                        @media (min-width: 900px){
+                            font-size: 16px;
+                        }
+
                     }
         
                     .enviar:hover{

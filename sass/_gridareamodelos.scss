@@ -16,10 +16,22 @@
         "section2GridM"
         "section3GridM";
 
+        @media  (min-width: 1024px){
+            grid-template-areas: 
+            "h1GridM       h1GridM       h1GridM"
+            "section1GridM section2GridM section3GridM";
+        }
+
+
         .section1GridM{
 
             @media  (min-width: 500px){
                 margin: 20px 20px 0px 20px;
+            }
+
+            
+            @media  (min-width: 1024px){
+                margin: 15px;
             }
             
             .phoenixP1{
@@ -33,14 +45,14 @@
 
                 @media  (min-width: 700px){
                     width: 65%;
-                    margin-right: 20px;
-                    margin-bottom: 20px;
                 }
 
                 @media  (min-width: 900px){
                     width: 50%;
-                    margin-right: 20px;
-                    margin-bottom: 20px;
+                }
+
+                @media  (min-width: 1024px){
+                    width: 100%;
                 }
 
                 .conteiner-fluid{
@@ -49,6 +61,12 @@
                         width: 84%;
                         margin-left: 8%;
                         margin-right: 8%;    
+
+                        @media  (min-width: 1024px){                       
+                            width: 100%;
+                            margin-left: 0%;
+                            margin-right: 0%;  
+                        }
                     }
 
                     .carousel-indicators{
@@ -66,7 +84,7 @@
                         margin-left: 2em;
 
                         @media  (min-width: 1024px){                       
-                            margin-left: 6em;
+                            margin-left: 1em;
                         }
 
                     }
@@ -76,7 +94,7 @@
                         margin-right: 2em;
 
                         @media  (min-width: 1024px){
-                            margin-right:6em;
+                            margin-right:1em;
                         }
 
                     }
@@ -88,6 +106,10 @@
 
             @media  (min-width: 500px){
                 margin: 40px 20px 0px 20px;
+            }
+
+            @media  (min-width: 1024px){
+                margin: 15px;
             }
 
             .phoenixV2-1{
@@ -102,8 +124,12 @@
                 @media  (min-width: 700px){
                     width: 55%;
                     margin-right: 47px;
-                    margin-bottom: 20px;
                     
+                }
+
+                @media  (min-width: 1024px){
+                    width: 100%;
+                    margin-right: 20px;
                 }
 
                 .conteiner-fluid{
@@ -114,6 +140,11 @@
                         margin-right: 12%;    
                     }
 
+                    @media  (min-width: 1024px){                       
+                        width: 100%;
+                        margin-left: 0%;
+                        margin-right: 0%;  
+                    }
 
                     .carousel-indicators{
 
@@ -130,7 +161,7 @@
                         margin-left: 2em;
 
                         @media  (min-width: 1024px){                       
-                            margin-left: 6em;
+                            margin-left: 1em;
                         }
 
                     }
@@ -140,7 +171,7 @@
                         margin-right: 2em;
 
                         @media  (min-width: 1024px){
-                            margin-right:6em;
+                            margin-right:1em;
                         }
 
                     }
@@ -155,6 +186,10 @@
                 margin: 40px 20px 20px 20px;
             }
                 
+            @media  (min-width: 1024px){
+                margin: 15px;
+            }
+
             .phoenixV3-1{
             
                 @media  (min-width: 500px){
@@ -167,8 +202,12 @@
                 @media  (min-width: 700px){
                     width: 55%;
                     margin-right: 47px;
-                    margin-bottom: 20px;
                     
+                }
+                
+                @media  (min-width: 1024px){
+                    width: 100%;
+                    margin-right: 20px;
                 }
 
                 .conteiner-fluid{
@@ -177,6 +216,12 @@
                         width: 76%;
                         margin-left: 12%;
                         margin-right: 12%;    
+                    }
+
+                    @media  (min-width: 1024px){                       
+                        width: 100%;
+                        margin-left: 0%;
+                        margin-right: 0%;  
                     }
 
                     .carousel-indicators{
@@ -194,7 +239,7 @@
                         margin-left: 2em;
 
                         @media  (min-width: 1024px){                       
-                            margin-left: 6em;
+                            margin-left: 1em;
                         }
 
                     }
@@ -204,7 +249,7 @@
                         margin-right: 2em;
 
                         @media  (min-width: 1024px){
-                            margin-right:6em;
+                            margin-right:1em;
                         }
 
                     }
