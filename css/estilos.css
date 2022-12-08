@@ -566,36 +566,12 @@ iframe {
   grid-area: section1GridM;
 }
 
-.phoenixP1 {
-  grid-area: phoenixP1;
-}
-
-.phoenixP2 {
-  grid-area: phoenixP1;
-}
-
 .section2GridM {
   grid-area: section2GridM;
 }
 
-.phoenixV2-1 {
-  grid-area: phoenixV2-1;
-}
-
-.phoenixV2-2 {
-  grid-area: phoenixV2-2;
-}
-
 .section3GridM {
   grid-area: section3GridM;
-}
-
-.phoenixV3-1 {
-  grid-area: phoenixV3-2;
-}
-
-.phoenixV3-2 {
-  grid-area: phoenixV3-2;
 }
 
 .footerGridM {

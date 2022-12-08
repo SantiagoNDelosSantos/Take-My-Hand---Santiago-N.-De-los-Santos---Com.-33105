@@ -1,5 +1,6 @@
 
 .embolturaM{
+
     display: grid;
     grid-template-areas: 
     "headerGridM"
@@ -8,12 +9,12 @@
 
     .mainGridM{
 
-    display: grid;
-    grid-template-areas: 
-    "h1GridM"
-    "section1GridM"
-    "section2GridM"
-    "section3GridM";
+        display: grid;
+        grid-template-areas: 
+        "h1GridM"
+        "section1GridM"
+        "section2GridM"
+        "section3GridM";
 
         .section1GridM{
 
@@ -30,7 +31,6 @@
                     margin-bottom: 20px;
                 }
 
-                
                 @media  (min-width: 700px){
                     width: 65%;
                     margin-right: 20px;
@@ -80,7 +80,6 @@
                         }
 
                     }
-                    
                 }
             } 
         }
@@ -143,6 +142,7 @@
                         @media  (min-width: 1024px){
                             margin-right:6em;
                         }
+
                     }
                 }
             }
@@ -215,6 +215,7 @@
     }
 
     .footerGridM{
+
         display: grid;
         margin: 0em;
         grid-template-areas: 
@@ -238,5 +239,6 @@
         }
 
     }
+    
 }
 
