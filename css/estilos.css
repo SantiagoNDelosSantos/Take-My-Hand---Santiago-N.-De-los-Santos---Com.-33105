@@ -285,14 +285,25 @@ p {
 
 /* Fin textos */
 /* Imagenes e iframes */
-img, iframe {
-  width: 86%;
+img {
+  width: 80%;
   border-radius: 2em;
 }
 @media (min-width: 500px) {
-  img, iframe {
+  img {
     width: 100%;
     margin: 0;
+  }
+}
+
+iframe {
+  width: 80%;
+  border-radius: 2em;
+}
+@media (min-width: 1024px) {
+  iframe {
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -926,6 +937,11 @@ img, iframe {
     margin-bottom: 20px;
   }
 }
+@media (min-width: 1024px) {
+  .embolturaA .mainGridA .section1GridA .h2yGino {
+    margin-right: 50px;
+  }
+}
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section1GridA .atomicLab {
     float: right;
@@ -935,14 +951,21 @@ img, iframe {
     margin-bottom: 20px;
   }
 }
+@media (min-width: 1024px) {
+  .embolturaA .mainGridA .section1GridA .atomicLab {
+    width: 40%;
+  }
+}
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section1GridA .obama {
     float: left;
-    width: 50%;
-    height: auto;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    width: 60%;
+    margin: 20px 0 20px 0;
+  }
+}
+@media (min-width: 800px) {
+  .embolturaA .mainGridA .section1GridA .obama {
+    display: none;
   }
 }
 @media (min-width: 500px) {
@@ -959,12 +982,24 @@ img, iframe {
     margin-bottom: 20px;
   }
 }
+@media (min-width: 1024px) {
+  .embolturaA .mainGridA .section2GridA .h2Franco {
+    margin-right: 50px;
+  }
+}
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section2GridA .francoC3DPro {
     float: right;
     width: 50%;
     height: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaA .mainGridA .section2GridA .francoC3DPro {
+    width: 40%;
+    margin-left: 50px;
     margin-bottom: 20px;
   }
 }
@@ -982,6 +1017,11 @@ img, iframe {
     margin-bottom: 20px;
   }
 }
+@media (min-width: 1024px) {
+  .embolturaA .mainGridA .section3GridA .h2Joa {
+    margin-right: 50px;
+  }
+}
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section3GridA .alvearImprime {
     float: right;
@@ -990,6 +1030,12 @@ img, iframe {
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaA .mainGridA .section3GridA .alvearImprime {
+    width: 40%;
+    margin-left: 50px;
   }
 }
 .embolturaA .footerGridA {
@@ -1372,7 +1418,7 @@ svg {
 /* Fin footer */
 @media (min-width: 500px) {
   .section1GridH, .section1GridM, .section2GridM, .section3GridM, .section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD {
-    padding: 2em;
+    padding: 3em;
     border: 0.2em solid white;
     border-top-right-radius: 2em;
     border-bottom-left-radius: 2em;

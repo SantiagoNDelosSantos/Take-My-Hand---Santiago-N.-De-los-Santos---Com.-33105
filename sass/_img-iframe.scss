@@ -1,12 +1,24 @@
 
-img, iframe{
+img{
 
-    width: 86%;   
+    width: 80%;  
     border-radius: 2em;
 
     @media (min-width: 500px){
         width: 100%;
         margin: 0;    
+    }
+
+}
+
+iframe{
+
+    width: 80%;  
+    border-radius: 2em;
+
+    @media (min-width: 1024px){
+        width: 100%;
+        height: 100%
     }
 
 }
