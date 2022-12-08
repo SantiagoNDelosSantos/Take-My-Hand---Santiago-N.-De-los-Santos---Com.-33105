@@ -7,8 +7,8 @@
     "footerGridM";
 
     .mainGridM{
+
     display: grid;
-    margin:0 0 25px 0;
     grid-template-areas: 
     "h1GridM"
     "section1GridM"
@@ -16,6 +16,10 @@
     "section3GridM";
 
         .section1GridM{
+
+            @media  (min-width: 500px){
+                margin: 20px 20px 0px 20px;
+            }
             
             .phoenixP1{
             
@@ -47,11 +51,45 @@
                         margin-right: 8%;    
                     }
 
+                    .carousel-indicators{
+
+                        @media  (min-width: 1024px){                       
+                            width: 50%;
+                            margin-left: 25%;
+                            margin-right: 25%;   
+                        }
+
+                    }
+
+                    .carousel-control-prev{
+
+                        margin-left: 2em;
+
+                        @media  (min-width: 1024px){                       
+                            margin-left: 6em;
+                        }
+
+                    }
+
+                    .carousel-control-next{
+
+                        margin-right: 2em;
+
+                        @media  (min-width: 1024px){
+                            margin-right:6em;
+                        }
+
+                    }
+                    
                 }
             } 
         }
 
         .section2GridM{
+
+            @media  (min-width: 500px){
+                margin: 40px 20px 0px 20px;
+            }
 
             .phoenixV2-1{
 
@@ -77,12 +115,45 @@
                         margin-right: 12%;    
                     }
 
+
+                    .carousel-indicators{
+
+                        @media  (min-width: 1024px){                       
+                            width: 50%;
+                            margin-left: 25%;
+                            margin-right: 25%;   
+                        }
+
+                    }
+
+                    .carousel-control-prev{
+
+                        margin-left: 2em;
+
+                        @media  (min-width: 1024px){                       
+                            margin-left: 6em;
+                        }
+
+                    }
+
+                    .carousel-control-next{
+
+                        margin-right: 2em;
+
+                        @media  (min-width: 1024px){
+                            margin-right:6em;
+                        }
+                    }
                 }
             }
 
         }    
             
         .section3GridM{
+
+            @media  (min-width: 500px){
+                margin: 40px 20px 20px 20px;
+            }
                 
             .phoenixV3-1{
             
@@ -106,6 +177,36 @@
                         width: 76%;
                         margin-left: 12%;
                         margin-right: 12%;    
+                    }
+
+                    .carousel-indicators{
+
+                        @media  (min-width: 1024px){                       
+                            width: 50%;
+                            margin-left: 25%;
+                            margin-right: 25%;   
+                        }
+
+                    }
+
+                    .carousel-control-prev{
+
+                        margin-left: 2em;
+
+                        @media  (min-width: 1024px){                       
+                            margin-left: 6em;
+                        }
+
+                    }
+
+                    .carousel-control-next{
+
+                        margin-right: 2em;
+
+                        @media  (min-width: 1024px){
+                            margin-right:6em;
+                        }
+
                     }
 
                 }

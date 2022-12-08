@@ -375,8 +375,6 @@
 
 /* Formulario */
 
-@import "form";
-
 /* Fin formularrio */
 
 /* Enlaces externos */
@@ -402,99 +400,15 @@ svg{
 
 @media  (min-width: 500px){
 
-
-    .section1GridM, .section2GridM, .section3GridM,.section1GridA, .section2GridA, .section3GridA, .section1GridH, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD{
+    .section1GridH, .section1GridM, .section2GridM, .section3GridM,.section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD{
         padding: 2em;
         border: 0.20em solid white;
         border-top-right-radius: 2em; 
         border-bottom-left-radius: 2em;
         margin-bottom: 0;
-        background-color: #60b6e545;
+        gap: 25px;
+        background-color: #60b6e571;
         box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     }
-    
-/* Grid Area */
-
-   
-
-    .formPrimero{
-        grid-area: formPrimero;
-        width: 50%;
-    }
-
-    .formSegundo{
-        grid-area: formsSegundo;
-        width:  50%;
-    }
-
-    .contenedorForm{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 25px;
-    }
-
-
-    .section1GridH, .section1GridM, .section2GridM, .section3GridM, .section1GridA, .section2GridA, 
-    .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD{
-        gap: 25px;
-        margin:25px;
-    }
-
-/* Fin Grid Area */
-
-
-/* Formulario */
-
-    form{
-        color:  rgba(0, 14, 70, 0.86);
-        background-color: #60b6e545;
-        font-weight: 600;
-        font-size: 15px;
-        text-align: center;
-        padding: 2em;
-        border: 0.20em solid white;
-        border-radius: 2em; 
-        margin-top: 25px;
-        margin-bottom: 0;
-        box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-label{
-    font-size: 15px;
-}
-
-.formPrimero{
-    margin-bottom: 0px;
-}
-
-
-input:hover{
-    color: rgba(255, 255, 255, 0.86);
-    background: linear-gradient(90deg, rgba(0,0,32,1) 0%, rgba(16,19,98,1) 50%, rgba(0,0,32,1) 100%);
-    box-shadow: none;
-}
-
-.enviar{  
-    color: white;
-    background: linear-gradient(90deg, rgba(0,0,32,1) 0%, rgba(16,19,98,1) 50%, rgba(0,0,32,1) 100%);
-    border: 0.20em solid rgb(255, 255, 255);
-    border-radius: 23px;
-    font-family: 'Orbitron';
-    font-size: 13px;
-    box-shadow:  5px 5px 10px #8eabba,
-                -5px -5px 10px #e4ffff;
-}
-
-.enviar:hover{
-    color: rgba(0, 14, 70, 0.86);
-    border: 0.20em solid rgba(0, 14, 70, 0.86);
-    background: white;
-    transition: .3s;
-} 
 
 }
-/* Fin formularrio */
