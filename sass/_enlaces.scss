@@ -22,6 +22,10 @@
                 margin-right: 0%;
                 width: auto;
             }
+
+            @media (min-width: 900px) {
+                    font-size: 14px;
+            }
 }
 
 .linkUPH:hover, .linkPHV3:hover, .contactarCon:hover{

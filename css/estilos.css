@@ -1,5 +1,7 @@
 @charset "UTF-8";
+/*Fuentes*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Orbitron:wght@500&family=Poppins:wght@400;500;600;700&display=swap");
+/*Fin fuentes*/
 /*Reseteo y configuración general*/
 * {
   padding: 0;
@@ -18,6 +20,11 @@ body {
   font-family: "Montserrat";
   text-align: center;
   line-height: 1.5;
+}
+@media (min-width: 500px) {
+  body {
+    background-color: #FFFFFF;
+  }
 }
 
 /* Fin reseteo y configuración general */
@@ -62,16 +69,6 @@ header nav #check:checked ~ label.checkbtn .close {
 header nav #check:checked ~ label.checkbtn .menu {
   display: none;
 }
-header nav label .close {
-  display: none;
-  margin-top: 10px;
-  margin-right: 3.5px;
-}
-@media (min-width: 700px) {
-  header nav label .close {
-    display: none;
-  }
-}
 header nav label .menu {
   color: #ffffff;
   float: right;
@@ -82,6 +79,16 @@ header nav label .menu {
 }
 @media (min-width: 700px) {
   header nav label .menu {
+    display: none;
+  }
+}
+header nav label .close {
+  display: none;
+  margin-top: 10px;
+  margin-right: 3.5px;
+}
+@media (min-width: 700px) {
+  header nav label .close {
     display: none;
   }
 }
@@ -100,7 +107,7 @@ header nav ul {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 32, 0.916);
+  background-color: rgba(0, 0, 32, 0.79);
   top: 60px;
   left: -100%;
   text-align: center;
@@ -112,6 +119,7 @@ header nav ul {
     display: flex;
     justify-content: center;
     left: 0%;
+    background-color: rgba(255, 255, 255, 0);
     transition: none;
     width: 84%;
     height: 0%;
@@ -278,11 +286,6 @@ p {
 .noMarginBottom1 {
   margin-bottom: 0;
 }
-@media (min-width: 500px) {
-  .noMarginBottom1 {
-    margin-bottom: 25px;
-  }
-}
 
 .noMarginBottom2 {
   margin-bottom: 0;
@@ -324,7 +327,7 @@ iframe {
 @media (min-width: 500px) {
   iframe {
     width: 100%;
-    height: 23.2%;
+    height: auto;
     margin: 0;
   }
 }
@@ -431,6 +434,14 @@ iframe {
   .embolturaH .mainGridH .section1GridH .nosotrosH2Logo {
     float: left;
     width: 50%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 900px) {
+  .embolturaH .mainGridH .section1GridH .nosotrosH2Logo {
+    float: left;
+    width: 40%;
     margin-right: 20px;
     margin-bottom: 10px;
   }
@@ -637,7 +648,8 @@ iframe {
   }
 }
 
-/* Grid Area Modelos Gratuitos*/
+/* Fin Grid Area Modelos Gratuitos*/
+/*Grid Area Aregentinos Destacados*/
 .headerGridA {
   grid-area: headerGridA;
 }
@@ -696,19 +708,97 @@ iframe {
   display: grid;
   grid-template-areas: "headerGridA" "mainGridA" "footerGridA";
 }
-
-.mainGridA {
+.embolturaA .mainGridA {
   display: grid;
   grid-template-areas: "h1GridA" "section1GridA" "section2GridA" "section3GridA";
   margin: 0 0 25px 0;
 }
-
-.footerGridA {
+@media (min-width: 500px) {
+  .embolturaA .mainGridA .section1GridA .h2yGino {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 500px) {
+  .embolturaA .mainGridA .section1GridA .atomicLab {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 500px) {
+  .embolturaA .mainGridA .section1GridA .obama {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+}
+@media (min-width: 500px) {
+  .embolturaA .mainGridA .section2GridA .h2Franco {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 500px) {
+  .embolturaA .mainGridA .section2GridA .francoC3DPro {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 500px) {
+  .embolturaA .mainGridA .section3GridA .h2Joa {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 500px) {
+  .embolturaA .mainGridA .section3GridA .alvearImprime {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+.embolturaA .footerGridA {
   display: grid;
   margin: 0em;
   grid-template-areas: "h3-FooterA" "li-FooterA" "p-FooterA";
 }
+@media (min-width: 500px) {
+  .embolturaA .footerGridA {
+    display: grid;
+    margin: 0em;
+    grid-template-areas: "h3-FooterA li-FooterA" "p-FooterA p-FooterA";
+  }
+}
+@media (min-width: 700px) {
+  .embolturaA .footerGridA {
+    display: grid;
+    margin: 0em;
+    grid-template-areas: "h3-FooterA li-FooterA p-FooterA";
+  }
+}
 
+/*Fin Grid Area Aregentinos Destacados*/
+/*Grid Area Historias*/
 .headerGridHis {
   grid-area: headerGridHis;
 }
@@ -763,19 +853,66 @@ iframe {
   display: grid;
   grid-template-areas: "headerGridHis" "mainGridHis" "footerGridHis";
 }
-
-.mainGridHis {
+.embolturaHis .mainGridHis {
   display: grid;
   grid-template-areas: "h1GridHis" "section1GridHis" "section2GridHis";
   margin: 0 0 25px 0;
 }
-
-.footerGridHis {
+@media (min-width: 500px) {
+  .embolturaHis .mainGridHis .section1GridHis .h2Felipe {
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 500px) {
+  .embolturaHis .mainGridHis .section1GridHis .felipeyGino {
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 500px) {
+  .embolturaHis .mainGridHis .section2GridHis .h2Olga {
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 500px) {
+  .embolturaHis .mainGridHis .section2GridHis .olgayGino {
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+.embolturaHis .footerGridHis {
   display: grid;
   margin: 0em;
   grid-template-areas: "h3-FooterHis" "li-FooterHis" "p-FooterHis";
 }
+@media (min-width: 500px) {
+  .embolturaHis .footerGridHis {
+    display: grid;
+    margin: 0em;
+    grid-template-areas: "h3-FooterHis li-FooterHis" "p-FooterHis p-FooterHis";
+  }
+}
+@media (min-width: 700px) {
+  .embolturaHis .footerGridHis {
+    display: grid;
+    margin: 0em;
+    grid-template-areas: "h3-FooterHis li-FooterHis p-FooterHis";
+  }
+}
 
+/*Fin Grid Area Historias*/
 /* Grid Area Donaciones*/
 .headerGridD {
   grid-area: headerGridD;
@@ -839,19 +976,38 @@ iframe {
   display: grid;
   grid-template-areas: "headerGridD" "mainGridD" "footerGridD";
 }
-
-.mainGridD {
+.embolturaGridD .mainGridD {
   display: grid;
   grid-template-areas: "h1GridD" "section1GridD" "section2GridD" "section3GridD" "section4GridD";
   margin: 0 0 25px 0;
 }
-
-.footerGridD {
+@media (min-width: 500px) {
+  .embolturaGridD .mainGridD .section2GridD, .embolturaGridD .mainGridD .section3GridD, .embolturaGridD .mainGridD .section4GridD {
+    -moz-columns: 2;
+         columns: 2;
+  }
+}
+.embolturaGridD .footerGridD {
   display: grid;
   margin: 0em;
   grid-template-areas: "h3-FooterD" "li-FooterD" "p-FooterD";
 }
+@media (min-width: 500px) {
+  .embolturaGridD .footerGridD {
+    display: grid;
+    margin: 0em;
+    grid-template-areas: "h3-FooterD li-FooterD" "p-FooterD p-FooterD";
+  }
+}
+@media (min-width: 700px) {
+  .embolturaGridD .footerGridD {
+    display: grid;
+    margin: 0em;
+    grid-template-areas: "h3-FooterD li-FooterD p-FooterD";
+  }
+}
 
+/* Fin Grid Area Donaciones*/
 /* Fin Grid Area */
 /* Fondos */
 .fondo1 {
@@ -910,6 +1066,23 @@ form {
   border-radius: 20px;
   background: #B9DEF1;
   box-shadow: 5px 5px 10px #90adbc, -5px -5px 10px #e2ffff;
+}
+@media (min-width: 500px) {
+  form {
+    background-color: rgba(96, 182, 229, 0.4431372549);
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    padding: 2em;
+    border: 0.2em solid white;
+    border-radius: 2em;
+    margin-top: 25px;
+    margin-bottom: 0;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 label {
@@ -982,6 +1155,11 @@ input:hover {
     width: auto;
   }
 }
+@media (min-width: 900px) {
+  .linkUPH, .linkPHV3, .contactarCon {
+    font-size: 14px;
+  }
+}
 
 .linkUPH:hover, .linkPHV3:hover, .contactarCon:hover {
   color: rgba(0, 14, 70, 0.86);
@@ -1030,11 +1208,6 @@ svg {
     background-color: rgba(96, 182, 229, 0.2705882353);
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   }
-  /* Cambio de fondo */
-  body {
-    background-color: #FFFFFF;
-  }
-  /* Fin cambio de fondo */
   /* Grid Area */
   .formPrimero {
     grid-area: formPrimero;
@@ -1100,27 +1273,4 @@ svg {
     transition: 0.3s;
   }
 }
-/* Fin formularrio */
-@media (min-width: 900px) {
-  .linkUPH, .linkPHV3, .contactarCon {
-    font-size: 14px;
-  }
-}
-@media (min-width: 1024px) {
-  /* Grid Area */
-  .mainGridA {
-    display: grid;
-    grid-template-areas: "fondo3        " "section1GridA" "section2GridA" "section3GridA";
-    margin: 0 0 25px 0;
-  }
-  .section1GridHis, .section2GridHis {
-    -moz-columns: none;
-         columns: none;
-  }
-  .mainGridHis {
-    display: grid;
-    grid-template-areas: "fondo4" "section1GridHis" "section2GridHis";
-    margin: 0 0 25px 0;
-  }
-  /* Fin Grid Area */
-}/*# sourceMappingURL=estilos.css.map */
+/* Fin formularrio *//*# sourceMappingURL=estilos.css.map */

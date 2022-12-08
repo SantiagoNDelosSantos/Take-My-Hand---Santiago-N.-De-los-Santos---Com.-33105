@@ -5,24 +5,49 @@
     "headerGridD"
     "mainGridD"
     "footerGridD";
-}
 
-.mainGridD{
-    display: grid;
-    grid-template-areas: 
-    "h1GridD" 
-    "section1GridD"
-    "section2GridD"
-    "section3GridD"
-    "section4GridD";
-    margin:0 0 25px 0;
-}
 
-.footerGridD{
-    display: grid;
-    margin: 0em;
-    grid-template-areas: 
-    "h3-FooterD"
-    "li-FooterD"
-    "p-FooterD";
+    .mainGridD{
+        display: grid;
+        grid-template-areas: 
+        "h1GridD" 
+        "section1GridD"
+        "section2GridD"
+        "section3GridD"
+        "section4GridD";
+        margin:0 0 25px 0;
+
+        .section2GridD, .section3GridD, .section4GridD{
+
+                @media  (min-width: 500px){
+                    columns: 2;
+                }
+        }
+    
+    }
+
+    .footerGridD{
+        display: grid;
+        margin: 0em;
+        grid-template-areas: 
+        "h3-FooterD"
+        "li-FooterD"
+        "p-FooterD";
+
+        @media  (min-width: 500px){
+            display: grid;
+            margin: 0em;
+            grid-template-areas: 
+            "h3-FooterD li-FooterD"
+            "p-FooterD p-FooterD";
+        }
+
+        @media  (min-width: 700px){
+            display: grid;
+            margin: 0em;
+            grid-template-areas: 
+            "h3-FooterD li-FooterD p-FooterD";
+        }
+    }
+
 }

@@ -1,0 +1,140 @@
+
+.embolturaA{
+    display: grid;
+    grid-template-areas: 
+    "headerGridA"
+    "mainGridA"
+    "footerGridA";
+
+
+    .mainGridA{
+        display: grid;
+        grid-template-areas: 
+        "h1GridA"
+        "section1GridA"
+        "section2GridA"
+        "section3GridA";
+        margin:0 0 25px 0;
+
+        .section1GridA{
+            
+            .h2yGino{
+
+                @media  (min-width: 500px){
+                float: left;
+                width: 50%;
+                height: auto;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                }
+
+            }
+
+            .atomicLab{
+
+                @media  (min-width: 500px){
+                    float: right;
+                    width: 50%;
+                    height: auto;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                } 
+
+            }
+
+            .obama{
+            
+                @media  (min-width: 500px){
+                    float: left;
+                    width: 50%;
+                    height: auto;
+                    margin-top: 20px;
+                    margin-right: 20px;
+                    
+                }
+            }
+
+        }
+
+        .section2GridA{
+
+            .h2Franco{
+                
+                @media  (min-width: 500px){
+                    float: left;
+                    width: 50%;
+                    height: auto;
+                    margin-right: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .francoC3DPro{
+                @media  (min-width: 500px){
+                    float: right;
+                    width: 50%;
+                    height: auto;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+
+        }
+
+        .section3GridA{
+
+            .h2Joa{
+
+                @media  (min-width: 500px){
+                    float: left;
+                    width: 50%;
+                    height: auto;
+                    margin-right: 20px;
+                    margin-bottom: 20px;
+                }
+
+            }
+
+            .alvearImprime{
+
+                @media  (min-width: 500px){
+                    float: right;
+                    width: 50%;
+                    height: auto;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    margin-bottom: 20px;
+                }
+
+            }
+
+        }
+
+    }
+        
+    .footerGridA{
+        display: grid;
+        margin: 0em;
+        grid-template-areas: 
+        "h3-FooterA"
+        "li-FooterA"
+        "p-FooterA";
+
+        @media  (min-width: 500px){
+            display: grid;
+            margin: 0em;
+            grid-template-areas: 
+            "h3-FooterA li-FooterA"
+            "p-FooterA p-FooterA";
+        }
+
+        @media  (min-width: 700px){
+            display: grid;
+            margin: 0em;
+            grid-template-areas: 
+            "h3-FooterA li-FooterA p-FooterA";
+        }
+
+    }   
+
+}

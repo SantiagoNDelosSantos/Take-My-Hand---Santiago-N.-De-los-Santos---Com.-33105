@@ -13,6 +13,7 @@ header{
     nav{
         
         .checkbtn{
+
             font-size: 30px;
             color:#ffffff;
             float: right;
@@ -25,7 +26,7 @@ header{
             }
 
         }
-    
+        
         #check:checked ~ ul{
             left: 0;
         } 
@@ -48,24 +49,26 @@ header{
 
         label{
 
-            .close{
-                display: none;
-                margin-top: 10px;
-                margin-right: 3.50px;
-    
-                @media (min-width: 700px){
-                    display: none;
-                }
-
-            }
-        
             .menu{
+
                 color:#ffffff;
                 float: right;
                 cursor: pointer;
                 display:block;
                 margin-right: 7px;
                 margin-top: 5px;
+                
+                @media (min-width: 700px){
+                    display: none;
+                }
+
+            }
+
+            .close{
+
+                display: none;
+                margin-top: 10px;
+                margin-right: 3.50px;
     
                 @media (min-width: 700px){
                     display: none;
@@ -93,10 +96,11 @@ header{
         
     
         ul{
+
             position: fixed;
             width: 100vw;
             height: 100vh;
-            background-color:rgba(0, 0, 32, 0.916);
+            background-color:rgba(0, 0, 32, 0.79);
             top: 60px;
             left: -100%;
             text-align: center;
@@ -107,6 +111,7 @@ header{
                 display: flex;
                 justify-content: center;
                 left: 0%;
+                background-color: #ffffff00;
                 transition: none;
                 width: 84%; 
                 height: 0%;
@@ -115,6 +120,7 @@ header{
             }
 
             li{
+
                 line-height: 1em;
                 margin: 11vh 0px;
                 display: flex;
@@ -127,14 +133,13 @@ header{
                 }
 
                 a{
+
                     color: white;
                     font-size: 1.70em;
                     padding: 0.50em;
                     border-radius: 3px;
                     text-transform: uppercase;
                     text-decoration: none;
-
-
 
                     @media (min-width: 700px){
                         font-weight: 600;
@@ -166,6 +171,9 @@ header{
                 }
         
             }
+
         }
+
     }
+
 }
