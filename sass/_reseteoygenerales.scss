@@ -15,4 +15,9 @@ body{
     font-family: 'Montserrat'; 
     text-align: center;
     line-height: 1.5;   
+
+    @media (min-width: 500px){
+        background-color: white;
+    }
+    
 }

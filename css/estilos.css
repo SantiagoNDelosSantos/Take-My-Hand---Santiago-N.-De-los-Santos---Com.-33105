@@ -21,6 +21,11 @@ body {
   text-align: center;
   line-height: 1.5;
 }
+@media (min-width: 500px) {
+  body {
+    background-color: white;
+  }
+}
 
 /* Fin reseteo y configuración general */
 /* Nav bar */
