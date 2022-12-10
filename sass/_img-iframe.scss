@@ -45,7 +45,12 @@ iframe{
     }
 
     @media (min-width: 1024px){
-        width: 50%;
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background: #ffffff;
+        box-shadow:  20px 20px 60px #d9d9d9,
+                    -20px -20px 60px #ffffff;
     }
 
 }
@@ -65,5 +70,13 @@ iframe{
     @media (min-width: 900px){
         width: 30%;
     }  
+
+    @media (min-width: 1024px){
+        border: 0.30em solid rgb(255, 255, 255);
+        border-radius: 50%;
+        background: #ffffff;
+        box-shadow:  20px 20px 60px #d9d9d9,
+                    -20px -20px 60px #ffffff;
+    }
 
 }

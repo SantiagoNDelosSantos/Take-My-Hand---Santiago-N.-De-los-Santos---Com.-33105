@@ -20,6 +20,12 @@
                 margin: 20px 20px 0px 20px;
             }
 
+            @media (min-width: 1024px){
+            margin-top: 5%;
+            margin-left: 15%;
+            margin-right: 15%;
+            }
+
             .nosotrosH2Logo{
                 
                 @media (min-width: 500px){
@@ -45,6 +51,13 @@
             @media  (min-width: 500px){
                 margin: 40px 20px 20px 20px;
             }
+
+            @media (min-width: 1024px){
+                margin-top: 5%;
+                margin-left: 15%;
+                margin-right: 15%;
+                margin-bottom: 5%;
+                }
 
             .contenedorForm{
 
@@ -74,6 +87,11 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                }
+
+                @media  (min-width: 1024Px){           
+                    background-color:#ffffff;
+                    color:  rgba(0, 0, 0, 0.86);
                 }
                 
                 .formPrimero{
@@ -149,6 +167,11 @@
                         
                         @media (min-width: 900px){
                             font-size: 16px;
+                        }
+
+                        @media (min-width: 1024px) {
+                            box-shadow:  10px 10px 20px #d9d9d9,
+                                        -10px -10px 20px #ffffff;
                         }
 
                     }

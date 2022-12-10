@@ -26,6 +26,11 @@ body {
     background-color: white;
   }
 }
+@media (min-width: 1024px) {
+  body {
+    background-image: url(../assets/img/fondos/fondoCeleste.1024px.jpg);
+  }
+}
 
 /* Fin reseteo y configuración general */
 /* Nav bar */
@@ -330,7 +335,11 @@ iframe {
 }
 @media (min-width: 1024px) {
   .circulo {
-    width: 50%;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
   }
 }
 
@@ -349,6 +358,14 @@ iframe {
 @media (min-width: 900px) {
   .logoForm {
     width: 30%;
+  }
+}
+@media (min-width: 1024px) {
+  .logoForm {
+    border: 0.3em solid rgb(255, 255, 255);
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
   }
 }
 
@@ -417,6 +434,13 @@ iframe {
     margin: 20px 20px 0px 20px;
   }
 }
+@media (min-width: 1024px) {
+  .embolturaH .mainGridH .section1GridH {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
 @media (min-width: 500px) {
   .embolturaH .mainGridH .section1GridH .nosotrosH2Logo {
     float: left;
@@ -437,6 +461,14 @@ iframe {
 @media (min-width: 500px) {
   .embolturaH .mainGridH .section2GridH {
     margin: 40px 20px 20px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaH .mainGridH .section2GridH {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
   }
 }
 .embolturaH .mainGridH .section2GridH .contenedorForm {
@@ -466,6 +498,12 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+@media (min-width: 1024Px) {
+  .embolturaH .mainGridH .section2GridH .contenedorForm {
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.86);
   }
 }
 .embolturaH .mainGridH .section2GridH .contenedorForm .formPrimero {
@@ -535,6 +573,11 @@ iframe {
 @media (min-width: 900px) {
   .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar {
     font-size: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar {
+    box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
   }
 }
 .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar:hover {
@@ -639,7 +682,10 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section1GridM {
-    margin: 15px;
+    width: 90%;
+    margin: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 }
 @media (min-width: 500px) {
@@ -709,7 +755,10 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section2GridM {
-    margin: 15px;
+    width: 90%;
+    margin: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 }
 @media (min-width: 500px) {
@@ -776,7 +825,10 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section3GridM {
-    margin: 15px;
+    width: 90%;
+    margin: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 }
 @media (min-width: 500px) {
@@ -928,6 +980,14 @@ iframe {
     margin: 20px 20px 0px 20px;
   }
 }
+@media (min-width: 1024px) {
+  .embolturaA .mainGridA .section1GridA {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0%;
+  }
+}
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section1GridA .h2yGino {
     float: left;
@@ -973,6 +1033,14 @@ iframe {
     margin: 40px 20px 0px 20px;
   }
 }
+@media (min-width: 1024px) {
+  .embolturaA .mainGridA .section2GridA {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0%;
+  }
+}
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section2GridA .h2Franco {
     float: left;
@@ -1006,6 +1074,14 @@ iframe {
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section3GridA {
     margin: 40px 20px 20px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaA .mainGridA .section3GridA {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
   }
 }
 @media (min-width: 500px) {
@@ -1123,12 +1199,26 @@ iframe {
     margin: 20px 20px 0px 20px;
   }
 }
+@media (min-width: 1024px) {
+  .embolturaHis .mainGridHis .section1GridHis {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0%;
+  }
+}
 @media (min-width: 500px) {
   .embolturaHis .mainGridHis .section1GridHis .h2Felipe {
     float: left;
     width: 50%;
     margin-right: 20px;
     margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaHis .mainGridHis .section1GridHis .h2Felipe {
+    width: 60%;
+    margin-right: 50px;
   }
 }
 @media (min-width: 500px) {
@@ -1140,9 +1230,25 @@ iframe {
     margin-bottom: 20px;
   }
 }
+@media (min-width: 1024px) {
+  .embolturaHis .mainGridHis .section1GridHis .felipeyGino {
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+}
 @media (min-width: 500px) {
   .embolturaHis .mainGridHis .section2GridHis {
     margin: 40px 20px 20px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaHis .mainGridHis .section2GridHis {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
   }
 }
 @media (min-width: 500px) {
@@ -1153,6 +1259,12 @@ iframe {
     margin-bottom: 20px;
   }
 }
+@media (min-width: 1024px) {
+  .embolturaHis .mainGridHis .section2GridHis .h2Olga {
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+}
 @media (min-width: 500px) {
   .embolturaHis .mainGridHis .section2GridHis .olgayGino {
     float: right;
@@ -1160,6 +1272,12 @@ iframe {
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaHis .mainGridHis .section2GridHis .olgayGino {
+    margin-left: 50px;
+    margin-bottom: 50px;
   }
 }
 .embolturaHis .footerGridHis {
@@ -1255,6 +1373,14 @@ iframe {
     margin: 20px 20px 0px 20px;
   }
 }
+@media (min-width: 1024px) {
+  .embolturaGridD .mainGridD .section1GridD {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0%;
+  }
+}
 @media (min-width: 500px) {
   .embolturaGridD .mainGridD .section2GridD {
     -moz-columns: 2;
@@ -1262,11 +1388,27 @@ iframe {
     margin: 40px 20px 0px 20px;
   }
 }
+@media (min-width: 1024px) {
+  .embolturaGridD .mainGridD .section2GridD {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0%;
+  }
+}
 @media (min-width: 500px) {
   .embolturaGridD .mainGridD .section3GridD {
     -moz-columns: 2;
          columns: 2;
     margin: 40px 20px 0px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaGridD .mainGridD .section3GridD {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0%;
   }
 }
 .embolturaGridD .mainGridD .section4GridD {
@@ -1277,6 +1419,14 @@ iframe {
     -moz-columns: 2;
          columns: 2;
     margin: 40px 20px 20px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaGridD .mainGridD .section4GridD {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
   }
 }
 .embolturaGridD .footerGridD {
@@ -1378,6 +1528,12 @@ iframe {
     font-size: 14px;
   }
 }
+@media (min-width: 1024px) {
+  .linkUPH, .linkPHV3, .contactarCon {
+    font-size: 14px;
+    box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
+  }
+}
 
 .linkUPH:hover, .linkPHV3:hover, .contactarCon:hover {
   color: rgba(0, 14, 70, 0.86);
@@ -1423,8 +1579,19 @@ svg {
     border-top-right-radius: 2em;
     border-bottom-left-radius: 2em;
     margin-bottom: 0;
-    gap: 25px;
     background-color: rgba(96, 182, 229, 0.4431372549);
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+  }
+}
+@media (min-width: 1024px) {
+  .section1GridH, .section1GridM, .section2GridM, .section3GridM, .section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD {
+    padding: 3em;
+    border: 0.2em solid white;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    width: 70%;
   }
 }/*# sourceMappingURL=estilos.css.map */
