@@ -220,6 +220,7 @@ h1 {
 @media (min-width: 1024px) {
   h1 {
     height: 90.5vh;
+    font-size: 7em;
   }
 }
 
@@ -339,7 +340,8 @@ iframe {
     margin-top: 10px;
     margin-bottom: 10px;
     background: #ffffff;
-    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+    box-shadow: 6px 6px 12px #d9d9d9, -6px -6px 12px #ffffff;
+    border: 0.3em solid rgba(96, 182, 229, 0.4431372549);
   }
 }
 
@@ -365,7 +367,8 @@ iframe {
     border: 0.3em solid rgb(255, 255, 255);
     border-radius: 50%;
     background: #ffffff;
-    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+    box-shadow: 6px 6px 12px #d9d9d9, -6px -6px 12px #ffffff;
+    border: 0.3em solid rgba(96, 182, 229, 0.4431372549);
   }
 }
 
@@ -436,6 +439,7 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaH .mainGridH .section1GridH {
+    width: 70%;
     margin-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
@@ -465,6 +469,7 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaH .mainGridH .section2GridH {
+    width: 70%;
     margin-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
@@ -485,8 +490,6 @@ iframe {
 @media (min-width: 500px) {
   .embolturaH .mainGridH .section2GridH .contenedorForm {
     background-color: rgba(96, 182, 229, 0.4431372549);
-    color: rgba(0, 14, 70, 0.86);
-    font-weight: 600;
     font-size: 15px;
     text-align: center;
     padding: 2em;
@@ -502,7 +505,7 @@ iframe {
 }
 @media (min-width: 1024Px) {
   .embolturaH .mainGridH .section2GridH .contenedorForm {
-    background-color: #ffffff;
+    background-image: url(../assets/img/fondos/fondoMarmolBlanco.jpg);
     color: rgba(0, 0, 0, 0.86);
   }
 }
@@ -565,7 +568,7 @@ iframe {
   color: white;
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);
   border: 0.2em solid rgb(255, 255, 255);
-  border-radius: 23px;
+  border-radius: 25px;
   font-family: "Orbitron";
   font-size: 13px;
   box-shadow: 5px 5px 10px #8eabba, -5px -5px 10px #e4ffff;
@@ -982,9 +985,10 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section1GridA {
+    width: 80%;
     margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 0%;
   }
 }
@@ -1000,6 +1004,7 @@ iframe {
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section1GridA .h2yGino {
     margin-right: 50px;
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 500px) {
@@ -1035,9 +1040,10 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section2GridA {
+    width: 80%;
     margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 0%;
   }
 }
@@ -1053,6 +1059,7 @@ iframe {
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section2GridA .h2Franco {
     margin-right: 50px;
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 500px) {
@@ -1078,9 +1085,10 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section3GridA {
+    width: 80%;
     margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 5%;
   }
 }
@@ -1096,6 +1104,7 @@ iframe {
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section3GridA .h2Joa {
     margin-right: 50px;
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 500px) {
@@ -1201,9 +1210,10 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaHis .mainGridHis .section1GridHis {
+    width: 80%;
     margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 0%;
   }
 }
@@ -1217,8 +1227,8 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaHis .mainGridHis .section1GridHis .h2Felipe {
-    width: 60%;
     margin-right: 50px;
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 500px) {
@@ -1232,10 +1242,10 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaHis .mainGridHis .section1GridHis .felipeyGino {
-    width: 60%;
-    margin-top: 40px;
+    width: 80%;
     margin-left: 50px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 500px) {
@@ -1245,9 +1255,10 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaHis .mainGridHis .section2GridHis {
+    width: 85%;
     margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 5%;
   }
 }
@@ -1261,8 +1272,9 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaHis .mainGridHis .section2GridHis .h2Olga {
+    width: 55%;
     margin-right: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 500px) {
@@ -1276,8 +1288,7 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaHis .mainGridHis .section2GridHis .olgayGino {
-    margin-left: 50px;
-    margin-bottom: 50px;
+    display: none;
   }
 }
 .embolturaHis .footerGridHis {
@@ -1385,6 +1396,7 @@ iframe {
   .embolturaGridD .mainGridD .section2GridD {
     -moz-columns: 2;
          columns: 2;
+    gap: 5%;
     margin: 40px 20px 0px 20px;
   }
 }
@@ -1400,6 +1412,7 @@ iframe {
   .embolturaGridD .mainGridD .section3GridD {
     -moz-columns: 2;
          columns: 2;
+    gap: 5%;
     margin: 40px 20px 0px 20px;
   }
 }
@@ -1418,6 +1431,7 @@ iframe {
   .embolturaGridD .mainGridD .section4GridD {
     -moz-columns: 2;
          columns: 2;
+    gap: 5%;
     margin: 40px 20px 20px 20px;
   }
 }
@@ -1493,6 +1507,10 @@ iframe {
 @media (min-width: 1024px) {
   .fondo1, .fondo2, .fondo3, .fondo4, .fondo5 {
     height: 91vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -1525,13 +1543,12 @@ iframe {
 }
 @media (min-width: 900px) {
   .linkUPH, .linkPHV3, .contactarCon {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media (min-width: 1024px) {
   .linkUPH, .linkPHV3, .contactarCon {
-    font-size: 14px;
-    box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
+    box-shadow: 6px 6px 12px #d9d9d9, -6px -6px 12px #ffffff;
   }
 }
 
@@ -1585,13 +1602,6 @@ svg {
 }
 @media (min-width: 1024px) {
   .section1GridH, .section1GridM, .section2GridM, .section3GridM, .section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD {
-    padding: 3em;
-    border: 0.2em solid white;
-    border-top-right-radius: 2em;
-    border-bottom-left-radius: 2em;
-    margin-bottom: 0;
-    background-color: #ffffff;
-    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-    width: 70%;
+    background-image: url(../assets/img/fondos/fondoMarmolBlanco.jpg);
   }
 }/*# sourceMappingURL=estilos.css.map */

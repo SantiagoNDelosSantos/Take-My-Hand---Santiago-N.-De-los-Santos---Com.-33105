@@ -391,13 +391,6 @@ svg{
 @media  (min-width: 1024px){
 
     .section1GridH, .section1GridM, .section2GridM, .section3GridM,.section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD{
-        padding: 3em;
-        border: 0.20em solid white;
-        border-top-right-radius: 2em; 
-        border-bottom-left-radius: 2em;
-        margin-bottom: 0;
-        background-color: #ffffff;
-        box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-        width: 70%;
+        background-image: url(../assets/img/fondos/fondoMarmolBlanco.jpg);
     }
 }

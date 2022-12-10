@@ -17,6 +17,10 @@
 
     @media (min-width: 1024px) {
         height: 91vh;
+        background-attachment: fixed;
+        background-position: center;    
+        background-repeat: no-repeat;   
+        background-size: cover;
     }
 
 }
