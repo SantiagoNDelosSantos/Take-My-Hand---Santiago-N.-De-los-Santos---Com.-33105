@@ -91,22 +91,20 @@
         margin: 0em;
         grid-template-areas: 
         "h3-FooterD"
-        "li-FooterD"
+        "ul-FooterD"
         "p-FooterD";
 
         @media  (min-width: 500px){
             display: grid;
-            margin: 0em;
             grid-template-areas: 
-            "h3-FooterD li-FooterD"
+            "h3-FooterD ul-FooterD"
             "p-FooterD p-FooterD";
         }
 
         @media  (min-width: 700px){
             display: grid;
-            margin: 0em;
             grid-template-areas: 
-            "h3-FooterD li-FooterD p-FooterD";
+            "h3-FooterD ul-FooterD p-FooterD";
         }
     }
 

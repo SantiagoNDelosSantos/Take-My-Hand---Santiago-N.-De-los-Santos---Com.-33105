@@ -273,22 +273,20 @@
         margin: 0em;
         grid-template-areas: 
         "h3-FooterM"
-        "li-FooterM"
+        "ul-FooterM"
         "p-FooterM";
 
         @media  (min-width: 500px){
             display: grid;
-            margin: 0em;
             grid-template-areas: 
-            "h3-FooterM li-FooterM"
+            "h3-FooterM ul-FooterM"
             "p-FooterM p-FooterM";
         }
 
         @media  (min-width: 700px){
             display: grid;
-            margin: 0em;
             grid-template-areas: 
-            "h3-FooterM li-FooterM p-FooterM";
+            "h3-FooterM ul-FooterM p-FooterM";
         }
 
     }

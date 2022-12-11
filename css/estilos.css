@@ -407,8 +407,8 @@ iframe {
   align-items: center;
 }
 
-.li-FooterH {
-  grid-area: li-FooterH;
+.ul-FooterH {
+  grid-area: ul-FooterH;
   margin: 0em;
   display: flex;
   justify-content: center;
@@ -592,20 +592,18 @@ iframe {
 .embolturaH .footerGridH {
   display: grid;
   margin: 0em;
-  grid-template-areas: "h3-FooterH" "li-FooterH" "p-FooterH";
+  grid-template-areas: "h3-FooterH" "ul-FooterH" "p-FooterH";
 }
 @media (min-width: 500px) {
   .embolturaH .footerGridH {
     display: grid;
-    margin: 0em;
-    grid-template-areas: "h3-FooterH li-FooterH" "p-FooterH p-FooterH";
+    grid-template-areas: "h3-FooterH ul-FooterH" "p-FooterH p-FooterH";
   }
 }
 @media (min-width: 700px) {
   .embolturaH .footerGridH {
     display: grid;
-    margin: 0em;
-    grid-template-areas: "h3-FooterH li-FooterH p-FooterH";
+    grid-template-areas: "h3-FooterH ul-FooterH p-FooterH";
   }
 }
 
@@ -648,8 +646,8 @@ iframe {
   align-items: center;
 }
 
-.li-FooterM {
-  grid-area: li-FooterM;
+.ul-FooterM {
+  grid-area: ul-FooterM;
   margin: 0em;
   display: flex;
   justify-content: center;
@@ -894,20 +892,18 @@ iframe {
 .embolturaM .footerGridM {
   display: grid;
   margin: 0em;
-  grid-template-areas: "h3-FooterM" "li-FooterM" "p-FooterM";
+  grid-template-areas: "h3-FooterM" "ul-FooterM" "p-FooterM";
 }
 @media (min-width: 500px) {
   .embolturaM .footerGridM {
     display: grid;
-    margin: 0em;
-    grid-template-areas: "h3-FooterM li-FooterM" "p-FooterM p-FooterM";
+    grid-template-areas: "h3-FooterM ul-FooterM" "p-FooterM p-FooterM";
   }
 }
 @media (min-width: 700px) {
   .embolturaM .footerGridM {
     display: grid;
-    margin: 0em;
-    grid-template-areas: "h3-FooterM li-FooterM p-FooterM";
+    grid-template-areas: "h3-FooterM ul-FooterM p-FooterM";
   }
 }
 
@@ -950,8 +946,8 @@ iframe {
   align-items: center;
 }
 
-.li-FooterA {
-  grid-area: li-FooterA;
+.ul-FooterA {
+  grid-area: ul-FooterA;
   margin: 0em;
   display: flex;
   justify-content: center;
@@ -1126,20 +1122,18 @@ iframe {
 .embolturaA .footerGridA {
   display: grid;
   margin: 0em;
-  grid-template-areas: "h3-FooterA" "li-FooterA" "p-FooterA";
+  grid-template-areas: "h3-FooterA" "ul-FooterA" "p-FooterA";
 }
 @media (min-width: 500px) {
   .embolturaA .footerGridA {
     display: grid;
-    margin: 0em;
-    grid-template-areas: "h3-FooterA li-FooterA" "p-FooterA p-FooterA";
+    grid-template-areas: "h3-FooterA ul-FooterA" "p-FooterA p-FooterA";
   }
 }
 @media (min-width: 700px) {
   .embolturaA .footerGridA {
     display: grid;
-    margin: 0em;
-    grid-template-areas: "h3-FooterA li-FooterA p-FooterA";
+    grid-template-areas: "h3-FooterA ul-FooterA p-FooterA";
   }
 }
 
@@ -1178,8 +1172,8 @@ iframe {
   align-items: center;
 }
 
-.li-FooterHis {
-  grid-area: li-FooterHis;
+.ul-FooterHis {
+  grid-area: ul-FooterHis;
   margin: 0em;
   display: flex;
   justify-content: center;
@@ -1294,20 +1288,18 @@ iframe {
 .embolturaHis .footerGridHis {
   display: grid;
   margin: 0em;
-  grid-template-areas: "h3-FooterHis" "li-FooterHis" "p-FooterHis";
+  grid-template-areas: "h3-FooterHis" "ul-FooterHis" "p-FooterHis";
 }
 @media (min-width: 500px) {
   .embolturaHis .footerGridHis {
     display: grid;
-    margin: 0em;
-    grid-template-areas: "h3-FooterHis li-FooterHis" "p-FooterHis p-FooterHis";
+    grid-template-areas: "h3-FooterHis ul-FooterHis" "p-FooterHis p-FooterHis";
   }
 }
 @media (min-width: 700px) {
   .embolturaHis .footerGridHis {
     display: grid;
-    margin: 0em;
-    grid-template-areas: "h3-FooterHis li-FooterHis p-FooterHis";
+    grid-template-areas: "h3-FooterHis ul-FooterHis p-FooterHis";
   }
 }
 
@@ -1354,8 +1346,8 @@ iframe {
   align-items: center;
 }
 
-.li-FooterD {
-  grid-area: li-FooterD;
+.ul-FooterD {
+  grid-area: ul-FooterD;
   margin: 0em;
   display: flex;
   justify-content: center;
@@ -1446,20 +1438,18 @@ iframe {
 .embolturaGridD .footerGridD {
   display: grid;
   margin: 0em;
-  grid-template-areas: "h3-FooterD" "li-FooterD" "p-FooterD";
+  grid-template-areas: "h3-FooterD" "ul-FooterD" "p-FooterD";
 }
 @media (min-width: 500px) {
   .embolturaGridD .footerGridD {
     display: grid;
-    margin: 0em;
-    grid-template-areas: "h3-FooterD li-FooterD" "p-FooterD p-FooterD";
+    grid-template-areas: "h3-FooterD ul-FooterD" "p-FooterD p-FooterD";
   }
 }
 @media (min-width: 700px) {
   .embolturaGridD .footerGridD {
     display: grid;
-    margin: 0em;
-    grid-template-areas: "h3-FooterD li-FooterD p-FooterD";
+    grid-template-areas: "h3-FooterD ul-FooterD p-FooterD";
   }
 }
 

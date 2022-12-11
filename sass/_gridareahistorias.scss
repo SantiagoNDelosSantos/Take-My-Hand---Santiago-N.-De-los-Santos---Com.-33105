@@ -118,22 +118,20 @@
         margin: 0em;
         grid-template-areas: 
         "h3-FooterHis"
-        "li-FooterHis"
+        "ul-FooterHis"
         "p-FooterHis";
 
         @media  (min-width: 500px){
             display: grid;
-            margin: 0em;
             grid-template-areas: 
-            "h3-FooterHis li-FooterHis"
+            "h3-FooterHis ul-FooterHis"
             "p-FooterHis p-FooterHis";
         }
 
         @media  (min-width: 700px){
             display: grid;
-            margin: 0em;
             grid-template-areas: 
-            "h3-FooterHis li-FooterHis p-FooterHis";
+            "h3-FooterHis ul-FooterHis p-FooterHis";
         }
     }
 
