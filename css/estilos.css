@@ -19,7 +19,7 @@ body {
   background-color: rgba(96, 182, 229, 0.4431372549);
   font-family: "Montserrat";
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 @media (min-width: 500px) {
   body {
@@ -305,12 +305,12 @@ img {
 
 iframe {
   width: 80%;
+  height: auto;
   border-radius: 2em;
 }
-@media (min-width: 1024px) {
+@media (min-width: 500px) {
   iframe {
     width: 100%;
-    height: 100%;
   }
 }
 
@@ -352,16 +352,6 @@ iframe {
   height: 30%;
   background: #B9DEF1;
   box-shadow: 5px 5px 10px #90adbc, -5px -5px 10px #e2ffff;
-}
-@media (min-width: 500px) {
-  .logoForm {
-    width: 40%;
-  }
-}
-@media (min-width: 900px) {
-  .logoForm {
-    width: 30%;
-  }
 }
 @media (min-width: 1024px) {
   .logoForm {
@@ -1021,8 +1011,8 @@ iframe {
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section1GridA .obama {
     float: left;
-    width: 60%;
-    margin: 20px 0 20px 0;
+    width: 55%;
+    margin: 20px 30px 0px 0;
   }
 }
 @media (min-width: 800px) {

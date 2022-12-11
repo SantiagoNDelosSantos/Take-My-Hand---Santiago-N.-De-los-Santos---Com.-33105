@@ -15,11 +15,11 @@ img{
 iframe{
 
     width: 80%;  
+    height: auto;
     border-radius: 2em;
 
-    @media (min-width: 1024px){
-        width: 100%;
-        height: 100%
+    @media (min-width: 500px){
+    width: 100%;
     }
 
 }
@@ -64,14 +64,6 @@ iframe{
     background: #B9DEF1;
     box-shadow:  5px 5px 10px #90adbc,
                 -5px -5px 10px #e2ffff;
-
-    @media (min-width: 500px){
-        width: 40%;
-    }  
-
-    @media (min-width: 900px){
-        width: 30%;
-    }  
 
     @media (min-width: 1024px){
         border: 0.30em solid rgb(255, 255, 255);
