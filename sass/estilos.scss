@@ -1,40 +1,36 @@
-/*Variables Globales*/
+/* Variables Globales */
 @import "variablesGlobales";
-/* Fin Variables Globales*/
+/* Fin Variables Globales */
 
-/*Fuentes*/
+/* Fuentes */
 @import "fuentes";
-/*Fin fuentes*/
+/* Fin fuentes */
 
-/*Reseteo y configuración general*/
+/* Reseteo y configuración general */
 @import "reseteoygenerales";
 /* Fin reseteo y configuración general */
 
-/*Extend*/
+/* Extend */
 @import "extend";
-/*Fin Extend*/
+/* Fin Extend */
+
+/* Mixin */
+@import "mixin";
+/* Fin Mixin */
 
 /* Nav bar */
 @import "navbar";
 /* Fin Nav bar */
 
 /* Textos */
-
 @import "textos";
-
 /* Fin textos */
 
 /* Imagenes e iframes */
-
 @import "img-iframe";
-
 /* Fin imagenes e iframes */
 
-/* Mixin */
-@import "mixin";
-/* Fin Mixin */
-
-/* Grid Area Home*/
+/* Grid Area Home */
 
 .headerGridH{
     grid-area: headerGridH;
@@ -77,9 +73,9 @@
 
 @import "gridareahome";
 
-/* Fin Grid Area Home*/
+/* Fin Grid Area Home */
 
-/* Grid Area Modelos Gratuitos*/
+/* Grid Area Modelos Gratuitos */
 
 .headerGridM{
     grid-area: headerGridM;
@@ -126,9 +122,9 @@
 
 @import "gridareamodelos";
 
-/* Fin Grid Area Modelos Gratuitos*/
+/* Fin Grid Area Modelos Gratuitos */
 
-/*Grid Area Aregentinos Destacados*/
+/* Grid Area Aregentinos Destacados */
 
 .headerGridA{
     grid-area: headerGridA;
@@ -175,9 +171,9 @@
 
 @import "gridareaargentinos";
 
-/*Fin Grid Area Aregentinos Destacados*/
+/* Fin Grid Area Aregentinos Destacados */
 
-/*Grid Area Historias*/
+/* Grid Area Historias */
 
 .headerGridHis{
     grid-area: headerGridHis;
@@ -220,10 +216,9 @@
 
 @import "gridareahistorias";
 
-/*Fin Grid Area Historias*/
+/* Fin Grid Area Historias */
 
-
-/* Grid Area Donaciones*/
+/* Grid Area Donaciones */
 
 .headerGridD{
     grid-area: headerGridD;
@@ -274,10 +269,7 @@
 
 @import "gridareadonaciones";
 
-/* Fin Grid Area Donaciones*/
-
-/* Fin Grid Area */
-
+/* Fin Grid Area Donaciones */
 
 /* Fondos */
 
@@ -305,17 +297,11 @@
 
 /* Fin fondos */
 
-
-/* Formulario */
-
-/* Fin formularrio */
-
 /* Enlaces externos */
 
 @import "enlaces";
 
 /* Enlaces externos */
-
 
 /* Footer */
 

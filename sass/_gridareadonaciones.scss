@@ -1,5 +1,5 @@
-
 .embolturaGridD{
+
     display: grid;
     grid-template-areas: 
     "headerGridD"
@@ -8,6 +8,7 @@
 
 
     .mainGridD{
+
         display: grid;
         grid-template-areas: 
         "h1GridD" 
@@ -23,10 +24,7 @@
             }
 
             @media (min-width: 1024px){
-                margin-top: 5%;
-                margin-left: 15%;
-                margin-right: 15%;
-                margin-bottom: 0%;
+                margin: 5% 15% 0% 15%;
                 }
 
         
@@ -41,10 +39,7 @@
                 }
 
                 @media (min-width: 1024px){
-                    margin-top: 5%;
-                    margin-left: 15%;
-                    margin-right: 15%;
-                    margin-bottom: 0%;
+                    margin: 5% 15% 0% 15%;
                     }    
 
             }
@@ -58,10 +53,7 @@
             }
 
             @media (min-width: 1024px){
-                margin-top: 5%;
-                margin-left: 15%;
-                margin-right: 15%;
-                margin-bottom: 0%;
+                margin: 5% 15% 0% 15%;
                 }
 
         }
@@ -77,16 +69,14 @@
             }   
 
             @media (min-width: 1024px){
-                margin-top: 5%;
-                margin-left: 15%;
-                margin-right: 15%;
-                margin-bottom: 5%;
+                margin: 5% 15% 5% 15%;
                 }
 
         }
     }
 
     .footerGridD{
+
         display: grid;
         margin: 0em;
         grid-template-areas: 
@@ -106,6 +96,6 @@
             grid-template-areas: 
             "h3-FooterD ul-FooterD p-FooterD";
         }
-    }
 
+    }
 }

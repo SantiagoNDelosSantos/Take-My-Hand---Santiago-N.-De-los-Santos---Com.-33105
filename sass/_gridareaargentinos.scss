@@ -1,13 +1,13 @@
-
 .embolturaA{
+
     display: grid;
     grid-template-areas: 
     "headerGridA"
     "mainGridA"
     "footerGridA";
 
-
     .mainGridA{
+
         display: grid;
         grid-template-areas: 
         "h1GridA"
@@ -19,23 +19,18 @@
 
             margin-bottom: 0px;
 
-            @media  (min-width: 500px){
+            @media (min-width: 500px){
                 margin: 20px 20px 0px 20px;
             }
 
             @media (min-width: 1024px){
                 width: 80%;
-                margin-top: 5%;
-                margin-left: 10%;
-                margin-right: 10%;
-                margin-bottom: 0%;
+                margin: 5% 10% 0% 10%;
             }
 
-            
-            
             .h2yGino{
 
-                @media  (min-width: 500px){
+                @media (min-width: 500px){
                 float: left;
                 width: 50%;
                 height: auto;
@@ -43,7 +38,7 @@
                 margin-bottom: 20px;
                 }
 
-                @media  (min-width: 1024px){
+                @media (min-width: 1024px){
                     margin-right: 50px;
                     margin-bottom: 30px;
                 }
@@ -52,7 +47,7 @@
 
             .atomicLab{
 
-                @media  (min-width: 500px){
+                @media (min-width: 500px){
                     float: right;
                     width: 50%;
                     height: auto;
@@ -60,7 +55,7 @@
                     margin-bottom: 20px;
                 } 
 
-                @media  (min-width: 1024px){
+                @media (min-width: 1024px){
                     width: 40%;
                 }
 
@@ -68,38 +63,34 @@
 
             .obama{
             
-                @media  (min-width: 500px){
+                @media (min-width: 500px){
                     float: left;
                     width: 55%;
                     margin: 20px 30px 0px 0;
                 }
 
-                @media  (min-width: 800px){
+                @media (min-width: 800px){
                     display: none;
                 }    
 
             }
-
         }
 
         .section2GridA{
 
             
-            @media  (min-width: 500px){
+            @media (min-width: 500px){
                 margin: 40px 20px 0px 20px;
             }
 
             @media (min-width: 1024px){
                 width: 80%;
-                margin-top: 5%;
-                margin-left: 10%;
-                margin-right: 10%;
-                margin-bottom: 0%;
-                }
+                margin: 5% 10% 0% 10%;
+            }
 
             .h2Franco{
                 
-                @media  (min-width: 500px){
+                @media (min-width: 500px){
                     float: left;
                     width: 50%;
                     height: auto;
@@ -107,7 +98,7 @@
                     margin-bottom: 20px;
                 }
 
-                @media  (min-width: 1024px){
+                @media (min-width: 1024px){
                     margin-right: 50px;
                     margin-bottom: 30px;
                 }
@@ -115,7 +106,8 @@
             }
 
             .francoC3DPro{
-                @media  (min-width: 500px){
+
+                @media (min-width: 500px){
                     float: right;
                     width: 50%;
                     height: auto;
@@ -123,32 +115,29 @@
                     margin-bottom: 20px;
                 }
 
-                @media  (min-width: 1024px){
+                @media (min-width: 1024px){
                     width: 40%;
                     margin-left: 50px;
                     margin-bottom: 20px;
                 }
-            }
 
+            }
         }
 
         .section3GridA{
 
-            @media  (min-width: 500px){
+            @media (min-width: 500px){
                 margin: 40px 20px 20px 20px;
             }
 
             @media (min-width: 1024px){
                 width: 80%;
-                margin-top: 5%;
-                margin-left: 10%;
-                margin-right: 10%;
-                margin-bottom: 5%;
+                margin: 5% 10% 5% 10%;
             }
 
             .h2Joa{
 
-                @media  (min-width: 500px){
+                @media (min-width: 500px){
                     float: left;
                     width: 50%;
                     height: auto;
@@ -156,7 +145,7 @@
                     margin-bottom: 20px;
                 }
 
-                @media  (min-width: 1024px){
+                @media (min-width: 1024px){
                     margin-right: 50px;
                     margin-bottom: 30px;
                 }
@@ -165,27 +154,24 @@
 
             .alvearImprime{
 
-                @media  (min-width: 500px){
+                @media (min-width: 500px){
                     float: right;
                     width: 50%;
                     height: auto;
-                    margin-top: 20px;
-                    margin-left: 20px;
-                    margin-bottom: 20px;
+                    margin: 20px 0px 20px 20px;
                 }
 
-                @media  (min-width: 1024px){
+                @media (min-width: 1024px){
                     width: 40%;
                     margin-left: 50px;
                 }
 
             }
-
         }
-
     }
         
     .footerGridA{
+
         display: grid;
         margin: 0em;
         grid-template-areas: 
@@ -193,19 +179,18 @@
         "ul-FooterA"
         "p-FooterA";
 
-        @media  (min-width: 500px){
+        @media (min-width: 500px){
             display: grid;
             grid-template-areas: 
             "h3-FooterA ul-FooterA"
             "p-FooterA p-FooterA";
         }
 
-        @media  (min-width: 700px){
+        @media (min-width: 700px){
             display: grid;
             grid-template-areas: 
             "h3-FooterA ul-FooterA p-FooterA";
         }
 
     }   
-
 }

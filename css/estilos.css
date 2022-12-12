@@ -1,10 +1,10 @@
 @charset "UTF-8";
-/*Variables Globales*/
-/* Fin Variables Globales*/
-/*Fuentes*/
+/* Variables Globales */
+/* Fin Variables Globales */
+/* Fuentes */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Orbitron:wght@500&family=Poppins:wght@400;500;600;700&display=swap");
-/*Fin fuentes*/
-/*Reseteo y configuración general*/
+/* Fin fuentes */
+/* Reseteo y configuración general */
 * {
   padding: 0;
   margin: 0;
@@ -35,7 +35,7 @@ body {
 }
 
 /* Fin reseteo y configuración general */
-/*Extend*/
+/* Extend */
 .neoCelesteRedondo, .logoForm, .circulo {
   border-radius: 50%;
   background: #B9DEF1;
@@ -52,7 +52,9 @@ body {
   box-shadow: inset 5px 5px 10px #90adbc, inset -5px -5px 10px #e2ffff;
 }
 
-/*Fin Extend*/
+/* Fin Extend */
+/* Mixin */
+/* Fin Mixin */
 /* Nav bar */
 header {
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);
@@ -379,9 +381,7 @@ iframe {
 }
 
 /* Fin imagenes e iframes */
-/* Mixin */
-/* Fin Mixin */
-/* Grid Area Home*/
+/* Grid Area Home */
 .headerGridH {
   grid-area: headerGridH;
 }
@@ -448,9 +448,7 @@ iframe {
 @media (min-width: 1024px) {
   .embolturaH .mainGridH .section1GridH {
     width: 70%;
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 5% 15% 0% 15%;
   }
 }
 @media (min-width: 500px) {
@@ -477,11 +475,7 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaH .mainGridH .section2GridH {
-    width: 70%;
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 5%;
+    margin: 5% 15% 5% 15%;
   }
 }
 .embolturaH .mainGridH .section2GridH .contenedorForm {
@@ -609,8 +603,8 @@ iframe {
   }
 }
 
-/* Fin Grid Area Home*/
-/* Grid Area Modelos Gratuitos*/
+/* Fin Grid Area Home */
+/* Grid Area Modelos Gratuitos */
 .headerGridM {
   grid-area: headerGridM;
 }
@@ -686,9 +680,7 @@ iframe {
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section1GridM {
     width: 90%;
-    margin: 5%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin: 10% 5% 10% 5%;
   }
 }
 @media (min-width: 500px) {
@@ -721,7 +713,7 @@ iframe {
     margin-right: 8%;
   }
 }
-@media (min-width: 700px) and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid {
     width: 100%;
     margin-left: 0%;
@@ -729,25 +721,25 @@ iframe {
   }
 }
 @media (min-width: 1024px) {
-  .embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid .carousel-indicators {
+  .embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid #carouselExampleDark .carousel-indicators {
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
   }
 }
-.embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid .carousel-control-prev {
+.embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid #carouselExampleDark .carousel-control-prev {
   margin-left: 2em;
 }
 @media (min-width: 1024px) {
-  .embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid .carousel-control-prev {
+  .embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid #carouselExampleDark .carousel-control-prev {
     margin-left: 1em;
   }
 }
-.embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid .carousel-control-next {
+.embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid #carouselExampleDark .carousel-control-next {
   margin-right: 2em;
 }
 @media (min-width: 1024px) {
-  .embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid .carousel-control-next {
+  .embolturaM .mainGridM .section1GridM .phoenixP1 .conteiner-fluid #carouselExampleDark .carousel-control-next {
     margin-right: 1em;
   }
 }
@@ -759,9 +751,7 @@ iframe {
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section2GridM {
     width: 90%;
-    margin: 5%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin: 10% 5% 10% 5%;
   }
 }
 @media (min-width: 500px) {
@@ -799,25 +789,25 @@ iframe {
   }
 }
 @media (min-width: 1024px) {
-  .embolturaM .mainGridM .section2GridM .phoenixV2-1 .conteiner-fluid .carousel-indicators {
+  .embolturaM .mainGridM .section2GridM .phoenixV2-1 .conteiner-fluid #carouselExampleDark2 .carousel-indicators {
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
   }
 }
-.embolturaM .mainGridM .section2GridM .phoenixV2-1 .conteiner-fluid .carousel-control-prev {
+.embolturaM .mainGridM .section2GridM .phoenixV2-1 .conteiner-fluid #carouselExampleDark2 .carousel-control-prev {
   margin-left: 2em;
 }
 @media (min-width: 1024px) {
-  .embolturaM .mainGridM .section2GridM .phoenixV2-1 .conteiner-fluid .carousel-control-prev {
+  .embolturaM .mainGridM .section2GridM .phoenixV2-1 .conteiner-fluid #carouselExampleDark2 .carousel-control-prev {
     margin-left: 1em;
   }
 }
-.embolturaM .mainGridM .section2GridM .phoenixV2-1 .conteiner-fluid .carousel-control-next {
+.embolturaM .mainGridM .section2GridM .phoenixV2-1 .conteiner-fluid #carouselExampleDark2 .carousel-control-next {
   margin-right: 2em;
 }
 @media (min-width: 1024px) {
-  .embolturaM .mainGridM .section2GridM .phoenixV2-1 .conteiner-fluid .carousel-control-next {
+  .embolturaM .mainGridM .section2GridM .phoenixV2-1 .conteiner-fluid #carouselExampleDark2 .carousel-control-next {
     margin-right: 1em;
   }
 }
@@ -829,9 +819,7 @@ iframe {
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section3GridM {
     width: 90%;
-    margin: 5%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin: 10% 5% 10% 5%;
   }
 }
 @media (min-width: 500px) {
@@ -869,25 +857,25 @@ iframe {
   }
 }
 @media (min-width: 1024px) {
-  .embolturaM .mainGridM .section3GridM .phoenixV3-1 .conteiner-fluid .carousel-indicators {
+  .embolturaM .mainGridM .section3GridM .phoenixV3-1 .conteiner-fluid #carouselExampleDark3 .carousel-indicators {
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
   }
 }
-.embolturaM .mainGridM .section3GridM .phoenixV3-1 .conteiner-fluid .carousel-control-prev {
+.embolturaM .mainGridM .section3GridM .phoenixV3-1 .conteiner-fluid #carouselExampleDark3 .carousel-control-prev {
   margin-left: 2em;
 }
 @media (min-width: 1024px) {
-  .embolturaM .mainGridM .section3GridM .phoenixV3-1 .conteiner-fluid .carousel-control-prev {
+  .embolturaM .mainGridM .section3GridM .phoenixV3-1 .conteiner-fluid #carouselExampleDark3 .carousel-control-prev {
     margin-left: 1em;
   }
 }
-.embolturaM .mainGridM .section3GridM .phoenixV3-1 .conteiner-fluid .carousel-control-next {
+.embolturaM .mainGridM .section3GridM .phoenixV3-1 .conteiner-fluid #carouselExampleDark3 .carousel-control-next {
   margin-right: 2em;
 }
 @media (min-width: 1024px) {
-  .embolturaM .mainGridM .section3GridM .phoenixV3-1 .conteiner-fluid .carousel-control-next {
+  .embolturaM .mainGridM .section3GridM .phoenixV3-1 .conteiner-fluid #carouselExampleDark3 .carousel-control-next {
     margin-right: 1em;
   }
 }
@@ -909,8 +897,8 @@ iframe {
   }
 }
 
-/* Fin Grid Area Modelos Gratuitos*/
-/*Grid Area Aregentinos Destacados*/
+/* Fin Grid Area Modelos Gratuitos */
+/* Grid Area Aregentinos Destacados */
 .headerGridA {
   grid-area: headerGridA;
 }
@@ -984,10 +972,7 @@ iframe {
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section1GridA {
     width: 80%;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 0%;
+    margin: 5% 10% 0% 10%;
   }
 }
 @media (min-width: 500px) {
@@ -1039,10 +1024,7 @@ iframe {
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section2GridA {
     width: 80%;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 0%;
+    margin: 5% 10% 0% 10%;
   }
 }
 @media (min-width: 500px) {
@@ -1084,10 +1066,7 @@ iframe {
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section3GridA {
     width: 80%;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
+    margin: 5% 10% 5% 10%;
   }
 }
 @media (min-width: 500px) {
@@ -1110,9 +1089,7 @@ iframe {
     float: right;
     width: 50%;
     height: auto;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0px 20px 20px;
   }
 }
 @media (min-width: 1024px) {
@@ -1139,8 +1116,8 @@ iframe {
   }
 }
 
-/*Fin Grid Area Aregentinos Destacados*/
-/*Grid Area Historias*/
+/* Fin Grid Area Aregentinos Destacados */
+/* Grid Area Historias */
 .headerGridHis {
   grid-area: headerGridHis;
 }
@@ -1207,41 +1184,32 @@ iframe {
 @media (min-width: 1024px) {
   .embolturaHis .mainGridHis .section1GridHis {
     width: 80%;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 0%;
+    margin: 5% 10% 0% 10%;
   }
 }
 @media (min-width: 500px) {
   .embolturaHis .mainGridHis .section1GridHis .h2Felipe {
     float: left;
     width: 50%;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin: 0px 20px 20px 0px;
   }
 }
 @media (min-width: 1024px) {
   .embolturaHis .mainGridHis .section1GridHis .h2Felipe {
-    margin-right: 50px;
-    margin-bottom: 30px;
+    margin: 0px 50px 30px 0px;
   }
 }
 @media (min-width: 500px) {
   .embolturaHis .mainGridHis .section1GridHis .felipeyGino {
     float: right;
     width: 50%;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0px 20px 20px;
   }
 }
 @media (min-width: 1024px) {
   .embolturaHis .mainGridHis .section1GridHis .felipeyGino {
     width: 80%;
-    margin-left: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 0px 30px 50px;
   }
 }
 @media (min-width: 500px) {
@@ -1252,10 +1220,7 @@ iframe {
 @media (min-width: 1024px) {
   .embolturaHis .mainGridHis .section2GridHis {
     width: 80%;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
+    margin: 5% 10% 5% 10%;
   }
 }
 @media (min-width: 500px) {
@@ -1277,9 +1242,7 @@ iframe {
   .embolturaHis .mainGridHis .section2GridHis .olgayGino {
     float: right;
     width: 50%;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0px 20px 20px;
   }
 }
 @media (min-width: 800px) {
@@ -1305,8 +1268,8 @@ iframe {
   }
 }
 
-/*Fin Grid Area Historias*/
-/* Grid Area Donaciones*/
+/* Fin Grid Area Historias */
+/* Grid Area Donaciones */
 .headerGridD {
   grid-area: headerGridD;
 }
@@ -1380,10 +1343,7 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaGridD .mainGridD .section1GridD {
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 0%;
+    margin: 5% 15% 0% 15%;
   }
 }
 @media (min-width: 500px) {
@@ -1396,10 +1356,7 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaGridD .mainGridD .section2GridD {
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 0%;
+    margin: 5% 15% 0% 15%;
   }
 }
 @media (min-width: 500px) {
@@ -1412,10 +1369,7 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaGridD .mainGridD .section3GridD {
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 0%;
+    margin: 5% 15% 0% 15%;
   }
 }
 .embolturaGridD .mainGridD .section4GridD {
@@ -1431,10 +1385,7 @@ iframe {
 }
 @media (min-width: 1024px) {
   .embolturaGridD .mainGridD .section4GridD {
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 5%;
+    margin: 5% 15% 5% 15%;
   }
 }
 .embolturaGridD .footerGridD {
@@ -1455,8 +1406,7 @@ iframe {
   }
 }
 
-/* Fin Grid Area Donaciones*/
-/* Fin Grid Area */
+/* Fin Grid Area Donaciones */
 /* Fondos */
 .fondo1 {
   background-image: url(../assets/img/fondos/fondo1.jpg);
@@ -1498,7 +1448,7 @@ iframe {
 }
 @media (min-width: 1024px) {
   .fondo1, .fondo2, .fondo3, .fondo4, .fondo5 {
-    height: 91vh;
+    height: 90.65vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1507,8 +1457,6 @@ iframe {
 }
 
 /* Fin fondos */
-/* Formulario */
-/* Fin formularrio */
 /* Enlaces externos */
 .linkUPH, .linkPHV3, .contactarCon {
   color: white;
