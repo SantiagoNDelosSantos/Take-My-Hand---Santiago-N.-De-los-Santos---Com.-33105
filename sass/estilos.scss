@@ -30,6 +30,10 @@
 
 /* Fin imagenes e iframes */
 
+/* Mixin */
+@import "mixin";
+/* Fin Mixin */
+
 /* Grid Area Home*/
 
 .headerGridH{
@@ -58,28 +62,17 @@
 
 .h3-FooterH{
     grid-area: h3-FooterH;
-    color: $blanco;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerH3P($blanco, 0em, flex, center, center)
 }
 
 .ul-FooterH{
     grid-area: ul-FooterH;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerSVG(0em, flex, center, center)
 }
 
 .p-FooterH{
     grid-area: p-FooterH;
-    color: $blanco;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerH3P($blanco, 0em, flex, center, center)
 }
 
 @import "gridareahome";
@@ -118,28 +111,17 @@
 
 .h3-FooterM{
     grid-area: h3-FooterM;
-    color: $blanco;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerH3P($blanco, 0em, flex, center, center)
 }
 
 .ul-FooterM{
     grid-area: ul-FooterM;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerSVG(0em, flex, center, center)
 }
 
 .p-FooterM{
     grid-area: p-FooterM;
-    color: $blanco;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerH3P($blanco, 0em, flex, center, center)
 }
 
 @import "gridareamodelos";
@@ -178,28 +160,17 @@
 
 .h3-FooterA{
     grid-area: h3-FooterA;
-    color: $blanco;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerH3P($blanco, 0em, flex, center, center)
 }
 
 .ul-FooterA{
     grid-area: ul-FooterA;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerSVG(0em, flex, center, center)
 }
 
 .p-FooterA{
     grid-area: p-FooterA;
-    color: $blanco;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerH3P($blanco, 0em, flex, center, center)
 }
 
 @import "gridareaargentinos";
@@ -234,28 +205,17 @@
 
 .h3-FooterHis{
     grid-area: h3-FooterHis;
-    color: $blanco;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerH3P($blanco, 0em, flex, center, center)
 }
 
 .ul-FooterHis{
     grid-area: ul-FooterHis;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerSVG(0em, flex, center, center)
 }
 
 .p-FooterHis{
     grid-area: p-FooterHis;
-    color: $blanco;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerH3P($blanco, 0em, flex, center, center)
 }
 
 @import "gridareahistorias";
@@ -299,28 +259,17 @@
 
 .h3-FooterD{
     grid-area: h3-FooterD;
-    color: $blanco;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerH3P($blanco, 0em, flex, center, center)
 }
 
 .ul-FooterD{
     grid-area: ul-FooterD;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerSVG(0em, flex, center, center)
 }
 
 .p-FooterD{
     grid-area: p-FooterD;
-    color: $blanco;
-    margin: 0em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include footerH3P($blanco, 0em, flex, center, center)
 }
 
 @import "gridareadonaciones";

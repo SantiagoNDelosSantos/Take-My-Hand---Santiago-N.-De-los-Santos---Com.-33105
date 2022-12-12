@@ -1,0 +1,14 @@
+@mixin footerH3P($color, $margen, $display, $justify, $align){ 
+    color: $color;
+    margin: $margen;
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin footerSVG($margin, $display, $justify, $align){
+    margin: $margin;
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}

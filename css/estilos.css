@@ -379,6 +379,8 @@ iframe {
 }
 
 /* Fin imagenes e iframes */
+/* Mixin */
+/* Fin Mixin */
 /* Grid Area Home*/
 .headerGridH {
   grid-area: headerGridH;
@@ -1135,7 +1137,9 @@ iframe {
     display: grid;
     grid-template-areas: "h3-FooterA ul-FooterA p-FooterA";
   }
-} /*Fin Grid Area Aregentinos Destacados*/
+}
+
+/*Fin Grid Area Aregentinos Destacados*/
 /*Grid Area Historias*/
 .headerGridHis {
   grid-area: headerGridHis;
