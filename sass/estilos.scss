@@ -1,3 +1,7 @@
+/*Variables Globales*/
+@import "variablesGlobales";
+/* Fin Variables Globales*/
+
 /*Fuentes*/
 @import "fuentes";
 /*Fin fuentes*/
@@ -5,6 +9,10 @@
 /*Reseteo y configuración general*/
 @import "reseteoygenerales";
 /* Fin reseteo y configuración general */
+
+/*Extend*/
+@import "extend";
+/*Fin Extend*/
 
 /* Nav bar */
 @import "navbar";
@@ -50,7 +58,7 @@
 
 .h3-FooterH{
     grid-area: h3-FooterH;
-    color: white;
+    color: $blanco;
     margin: 0em;
     display: flex;
     justify-content: center;
@@ -67,7 +75,7 @@
 
 .p-FooterH{
     grid-area: p-FooterH;
-    color: white;
+    color: $blanco;
     margin: 0em;
     display: flex;
     justify-content: center;
@@ -110,7 +118,7 @@
 
 .h3-FooterM{
     grid-area: h3-FooterM;
-    color: white;
+    color: $blanco;
     margin: 0em;
     display: flex;
     justify-content: center;
@@ -127,7 +135,7 @@
 
 .p-FooterM{
     grid-area: p-FooterM;
-    color: white;
+    color: $blanco;
     margin: 0em;
     display: flex;
     justify-content: center;
@@ -170,7 +178,7 @@
 
 .h3-FooterA{
     grid-area: h3-FooterA;
-    color: white;
+    color: $blanco;
     margin: 0em;
     display: flex;
     justify-content: center;
@@ -187,7 +195,7 @@
 
 .p-FooterA{
     grid-area: p-FooterA;
-    color: white;
+    color: $blanco;
     margin: 0em;
     display: flex;
     justify-content: center;
@@ -226,7 +234,7 @@
 
 .h3-FooterHis{
     grid-area: h3-FooterHis;
-    color: white;
+    color: $blanco;
     margin: 0em;
     display: flex;
     justify-content: center;
@@ -243,7 +251,7 @@
 
 .p-FooterHis{
     grid-area: p-FooterHis;
-    color: white;
+    color: $blanco;
     margin: 0em;
     display: flex;
     justify-content: center;
@@ -291,7 +299,7 @@
 
 .h3-FooterD{
     grid-area: h3-FooterD;
-    color: white;
+    color: $blanco;
     margin: 0em;
     display: flex;
     justify-content: center;
@@ -308,7 +316,7 @@
 
 .p-FooterD{
     grid-area: p-FooterD;
-    color: white;
+    color: $blanco;
     margin: 0em;
     display: flex;
     justify-content: center;
@@ -378,11 +386,11 @@ svg{
 
     .section1GridH, .section1GridM, .section2GridM, .section3GridM,.section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD{
         padding: 3em;
-        border: 0.20em solid white;
+        border: 0.20em solid $blanco;
         border-top-right-radius: 2em; 
         border-bottom-left-radius: 2em;
         margin-bottom: 0;
-        background-color: #60b6e571;
+        background-color: $celesteAcero;
         box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     }
 

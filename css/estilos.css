@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/*Variables Globales*/
+/* Fin Variables Globales*/
 /*Fuentes*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Orbitron:wght@500&family=Poppins:wght@400;500;600;700&display=swap");
 /*Fin fuentes*/
@@ -19,7 +21,7 @@ body {
   background-color: rgba(96, 182, 229, 0.4431372549);
   font-family: "Montserrat";
   text-align: center;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 @media (min-width: 500px) {
   body {
@@ -33,11 +35,29 @@ body {
 }
 
 /* Fin reseteo y configuración general */
+/*Extend*/
+.neoCelesteRedondo, .logoForm, .circulo {
+  border-radius: 50%;
+  background: #B9DEF1;
+  box-shadow: 5px 5px 10px #90adbc, -5px -5px 10px #e2ffff;
+}
+
+.neoCelesteCuadrado, .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar, .embolturaH .mainGridH .section2GridH .contenedorForm {
+  background: #B9DEF1;
+  box-shadow: 5px 5px 10px #90adbc, -5px -5px 10px #e2ffff;
+}
+
+.neoImput, .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo input {
+  background: #B9DEF1;
+  box-shadow: inset 5px 5px 10px #90adbc, inset -5px -5px 10px #e2ffff;
+}
+
+/*Fin Extend*/
 /* Nav bar */
 header {
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);
   padding: 1rem;
-  border-bottom: 0.2em solid #ffffff;
+  border-bottom: 0.2em solid white;
   display: inline-block;
   position: -webkit-sticky;
   position: sticky;
@@ -48,7 +68,7 @@ header {
 }
 header nav .checkbtn {
   font-size: 30px;
-  color: #ffffff;
+  color: white;
   float: right;
   cursor: pointer;
   display: block;
@@ -75,7 +95,7 @@ header nav #check:checked ~ label.checkbtn .menu {
   display: none;
 }
 header nav label .menu {
-  color: #ffffff;
+  color: white;
   float: right;
   cursor: pointer;
   display: block;
@@ -124,7 +144,7 @@ header nav ul {
     display: flex;
     justify-content: center;
     left: 0%;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: none;
     transition: none;
     width: 84%;
     height: 0%;
@@ -179,7 +199,7 @@ header nav ul li a {
   }
 }
 header nav ul li a.active, header nav ul li a:hover {
-  background: rgb(255, 255, 255);
+  background: white;
   color: rgba(0, 14, 70, 0.86);
   transition: all 0.3s;
 }
@@ -187,7 +207,7 @@ header nav ul li a.active, header nav ul li a:hover {
 /* Fin Nav bar */
 /* Textos */
 h1 {
-  color: #ffffff;
+  color: white;
   font-family: "Montserrat";
   text-transform: uppercase;
   font-weight: 700;
@@ -225,7 +245,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(255, 255, 255);
+  color: white;
   font-family: "Orbitron";
   text-transform: uppercase;
   font-weight: 500;
@@ -322,10 +342,7 @@ iframe {
   padding: 1em;
   height: 50%;
   width: 50%;
-  border: 0.3em solid rgb(255, 255, 255);
-  border-radius: 50%;
-  background: #B9DEF1;
-  box-shadow: 5px 5px 10px #90adbc, -5px -5px 10px #e2ffff;
+  border: 0.3em solid white;
   margin: 0 25%;
 }
 @media (min-width: 500px) {
@@ -350,12 +367,10 @@ iframe {
   border-radius: 50%;
   width: 30%;
   height: 30%;
-  background: #B9DEF1;
-  box-shadow: 5px 5px 10px #90adbc, -5px -5px 10px #e2ffff;
 }
 @media (min-width: 1024px) {
   .logoForm {
-    border: 0.3em solid rgb(255, 255, 255);
+    border: 0.3em solid white;
     border-radius: 50%;
     background: #ffffff;
     box-shadow: 6px 6px 12px #d9d9d9, -6px -6px 12px #ffffff;
@@ -475,8 +490,6 @@ iframe {
   text-align: center;
   margin: 0 28px;
   border-radius: 20px;
-  background: #B9DEF1;
-  box-shadow: 5px 5px 10px #90adbc, -5px -5px 10px #e2ffff;
 }
 @media (min-width: 500px) {
   .embolturaH .mainGridH .section2GridH .contenedorForm {
@@ -497,7 +510,6 @@ iframe {
 @media (min-width: 1024Px) {
   .embolturaH .mainGridH .section2GridH .contenedorForm {
     background-image: url(../assets/img/fondos/fondoMarmolBlanco.jpg);
-    color: rgba(0, 0, 0, 0.86);
   }
 }
 .embolturaH .mainGridH .section2GridH .contenedorForm .formPrimero {
@@ -542,8 +554,6 @@ iframe {
   margin: 0.5rem;
   text-align: center;
   border-radius: 8px;
-  background: #B9DEF1;
-  box-shadow: inset 5px 5px 10px #90adbc, inset -5px -5px 10px #e2ffff;
 }
 @media (min-width: 900px) {
   .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo input {
@@ -551,18 +561,17 @@ iframe {
   }
 }
 .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo input:hover {
-  color: rgba(255, 255, 255, 0.86);
+  color: white;
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);
   box-shadow: none;
 }
 .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar {
   color: white;
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);
-  border: 0.2em solid rgb(255, 255, 255);
+  border: 0.2em solid white;
   border-radius: 25px;
   font-family: "Orbitron";
   font-size: 13px;
-  box-shadow: 5px 5px 10px #8eabba, -5px -5px 10px #e4ffff;
 }
 @media (min-width: 900px) {
   .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar {
@@ -1126,9 +1135,7 @@ iframe {
     display: grid;
     grid-template-areas: "h3-FooterA ul-FooterA p-FooterA";
   }
-}
-
-/*Fin Grid Area Aregentinos Destacados*/
+} /*Fin Grid Area Aregentinos Destacados*/
 /*Grid Area Historias*/
 .headerGridHis {
   grid-area: headerGridHis;
@@ -1271,7 +1278,7 @@ iframe {
     margin-bottom: 20px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   .embolturaHis .mainGridHis .section2GridHis .olgayGino {
     display: none;
   }
@@ -1504,7 +1511,7 @@ iframe {
   text-decoration: none;
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);
   padding: 0.7em;
-  border: 0.2em solid rgb(255, 255, 255);
+  border: 0.2em solid white;
   border-radius: 3em;
   margin: 20px 10% 0 10%;
   font-weight: 600;
@@ -1544,7 +1551,7 @@ iframe {
 /* Footer */
 footer {
   padding: 0.5em;
-  border-top: 0.2em solid #ffffff;
+  border-top: 0.2em solid white;
   display: flex;
   justify-content: space-evenly;
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);

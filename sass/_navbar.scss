@@ -1,8 +1,8 @@
 header{
 
-    background: linear-gradient(90deg, rgba(0,0,32,1) 0%, rgba(16,19,98,1) 50%, rgba(0,0,32,1) 100%);
+    background: $gradienteAzul;
     padding: 1rem;
-    border-bottom: 0.20em solid #ffffff;
+    border-bottom: 0.20em solid $blanco;
     display: inline-block;
     position: sticky;
     top: 0;
@@ -15,7 +15,7 @@ header{
         .checkbtn{
 
             font-size: 30px;
-            color:#ffffff;
+            color: $blanco;
             float: right;
             cursor: pointer;
             display: block;
@@ -51,7 +51,7 @@ header{
 
             .menu{
 
-                color:#ffffff;
+                color: $blanco;
                 float: right;
                 cursor: pointer;
                 display:block;
@@ -88,7 +88,7 @@ header{
                 height: 39px;
                 padding: 0.20em;
                 margin-left: 13px;
-                border: 0.20em solid white;
+                border: 0.20em solid $blanco;
                 float: left;
             } 
             
@@ -100,7 +100,7 @@ header{
             position: fixed;
             width: 100vw;
             height: 100vh;
-            background-color:rgba(0, 0, 32, 0.79);
+            background-color: $azulOscuroConTransparenciaUL;
             top: 60px;
             left: -100%;
             text-align: center;
@@ -111,7 +111,7 @@ header{
                 display: flex;
                 justify-content: center;
                 left: 0%;
-                background-color: #ffffff00;
+                background-color: none;
                 transition: none;
                 width: 84%; 
                 height: 0%;
@@ -134,7 +134,7 @@ header{
 
                 a{
 
-                    color: white;
+                    color: $blanco;
                     font-size: 1.70em;
                     padding: 0.50em;
                     border-radius: 3px;
@@ -165,8 +165,8 @@ header{
                 }                     
                 
                 a.active, a:hover{
-                    background: rgb(255, 255, 255);
-                    color: rgba(0, 14, 70, 0.86);
+                    background: $blanco;
+                    color: $azulMarino;
                     transition: all .3s;
                 }
         

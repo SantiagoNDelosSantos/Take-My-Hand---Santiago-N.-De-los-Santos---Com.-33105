@@ -1,10 +1,10 @@
 
 .linkUPH, .linkPHV3, .contactarCon{
-    color:white;
+    color:$blanco;
     text-decoration: none;
-    background: linear-gradient(90deg, rgba(0,0,32,1) 0%, rgba(16,19,98,1) 50%, rgba(0,0,32,1) 100%);
+    background: $gradienteAzul;
     padding: 0.70em;
-    border: 0.20em solid rgb(255, 255, 255);
+    border: 0.20em solid $blanco;
     border-radius: 3em;
     margin: 20px 10% 0 10%;
     font-weight: 600;
@@ -34,8 +34,8 @@
 }
 
 .linkUPH:hover, .linkPHV3:hover, .contactarCon:hover{
-    color: rgba(0, 14, 70, 0.86);
-    background: white;
+    color: $azulMarino;
+    background: $blanco;
     transition: .3s;
-    border: 0.20em solid rgba(0, 14, 70, 0.86);
+    border: 0.20em solid $azulMarino;
 }

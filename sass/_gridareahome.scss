@@ -63,25 +63,22 @@
 
             .contenedorForm{
 
-                color:  rgba(0, 14, 70, 0.86);
+                color: $azulMarino;
                 font-weight: 600;
                 font-size: 14px;      
                 padding: 15px;  
                 text-align: center;
                 margin: 0 28px;
                 border-radius: 20px;
-                background: #B9DEF1;
-                box-shadow:  5px 5px 10px #90adbc,
-                            -5px -5px 10px #e2ffff;
+                @extend .neoCelesteCuadrado;
     
                 @media  (min-width: 500px){           
-                    background-color:#60b6e571;
-
+                    background-color: $celesteAcero;
                     font-size: 15px;
                     text-align: center;
                     padding: 2em;
                     gap: 25px;
-                    border: 0.20em solid white;
+                    border: 0.20em solid $blanco;
                     border-radius: 2em; 
                     margin: 0px;
                     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
@@ -92,7 +89,6 @@
 
                 @media  (min-width: 1024Px){           
                     background-image: url(../assets/img/fondos/fondoMarmolBlanco.jpg);
-                    color:  rgba(0, 0, 0, 0.86);
                 }
                 
                 .formPrimero{
@@ -131,7 +127,7 @@
                     }
         
                     input{ 
-                        color:  rgba(0, 14, 70, 0.86);
+                        color:  $azulMarino;
                         font-family: 'Montserrat'; 
                         font-weight: 600;
                         font-size: 14px;
@@ -140,9 +136,7 @@
                         margin: 0.50rem;
                         text-align: center;
                         border-radius: 8px;
-                        background: #B9DEF1;
-                        box-shadow: inset 5px 5px 10px #90adbc,
-                                    inset -5px -5px 10px  #e2ffff;  
+                        @extend .neoImput;
                                     
                         @media (min-width: 900px){
                             font-size: 16px;
@@ -151,20 +145,19 @@
                     }
         
                     input:hover{
-                        color: rgba(255, 255, 255, 0.86);
-                        background: linear-gradient(90deg, rgba(0,0,32,1) 0%, rgba(16,19,98,1) 50%, rgba(0,0,32,1) 100%);
+                        color: $blanco;
+                        background: $gradienteAzul;
                         box-shadow: none;
                     }
         
                     .enviar{  
-                            color: white;
-                            background: linear-gradient(90deg, rgba(0,0,32,1) 0%, rgba(16,19,98,1) 50%, rgba(0,0,32,1) 100%);
-                            border: 0.20em solid rgb(255, 255, 255);
+                            color: $blanco;
+                            background: $gradienteAzul;
+                            border: 0.20em solid $blanco;
                             border-radius: 25px;
                             font-family: 'Orbitron';
                             font-size: 13px;
-                            box-shadow:  5px 5px 10px #8eabba,
-                                        -5px -5px 10px #e4ffff;
+                            @extend .neoCelesteCuadrado;
                         
                         @media (min-width: 900px){
                             font-size: 16px;
@@ -178,9 +171,9 @@
                     }
         
                     .enviar:hover{
-                        color: rgba(0, 14, 70, 0.86);
-                        border: 0.20em solid rgba(0, 14, 70, 0.86);
-                        background: white;
+                        color: $azulMarino;
+                        border: 0.20em solid $azulMarino;
+                        background: $blanco;
                         transition: .3s;
                     }
 

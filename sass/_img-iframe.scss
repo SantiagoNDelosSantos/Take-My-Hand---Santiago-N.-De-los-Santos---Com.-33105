@@ -32,11 +32,8 @@ iframe{
     padding: 1em;
     height: 50%;
     width: 50%;
-    border: 0.30em solid rgb(255, 255, 255);
-    border-radius: 50%;
-    background: #B9DEF1;
-    box-shadow:  5px 5px 10px #90adbc,
-                -5px -5px 10px #e2ffff;
+    border: 0.30em solid $blanco;
+    @extend .neoCelesteRedondo;
     margin: 0 25%;
 
     @media (min-width: 500px){
@@ -52,7 +49,7 @@ iframe{
         background: #ffffff;
         box-shadow:  6px 6px 12px #d9d9d9,
                     -6px -6px 12px #ffffff;
-        border: 0.30em solid #60b6e571;
+        border: 0.30em solid $celesteAcero;
     }
 
 }
@@ -61,17 +58,15 @@ iframe{
     border-radius: 50%;
     width: 30%;
     height: 30%;
-    background: #B9DEF1;
-    box-shadow:  5px 5px 10px #90adbc,
-                -5px -5px 10px #e2ffff;
+    @extend .neoCelesteRedondo;
 
     @media (min-width: 1024px){
-        border: 0.30em solid rgb(255, 255, 255);
+        border: 0.30em solid $blanco;
         border-radius: 50%;
         background: #ffffff;
         box-shadow:  6px 6px 12px #d9d9d9,
                     -6px -6px 12px #ffffff;
-        border: 0.30em solid #60b6e571;
+        border: 0.30em solid $celesteAcero;
     }
 
 }

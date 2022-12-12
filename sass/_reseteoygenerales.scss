@@ -11,13 +11,13 @@ html{
 }
 
 body{ 
-    background-color:#60b6e571;
+    background-color: $celesteAcero;
     font-family: 'Montserrat'; 
     text-align: center;
-    line-height: 1.70;   
+    line-height: 1.50;   
 
     @media (min-width: 500px){
-        background-color: white;
+        background-color: $blanco;
     }
     
     @media (min-width: 1024px){
