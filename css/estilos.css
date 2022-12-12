@@ -42,7 +42,7 @@ body {
   box-shadow: 5px 5px 10px #90adbc, -5px -5px 10px #e2ffff;
 }
 
-.neoCelesteCuadrado, .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar, .embolturaH .mainGridH .section2GridH .contenedorForm {
+.neoCelesteCuadrado, .linkUPH, .linkPHV3, .contactarCon, .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar, .embolturaH .mainGridH .section2GridH .contenedorForm {
   background: #B9DEF1;
   box-shadow: 5px 5px 10px #90adbc, -5px -5px 10px #e2ffff;
 }
@@ -1520,7 +1520,6 @@ iframe {
   justify-content: center;
   text-align: center;
   width: 80%;
-  box-shadow: 5px 5px 10px #90adbc, -5px -5px 10px #e2ffff;
 }
 @media (min-width: 700px) {
   .linkUPH, .linkPHV3, .contactarCon {
