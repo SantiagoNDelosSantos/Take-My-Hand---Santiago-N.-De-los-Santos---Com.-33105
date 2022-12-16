@@ -30,6 +30,22 @@
 @import "img-iframe";
 /* Fin imagenes e iframes */
 
+/* Srcoll Bar */
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #0083FF;
+}
+
+body::-webkit-scrollbar-track{
+    background:     rgb(8, 15, 40);
+}
+
+/* Fin Srcoll Bar */
+
 /* Grid Area Home */
 
 .headerGridH{
