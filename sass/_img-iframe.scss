@@ -43,7 +43,6 @@ iframe{
     }
 
     @media (min-width: 1024px){
-        border-radius: 50%;
         margin-top: 10px;
         margin-bottom: 10px;
         background: #ffffff;
@@ -55,18 +54,16 @@ iframe{
 }
 
 .logoForm {
-
+    width: 33%;
+    height: 33%;        
     border-radius: 50%;
-    width: 30%;
-    height: 30%;
     @extend .neoCelesteRedondo;
 
     @media (min-width: 1024px){
-        border: 0.30em solid $blanco;
+        padding: 0.50em;        
         background: #ffffff;
-        box-shadow:  6px 6px 12px #d9d9d9,
+        box-shadow:  5px 6px 12px #d9d9d9,
                     -6px -6px 12px #ffffff;
-        border: 0.30em solid $celesteAcero;
     }
 
 }

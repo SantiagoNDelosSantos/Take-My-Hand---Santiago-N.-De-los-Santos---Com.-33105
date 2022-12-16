@@ -356,7 +356,6 @@ iframe {
 }
 @media (min-width: 1024px) {
   .circulo {
-    border-radius: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
     background: #ffffff;
@@ -366,17 +365,15 @@ iframe {
 }
 
 .logoForm {
+  width: 33%;
+  height: 33%;
   border-radius: 50%;
-  width: 30%;
-  height: 30%;
 }
 @media (min-width: 1024px) {
   .logoForm {
-    border: 0.3em solid white;
-    border-radius: 50%;
+    padding: 0.5em;
     background: #ffffff;
-    box-shadow: 6px 6px 12px #d9d9d9, -6px -6px 12px #ffffff;
-    border: 0.3em solid rgba(96, 182, 229, 0.4431372549);
+    box-shadow: 5px 6px 12px #d9d9d9, -6px -6px 12px #ffffff;
   }
 }
 
