@@ -6,13 +6,13 @@
     padding: 0.70em;
     border: 0.20em solid $blanco;
     border-radius: 3em;
-    margin: 20px 10% 0 10%;
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 14px;
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 80%;
+    width: 80%;    
+    margin: 20px 10% 0 10%;
     @extend .neoCelesteCuadrado;
 
             @media (min-width: 700px){
@@ -22,7 +22,7 @@
             }
 
             @media (min-width: 900px) {
-                    font-size: 16px;
+                    font-size: 17px;
             }
 
             @media (min-width: 1024px) {
@@ -37,3 +37,31 @@
     transition: .3s;
     border: 0.20em solid $azulMarino;
 }
+
+.enviarForm{  
+    color: $blanco;
+    background: $gradienteAzul;
+    border: 0.20em solid $blanco;
+    border-radius: 25px;
+    font-family: 'Orbitron';
+    font-size: 14px;
+    @extend .neoCelesteCuadrado;
+
+@media (min-width: 900px){
+    font-size: 17px;
+}
+
+@media (min-width: 1024px) {
+    box-shadow:  10px 10px 20px #d9d9d9,
+                -10px -10px 20px #ffffff;
+}
+
+}
+
+.enviarForm:hover{
+color: $azulMarino;
+border: 0.20em solid $azulMarino;
+background: $blanco;
+transition: .3s;
+}
+
