@@ -86,11 +86,12 @@ p{
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 14px;
-    text-align: justify;
+    text-align: center;
     margin: 25px 2em;
 
     @media (min-width: 500px){
         margin: 0;
+        text-align: justify;
     }    
 
     @media (min-width: 900px){
