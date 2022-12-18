@@ -459,8 +459,7 @@ body::-webkit-scrollbar-track {
 }
 @media (min-width: 1024px) {
   .embolturaH .mainGridH .section1GridH {
-    width: 94%;
-    margin: 3% 3% 0% 3%;
+    margin: 5% 15% 5% 15%;
   }
 }
 @media (min-width: 500px) {
@@ -470,16 +469,11 @@ body::-webkit-scrollbar-track {
     margin: 0px 20px 10px 0px;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 700px) {
   .embolturaH .mainGridH .section1GridH .nosotrosH2Logo {
     float: left;
     width: 40%;
     margin: 0px 20px 10px 0px;
-  }
-}
-@media (min-width: 1024px) {
-  .embolturaH .mainGridH .section1GridH .nosotrosH2Logo {
-    width: 30%;
   }
 }
 .embolturaH .mainGridH .section2GridH {
@@ -493,7 +487,7 @@ body::-webkit-scrollbar-track {
 }
 @media (min-width: 1024px) {
   .embolturaH .mainGridH .section2GridH {
-    margin: 3% 15% 5% 15%;
+    margin: 0% 15% 5% 15%;
   }
 }
 .embolturaH .mainGridH .section2GridH .contenedorForm {
@@ -1209,25 +1203,12 @@ body::-webkit-scrollbar-track {
   .embolturaHis .mainGridHis .section1GridHis .h2Felipe {
     float: left;
     width: 50%;
-    margin: 0px 20px 20px 0px;
+    margin: 0px 20px 10px 0px;
   }
 }
 @media (min-width: 1024px) {
   .embolturaHis .mainGridHis .section1GridHis .h2Felipe {
-    margin: 0px 50px 30px 0px;
-  }
-}
-@media (min-width: 500px) {
-  .embolturaHis .mainGridHis .section1GridHis .felipeyGino {
-    float: right;
-    width: 50%;
-    margin: 20px 0px 20px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .embolturaHis .mainGridHis .section1GridHis .felipeyGino {
-    width: 75%;
-    margin: 30px 0px 30px 50px;
+    width: 40%;
   }
 }
 @media (min-width: 500px) {
@@ -1246,26 +1227,12 @@ body::-webkit-scrollbar-track {
     float: left;
     width: 50%;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 @media (min-width: 1024px) {
   .embolturaHis .mainGridHis .section2GridHis .h2Olga {
-    width: 55%;
-    margin-right: 50px;
-    margin-bottom: 30px;
-  }
-}
-@media (min-width: 500px) {
-  .embolturaHis .mainGridHis .section2GridHis .olgayGino {
-    float: right;
-    width: 50%;
-    margin: 20px 0px 20px 20px;
-  }
-}
-@media (min-width: 800px) {
-  .embolturaHis .mainGridHis .section2GridHis .olgayGino {
-    display: none;
+    width: 40%;
   }
 }
 .embolturaHis .footerGridHis {
@@ -1367,6 +1334,9 @@ body::-webkit-scrollbar-track {
 @media (min-width: 500px) {
   .embolturaGridD .mainGridD .section2GridD {
     margin: 40px 20px 0px 20px;
+    -moz-columns: 2;
+         columns: 2;
+    gap: 5%;
   }
 }
 @media (min-width: 1024px) {
@@ -1377,6 +1347,9 @@ body::-webkit-scrollbar-track {
 @media (min-width: 500px) {
   .embolturaGridD .mainGridD .section3GridD {
     margin: 40px 20px 0px 20px;
+    -moz-columns: 2;
+         columns: 2;
+    gap: 5%;
   }
 }
 @media (min-width: 1024px) {
@@ -1390,6 +1363,9 @@ body::-webkit-scrollbar-track {
 @media (min-width: 500px) {
   .embolturaGridD .mainGridD .section4GridD {
     margin: 40px 20px 20px 20px;
+    -moz-columns: 2;
+         columns: 2;
+    gap: 5%;
   }
 }
 @media (min-width: 1024px) {
