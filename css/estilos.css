@@ -226,12 +226,12 @@ h1 {
 @media (min-width: 500px) {
   h1 {
     font-size: 4em;
-    height: 39.5vh;
+    height: 40vh;
   }
 }
 @media (min-width: 700px) {
   h1 {
-    height: 43.8vh;
+    height: 44vh;
   }
 }
 @media (min-width: 900px) {
@@ -241,7 +241,7 @@ h1 {
 }
 @media (min-width: 1024px) {
   h1 {
-    height: 90.5vh;
+    height: 90.65vh;
     font-size: 7em;
   }
 }
@@ -1460,9 +1460,6 @@ body::-webkit-scrollbar-track {
 @media (min-width: 500px) {
   .embolturaGridD .mainGridD .section2GridD {
     margin: 40px 20px 0px 20px;
-    -moz-columns: 2;
-         columns: 2;
-    gap: 5%;
   }
 }
 @media (min-width: 1024px) {
@@ -1473,9 +1470,6 @@ body::-webkit-scrollbar-track {
 @media (min-width: 500px) {
   .embolturaGridD .mainGridD .section3GridD {
     margin: 40px 20px 0px 20px;
-    -moz-columns: 2;
-         columns: 2;
-    gap: 5%;
   }
 }
 @media (min-width: 1024px) {
@@ -1489,9 +1483,6 @@ body::-webkit-scrollbar-track {
 @media (min-width: 500px) {
   .embolturaGridD .mainGridD .section4GridD {
     margin: 40px 20px 20px 20px;
-    -moz-columns: 2;
-         columns: 2;
-    gap: 5%;
   }
 }
 @media (min-width: 1024px) {
@@ -1545,7 +1536,6 @@ body::-webkit-scrollbar-track {
   background-size: cover;
   width: 100%;
   height: 100%;
-  border-bottom: 0.2em solid white;
 }
 @media (min-width: 500px) {
   .fondo1, .fondo2, .fondo3, .fondo4, .fondo5 {
@@ -1600,6 +1590,12 @@ body::-webkit-scrollbar-track {
   .linkUPH, .linkPHV3, .contactarCon {
     box-shadow: 6px 6px 12px #d9d9d9, -6px -6px 12px #ffffff;
   }
+}
+
+.contactarCon {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .linkUPH:hover, .linkPHV3:hover, .contactarCon:hover {
