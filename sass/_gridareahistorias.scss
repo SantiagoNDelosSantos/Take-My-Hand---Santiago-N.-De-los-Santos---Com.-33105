@@ -20,6 +20,10 @@
                 margin: 20px 20px 0px 20px;
             }
 
+            @media  (min-width: 700px){
+                margin: 40px 60px 0px 60px;
+            }
+
             @media (min-width: 1024px){
                 width: 80%;
                 margin: 5% 10% 0% 10%;
@@ -46,6 +50,10 @@
 
             @media  (min-width: 500px){
                 margin: 40px 20px 20px 20px;
+            }
+
+            @media  (min-width: 700px){
+                margin: 40px 60px 40px 60px;
             }
 
             @media (min-width: 1024px){

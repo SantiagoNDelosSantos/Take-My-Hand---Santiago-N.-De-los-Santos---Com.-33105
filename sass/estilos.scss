@@ -97,16 +97,70 @@ body::-webkit-scrollbar-track{
 
 /*Bootstrap Galería*/
 
-.col-lg-4{
-    margin: 0 !important;
+.h2Galeria{
+
+    @media  (min-width: 500px){
+    margin-bottom: 20px;
+    }
+
+}
+
+.row{
+    --bs-gutter-x: 0rem;
+    margin: 0px;
+}
+
+.galeria1{
+    width: 80%;    
+    height: 100%;
+    margin-top: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 3%;
+    padding-top: 0px;
+    border-radius: 30px;
+
+    @media  (min-width: 500px){
+        width: 100%;
+        padding: 5%;
+        margin: 0px;
+        border-radius: 40px;
+    }
 }
 
 .galeria{
-    width: 100%;
+    width: 80%;    
     height: 100%;
+    margin-left: 2em;
+    margin-right: 2em;
     padding: 3%;
+    border-radius: 30px;
+
+    @media  (min-width: 500px){
+        width: 100%;
+        padding: 5%;
+        margin: 0px;
+        border-radius: 40px;
+    }
+
 } 
 
+.galeria6{
+    width: 80%;    
+    height: 100%;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 3%;
+    padding-bottom: 0px;
+    border-radius: 30px;
+
+    @media  (min-width: 500px){
+        width: 100%;
+        padding: 5%;
+        margin: 0px;
+        border-radius: 40px;
+    }
+}
 
 /*Fin Bootstrap Galería*/
 
