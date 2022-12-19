@@ -42,12 +42,12 @@ body {
   box-shadow: 5px 5px 10px #90adbc, -5px -5px 10px #e2ffff;
 }
 
-.neoCelesteCuadrado, .enviarForm, .linkUPH, .linkPHV3, .contactarCon, .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar, .embolturaH .mainGridH .section2GridH .contenedorForm {
+.neoCelesteCuadrado, .enviarForm, .linkUPH, .linkPHV3, .contactarCon, .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo .enviar, .embolturaH .mainGridH .section3GridH .contenedorForm {
   background: #B9DEF1;
   box-shadow: 5px 5px 10px #90adbc, -5px -5px 10px #e2ffff;
 }
 
-.neoImput, .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo input {
+.neoImput, .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo input {
   background: #B9DEF1;
   box-shadow: inset 5px 5px 10px #90adbc, inset -5px -5px 10px #e2ffff;
 }
@@ -414,6 +414,10 @@ body::-webkit-scrollbar-track {
   grid-area: section2GridH;
 }
 
+.section3GridH {
+  grid-area: section3GridH;
+}
+
 .footerGridH {
   grid-area: footerGridH;
 }
@@ -450,7 +454,7 @@ body::-webkit-scrollbar-track {
 }
 .embolturaH .mainGridH {
   display: grid;
-  grid-template-areas: "h1GridH" "section1GridH" "section2GridH";
+  grid-template-areas: "h1GridH" "section1GridH" "section2GridH" "section3GridH";
 }
 @media (min-width: 500px) {
   .embolturaH .mainGridH .section1GridH {
@@ -482,7 +486,7 @@ body::-webkit-scrollbar-track {
 }
 @media (min-width: 500px) {
   .embolturaH .mainGridH .section2GridH {
-    margin: 40px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
   }
 }
 @media (min-width: 1024px) {
@@ -490,7 +494,21 @@ body::-webkit-scrollbar-track {
     margin: 0% 15% 5% 15%;
   }
 }
-.embolturaH .mainGridH .section2GridH .contenedorForm {
+.embolturaH .mainGridH .section3GridH {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+@media (min-width: 500px) {
+  .embolturaH .mainGridH .section3GridH {
+    margin: 0px 20px 20px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaH .mainGridH .section3GridH {
+    margin: 0% 15% 5% 15%;
+  }
+}
+.embolturaH .mainGridH .section3GridH .contenedorForm {
   color: rgba(0, 14, 70, 0.86);
   font-weight: 600;
   font-size: 14px;
@@ -500,7 +518,7 @@ body::-webkit-scrollbar-track {
   border-radius: 20px;
 }
 @media (min-width: 500px) {
-  .embolturaH .mainGridH .section2GridH .contenedorForm {
+  .embolturaH .mainGridH .section3GridH .contenedorForm {
     background-color: rgba(96, 182, 229, 0.4431372549);
     font-size: 15px;
     text-align: center;
@@ -516,43 +534,43 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (min-width: 1024Px) {
-  .embolturaH .mainGridH .section2GridH .contenedorForm {
+  .embolturaH .mainGridH .section3GridH .contenedorForm {
     background-image: url(../assets/img/fondos/fondoMarmolBlanco.jpg);
   }
 }
-.embolturaH .mainGridH .section2GridH .contenedorForm .formPrimero {
+.embolturaH .mainGridH .section3GridH .contenedorForm .formPrimero {
   margin-bottom: 20px;
 }
 @media (min-width: 500px) {
-  .embolturaH .mainGridH .section2GridH .contenedorForm .formPrimero {
+  .embolturaH .mainGridH .section3GridH .contenedorForm .formPrimero {
     width: 50%;
     margin-bottom: 0px;
   }
 }
 @media (min-width: 900px) {
-  .embolturaH .mainGridH .section2GridH .contenedorForm .formPrimero {
+  .embolturaH .mainGridH .section3GridH .contenedorForm .formPrimero {
     font-size: 16px;
   }
 }
 @media (min-width: 500px) {
-  .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo {
+  .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo {
     width: 50%;
   }
 }
-.embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo label {
+.embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo label {
   font-size: 14px;
 }
 @media (min-width: 500px) {
-  .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo label {
+  .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo label {
     font-size: 15px;
   }
 }
 @media (min-width: 900px) {
-  .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo label {
+  .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo label {
     font-size: 16px;
   }
 }
-.embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo input {
+.embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo input {
   color: rgba(0, 14, 70, 0.86);
   font-family: "Montserrat";
   font-weight: 600;
@@ -564,16 +582,16 @@ body::-webkit-scrollbar-track {
   border-radius: 8px;
 }
 @media (min-width: 900px) {
-  .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo input {
+  .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo input {
     font-size: 16px;
   }
 }
-.embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo input:hover {
+.embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo input:hover {
   color: white;
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);
   box-shadow: none;
 }
-.embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar {
+.embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo .enviar {
   color: white;
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);
   border: 0.2em solid white;
@@ -582,16 +600,16 @@ body::-webkit-scrollbar-track {
   font-size: 13px;
 }
 @media (min-width: 900px) {
-  .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar {
+  .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo .enviar {
     font-size: 16px;
   }
 }
 @media (min-width: 1024px) {
-  .embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar {
+  .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo .enviar {
     box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
   }
 }
-.embolturaH .mainGridH .section2GridH .contenedorForm .formSegundo .enviar:hover {
+.embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo .enviar:hover {
   color: rgba(0, 14, 70, 0.86);
   border: 0.2em solid rgba(0, 14, 70, 0.86);
   background: white;
@@ -616,6 +634,18 @@ body::-webkit-scrollbar-track {
 }
 
 /* Fin Grid Area Home */
+/*Bootstrap Galería*/
+.col-lg-4 {
+  margin: 0 !important;
+}
+
+.galeria {
+  width: 100%;
+  height: 100%;
+  padding: 3%;
+}
+
+/*Fin Bootstrap Galería*/
 /* Grid Area Modelos Gratuitos */
 .headerGridM {
   grid-area: headerGridM;
@@ -1540,7 +1570,7 @@ svg {
 
 /* Fin footer */
 @media (min-width: 500px) {
-  .section1GridH, .section1GridM, .section2GridM, .section3GridM, .section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD {
+  .section1GridH, .section2GridH, .section1GridM, .section2GridM, .section3GridM, .section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD {
     padding: 3em;
     border: 0.2em solid white;
     border-top-right-radius: 2em;
@@ -1551,7 +1581,7 @@ svg {
   }
 }
 @media (min-width: 1024px) {
-  .section1GridH, .section1GridM, .section2GridM, .section3GridM, .section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD {
+  .section1GridH, .section2GridH, .section1GridM, .section2GridM, .section3GridM, .section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD {
     background-image: url(../assets/img/fondos/fondoMarmolBlanco.jpg);
   }
 }/*# sourceMappingURL=estilos.css.map */

@@ -68,6 +68,10 @@ body::-webkit-scrollbar-track{
     grid-area: section2GridH;
 }
 
+.section3GridH{
+    grid-area: section3GridH;
+}
+
 .footerGridH{
     grid-area: footerGridH;
 }
@@ -90,6 +94,21 @@ body::-webkit-scrollbar-track{
 @import "gridareahome";
 
 /* Fin Grid Area Home */
+
+/*Bootstrap Galería*/
+
+.col-lg-4{
+    margin: 0 !important;
+}
+
+.galeria{
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+} 
+
+
+/*Fin Bootstrap Galería*/
 
 /* Grid Area Modelos Gratuitos */
 
@@ -335,7 +354,7 @@ svg{
 
 @media  (min-width: 500px){
 
-    .section1GridH, .section1GridM, .section2GridM, .section3GridM,.section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD{
+    .section1GridH, .section2GridH, .section1GridM, .section2GridM, .section3GridM,.section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD{
         padding: 3em;
         border: 0.20em solid $blanco;
         border-top-right-radius: 2em; 
@@ -349,7 +368,7 @@ svg{
 
 @media  (min-width: 1024px){
 
-    .section1GridH, .section1GridM, .section2GridM, .section3GridM,.section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD{
+    .section1GridH, .section2GridH, .section1GridM, .section2GridM, .section3GridM,.section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD{
         background-image: url(../assets/img/fondos/fondoMarmolBlanco.jpg);
     }
 }
