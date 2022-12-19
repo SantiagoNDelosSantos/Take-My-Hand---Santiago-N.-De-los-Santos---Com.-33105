@@ -1,113 +1,106 @@
-.embolturaH{
+.embolturaH {
 
     display: grid;
-    grid-template-areas: 
-    "headerGridH"
-    "mainGridH"
-    "footerGridH";
+    grid-template-areas:
+        "headerGridH"
+        "mainGridH"
+        "footerGridH";
 
-    .mainGridH{
+    .mainGridH {
 
         display: grid;
-        grid-template-areas: 
-        "h1GridH"
-        "section1GridH"
-        "section2GridH"
-        "section3GridH";
+        grid-template-areas:
+            "h1GridH"
+            "section1GridH"
+            "section2GridH"
+            "section3GridH";
 
-        .section1GridH{
-            
-            @media  (min-width: 500px){
+        .section1GridH {
+
+            @media (min-width: 500px) {
                 margin: 20px 20px 0px 20px;
             }
 
-            @media  (min-width: 700px){
+            @media (min-width: 700px) {
                 margin: 40px 60px 0px 60px;
             }
 
-            @media (min-width: 1024px){
+            @media (min-width: 1024px) {
                 width: 80%;
                 margin: 5% 10% 0% 10%;
             }
 
+            .nosotrosH2Logo {
 
-            .nosotrosH2Logo{
-                
-                @media (min-width: 500px){
+                @media (min-width: 500px) {
                     float: left;
                     width: 50%;
                     margin: 0px 20px 10px 0px;
                 }
 
-                @media (min-width: 700px){
+                @media (min-width: 700px) {
                     width: 40%;
                 }
 
-                @media (min-width: 1024px){
-                    width: 30%;
+                @media (min-width: 1024px) {
+                    width: 45%;
+                    margin-bottom: 0px;
                 }
 
-            } 
+            }
 
         }
 
-        .section2GridH{
+        .section2GridH {
 
             margin-bottom: 25px;
 
-            @media  (min-width: 500px){
+            @media (min-width: 500px) {
                 margin: 20px 20px 0px 20px;
             }
 
-            @media  (min-width: 700px){
+            @media (min-width: 700px) {
                 margin: 40px 60px 0px 60px;
             }
 
-            @media (min-width: 1024px){
+            @media (min-width: 1024px) {
                 width: 80%;
                 margin: 5% 10% 0% 10%;
             }
 
-
         }
 
-        .section3GridH{
+        .section3GridH {
 
             margin-top: 5px;
             margin-bottom: 25px;
 
-            @media  (min-width: 500px){
+            @media (min-width: 500px) {
                 margin: 20px 20px 20px 20px;
             }
 
-            @media  (min-width: 700px){
+            @media (min-width: 700px) {
                 margin: 40px 60px 40px 60px;
             }
 
-            @media (min-width: 1024px){
+            @media (min-width: 1024px) {
                 width: 80%;
                 margin: 5% 10% 5% 10%;
             }
 
-            .contenedorForm{
+            .contenedorForm {
 
                 color: $azulMarino;
-                font-weight: 600;
-                font-size: 14px;      
-                padding: 15px;  
+                padding: 15px;
                 text-align: center;
                 margin: 0 28px;
                 border-radius: 20px;
                 @extend .neoCelesteCuadrado;
-    
-                @media  (min-width: 500px){           
-                    background-color: $celesteAcero;
-                    font-size: 15px;
-                    text-align: center;
+
+                @media (min-width: 500px) {
                     padding: 2em;
                     gap: 25px;
                     border: 0.20em solid $blanco;
-                    border-radius: 2em; 
                     margin: 0px;
                     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
                     display: flex;
@@ -115,56 +108,69 @@
                     align-items: center;
                 }
 
-                @media  (min-width: 1024Px){           
+                @media (min-width: 1024Px) {
                     background-image: url(../assets/img/fondos/fondoMarmolBlanco.jpg);
                 }
-                
-                .formPrimero{
 
-                    @media  (min-width: 500px){
+                .formPrimero {
+
+                    @media (min-width: 500px) {
                         width: 50%;
                         margin-bottom: 0px;
                     }
 
-                    @media (min-width: 900px){
-                        font-size: 16px;
-                    }
+                    .formLabelImg {
 
-                    .formLabelImg{
-                        
-                    margin-bottom: 20px; 
-
-                        @media  (min-width: 500px){
-                            margin-bottom: 0px;
-                        }
-
-                    }
-
-                }
-            
-                .formSegundo{
-
-                    @media  (min-width: 500px){
-                        width: 50%;
-                    }
-
-                    label{
-
+                        margin-bottom: 20px;
                         font-size: 14px;
-        
-                        @media  (min-width: 500px){
+                        font-weight: bold;
+
+                        @media (min-width: 500px) {
+                            margin-bottom: 0px;
                             font-size: 15px;
                         }
 
-                        @media (min-width: 900px){
+                        @media (min-width: 900px) {
                             font-size: 16px;
                         }
-        
+                        
+                        @media (min-width: 1024px){
+                            font-size: 17px;
+                        }
+                        
                     }
-        
-                    input{ 
-                        color:  $azulMarino;
-                        font-family: 'Montserrat'; 
+
+                }
+
+                .formSegundo {
+
+                    @media (min-width: 500px) {
+                        width: 50%;
+                    }
+
+                    label {
+
+                        font-weight: bold;
+                        font-size: 14px;
+
+                        @media (min-width: 500px) {
+                            font-size: 15px;
+                        }
+
+                        @media (min-width: 900px) {
+                            font-size: 16px;
+                        }
+
+                        @media (min-width: 1024px){
+                            font-size: 17px;
+                        }
+
+                    }
+
+                    input {
+
+                        color: $azulMarino;
+                        font-family: 'Montserrat';
                         font-weight: 600;
                         font-size: 14px;
                         padding: 0.50em;
@@ -173,40 +179,45 @@
                         text-align: center;
                         border-radius: 8px;
                         @extend .neoImput;
-                                    
-                        @media (min-width: 900px){
+
+                        @media (min-width: 900px) {
                             font-size: 16px;
                         }
 
+                        @media (min-width: 1024px){
+                            font-size: 17px;
+                        }
+
                     }
-        
-                    input:hover{
+
+                    input:hover {
                         color: $blanco;
                         background: $gradienteAzul;
                         box-shadow: none;
                     }
-        
-                    .enviar{  
-                            color: $blanco;
-                            background: $gradienteAzul;
-                            border: 0.20em solid $blanco;
-                            border-radius: 25px;
-                            font-family: 'Orbitron';
-                            font-size: 13px;
-                            @extend .neoCelesteCuadrado;
-                        
-                        @media (min-width: 900px){
+
+                    .enviar {
+
+                        color: $blanco;
+                        background: $gradienteAzul;
+                        border: 0.20em solid $blanco;
+                        border-radius: 25px;
+                        font-family: 'Orbitron';
+                        font-size: 13px;
+                        @extend .neoCelesteCuadrado;
+
+                        @media (min-width: 900px) {
                             font-size: 16px;
                         }
 
                         @media (min-width: 1024px) {
-                            box-shadow:  10px 10px 20px #d9d9d9,
-                                        -10px -10px 20px #ffffff;
+                            box-shadow: 10px 10px 20px #d9d9d9,
+                                -10px -10px 20px #ffffff;
                         }
 
                     }
-        
-                    .enviar:hover{
+
+                    .enviar:hover {
                         color: $azulMarino;
                         border: 0.20em solid $azulMarino;
                         background: $blanco;
@@ -214,31 +225,35 @@
                     }
 
                 }
+
             }
+
         }
+
     }
-    
-    .footerGridH{
+
+    .footerGridH {
 
         display: grid;
         margin: 0em;
-        grid-template-areas: 
-        "h3-FooterH"
-        "ul-FooterH"
-        "p-FooterH";
+        grid-template-areas:
+            "h3-FooterH"
+            "ul-FooterH"
+            "p-FooterH";
 
-        @media  (min-width: 500px){
+        @media (min-width: 500px) {
             display: grid;
-            grid-template-areas: 
-            "h3-FooterH ul-FooterH"
-            "p-FooterH p-FooterH";
+            grid-template-areas:
+                "h3-FooterH ul-FooterH"
+                "p-FooterH p-FooterH";
         }
 
-        @media  (min-width: 700px){
+        @media (min-width: 700px) {
             display: grid;
-            grid-template-areas: 
-            "h3-FooterH ul-FooterH p-FooterH";
+            grid-template-areas:
+                "h3-FooterH ul-FooterH p-FooterH";
         }
 
     }
+
 }

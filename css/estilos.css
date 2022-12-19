@@ -251,7 +251,7 @@ h2 {
   font-family: "Orbitron";
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   padding: 1em 0;
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);
   border-top: 0.15em solid white;
@@ -260,16 +260,34 @@ h2 {
 }
 @media (min-width: 500px) {
   h2 {
-    font-size: 17px;
-    padding: 1em;
-    border: 0.2em solid white;
+    font-size: 23px;
+    padding: 0.5em 0.3em;
+    border: 0.15em solid white;
     border-radius: 30em;
     margin-top: 0;
   }
 }
 @media (min-width: 900px) {
   h2 {
-    font-size: 18px;
+    font-size: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 50px;
+    background: none;
+    color: rgba(0, 14, 70, 0.86);
+    border: none;
+    padding: 0px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 500px) {
+  .h2Libr {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
 
@@ -303,12 +321,18 @@ p {
 @media (min-width: 500px) {
   p {
     margin: 0;
+    font-size: 15px;
     text-align: justify;
   }
 }
 @media (min-width: 900px) {
   p {
     font-size: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  p {
+    font-size: 17px;
   }
 }
 
@@ -334,6 +358,17 @@ iframe {
 @media (min-width: 500px) {
   iframe {
     width: 100%;
+    height: 50vh;
+  }
+}
+@media (min-width: 800px) {
+  iframe {
+    height: 45vh;
+  }
+}
+@media (min-width: 1024px) {
+  iframe {
+    height: 50vh;
   }
 }
 
@@ -369,6 +404,18 @@ iframe {
   width: 30%;
   height: 30%;
   border-radius: 50%;
+}
+@media (min-width: 500px) {
+  .logoForm {
+    width: 40%;
+    height: 40%;
+  }
+}
+@media (min-width: 600px) {
+  .logoForm {
+    width: 30%;
+    height: 30%;
+  }
 }
 @media (min-width: 1024px) {
   .logoForm {
@@ -485,7 +532,8 @@ body::-webkit-scrollbar-track {
 }
 @media (min-width: 1024px) {
   .embolturaH .mainGridH .section1GridH .nosotrosH2Logo {
-    width: 30%;
+    width: 45%;
+    margin-bottom: 0px;
   }
 }
 .embolturaH .mainGridH .section2GridH {
@@ -529,8 +577,6 @@ body::-webkit-scrollbar-track {
 }
 .embolturaH .mainGridH .section3GridH .contenedorForm {
   color: rgba(0, 14, 70, 0.86);
-  font-weight: 600;
-  font-size: 14px;
   padding: 15px;
   text-align: center;
   margin: 0 28px;
@@ -538,13 +584,9 @@ body::-webkit-scrollbar-track {
 }
 @media (min-width: 500px) {
   .embolturaH .mainGridH .section3GridH .contenedorForm {
-    background-color: rgba(96, 182, 229, 0.4431372549);
-    font-size: 15px;
-    text-align: center;
     padding: 2em;
     gap: 25px;
     border: 0.2em solid white;
-    border-radius: 2em;
     margin: 0px;
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     display: flex;
@@ -563,17 +605,25 @@ body::-webkit-scrollbar-track {
     margin-bottom: 0px;
   }
 }
-@media (min-width: 900px) {
-  .embolturaH .mainGridH .section3GridH .contenedorForm .formPrimero {
-    font-size: 16px;
-  }
-}
 .embolturaH .mainGridH .section3GridH .contenedorForm .formPrimero .formLabelImg {
   margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
 }
 @media (min-width: 500px) {
   .embolturaH .mainGridH .section3GridH .contenedorForm .formPrimero .formLabelImg {
     margin-bottom: 0px;
+    font-size: 15px;
+  }
+}
+@media (min-width: 900px) {
+  .embolturaH .mainGridH .section3GridH .contenedorForm .formPrimero .formLabelImg {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaH .mainGridH .section3GridH .contenedorForm .formPrimero .formLabelImg {
+    font-size: 17px;
   }
 }
 @media (min-width: 500px) {
@@ -582,6 +632,7 @@ body::-webkit-scrollbar-track {
   }
 }
 .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo label {
+  font-weight: bold;
   font-size: 14px;
 }
 @media (min-width: 500px) {
@@ -592,6 +643,11 @@ body::-webkit-scrollbar-track {
 @media (min-width: 900px) {
   .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo label {
     font-size: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo label {
+    font-size: 17px;
   }
 }
 .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo input {
@@ -608,6 +664,11 @@ body::-webkit-scrollbar-track {
 @media (min-width: 900px) {
   .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo input {
     font-size: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo input {
+    font-size: 17px;
   }
 }
 .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo input:hover {
@@ -662,6 +723,16 @@ body::-webkit-scrollbar-track {
 @media (min-width: 500px) {
   .h2Galeria {
     margin-bottom: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media (min-width: 700px) {
+  .h2Galeria {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
 
@@ -788,43 +859,28 @@ body::-webkit-scrollbar-track {
   display: grid;
   grid-template-areas: "h1GridM" "section1GridM" "section2GridM" "section3GridM";
 }
-@media (min-width: 1024px) {
-  .embolturaM .mainGridM {
-    grid-template-areas: "h1GridM       h1GridM       h1GridM" "section1GridM section2GridM section3GridM";
-  }
-}
 @media (min-width: 500px) {
   .embolturaM .mainGridM .section1GridM {
     margin: 20px 20px 0px 20px;
   }
 }
+@media (min-width: 700px) {
+  .embolturaM .mainGridM .section1GridM {
+    margin: 40px 60px 0px 60px;
+  }
+}
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section1GridM {
-    width: 90%;
-    margin: 10% 5% 10% 5%;
+    width: 80%;
+    margin: 5% 10% 0% 10%;
   }
 }
 @media (min-width: 500px) {
   .embolturaM .mainGridM .section1GridM .phoenixP1 {
-    float: left;
-    width: 50%;
-    margin-right: 20px;
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 700px) {
-  .embolturaM .mainGridM .section1GridM .phoenixP1 {
-    width: 65%;
-  }
-}
-@media (min-width: 900px) {
-  .embolturaM .mainGridM .section1GridM .phoenixP1 {
-    width: 50%;
-  }
-}
-@media (min-width: 1024px) {
-  .embolturaM .mainGridM .section1GridM .phoenixP1 {
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 25px;
   }
 }
 @media (min-width: 700px) {
@@ -866,33 +922,26 @@ body::-webkit-scrollbar-track {
 }
 @media (min-width: 500px) {
   .embolturaM .mainGridM .section2GridM {
-    margin: 40px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
+  }
+}
+@media (min-width: 700px) {
+  .embolturaM .mainGridM .section2GridM {
+    margin: 40px 60px 0px 60px;
   }
 }
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section2GridM {
-    width: 90%;
-    margin: 10% 5% 10% 5%;
+    width: 80%;
+    margin: 5% 10% 0% 10%;
   }
 }
 @media (min-width: 500px) {
   .embolturaM .mainGridM .section2GridM .phoenixV2-1 {
-    float: left;
-    width: 50%;
-    margin-right: 20px;
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 700px) {
-  .embolturaM .mainGridM .section2GridM .phoenixV2-1 {
-    width: 55%;
-    margin-right: 47px;
-  }
-}
-@media (min-width: 1024px) {
-  .embolturaM .mainGridM .section2GridM .phoenixV2-1 {
-    width: 100%;
-    margin-right: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 25px;
   }
 }
 @media (min-width: 700px) {
@@ -934,33 +983,26 @@ body::-webkit-scrollbar-track {
 }
 @media (min-width: 500px) {
   .embolturaM .mainGridM .section3GridM {
-    margin: 40px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media (min-width: 700px) {
+  .embolturaM .mainGridM .section3GridM {
+    margin: 40px 60px 40px 60px;
   }
 }
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section3GridM {
-    width: 90%;
-    margin: 10% 5% 10% 5%;
+    width: 80%;
+    margin: 5% 10% 5% 10%;
   }
 }
 @media (min-width: 500px) {
   .embolturaM .mainGridM .section3GridM .phoenixV3-1 {
-    float: left;
-    width: 50%;
-    margin-right: 20px;
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 700px) {
-  .embolturaM .mainGridM .section3GridM .phoenixV3-1 {
-    width: 55%;
-    margin-right: 47px;
-  }
-}
-@media (min-width: 1024px) {
-  .embolturaM .mainGridM .section3GridM .phoenixV3-1 {
-    width: 100%;
-    margin-right: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 25px;
   }
 }
 @media (min-width: 900px) {
@@ -1101,17 +1143,16 @@ body::-webkit-scrollbar-track {
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section1GridA .h2yGino {
     float: left;
-    width: 50%;
+    width: 68%;
     height: auto;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 2em;
+    margin-bottom: 1em;
   }
 }
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section1GridA .h2yGino {
-    width: 45%;
-    margin-right: 50px;
-    margin-bottom: 30px;
+    margin-right: 3em;
+    margin-bottom: 2em;
   }
 }
 @media (min-width: 500px) {
@@ -1119,20 +1160,31 @@ body::-webkit-scrollbar-track {
     float: right;
     width: 40%;
     height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 }
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section1GridA .atomicLab {
-    width: 30%;
+    width: 27%;
   }
 }
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section1GridA .obama {
     float: left;
-    width: 50%;
-    margin: 20px 30px 0px 0;
+    width: 100%;
+    margin: 1em 2em 1em 0;
+  }
+}
+@media (min-width: 800px) {
+  .embolturaA .mainGridA .section1GridA .obama {
+    width: 78%;
+    margin: 2em 3em 2em 0;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaA .mainGridA .section1GridA .obama {
+    width: 65%;
   }
 }
 @media (min-width: 500px) {
@@ -1154,16 +1206,14 @@ body::-webkit-scrollbar-track {
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section2GridA .h2Franco {
     float: left;
-    width: 50%;
+    width: 68%;
     height: auto;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 2em;
   }
 }
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section2GridA .h2Franco {
-    margin-right: 50px;
-    margin-bottom: 30px;
+    margin-right: 3em;
   }
 }
 @media (min-width: 500px) {
@@ -1171,15 +1221,15 @@ body::-webkit-scrollbar-track {
     float: right;
     width: 40%;
     height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 }
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section2GridA .francoC3DPro {
-    width: 40%;
-    margin-left: 50px;
-    margin-bottom: 20px;
+    width: 30%;
+    margin-top: 2em;
+    margin-bottom: 2em;
   }
 }
 @media (min-width: 500px) {
@@ -1201,30 +1251,27 @@ body::-webkit-scrollbar-track {
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section3GridA .h2Joa {
     float: left;
-    width: 50%;
+    width: 68%;
     height: auto;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 2em;
   }
 }
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section3GridA .h2Joa {
-    margin-right: 50px;
-    margin-bottom: 30px;
+    margin-right: 3em;
   }
 }
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section3GridA .alvearImprime {
     float: right;
-    width: 50%;
-    height: auto;
-    margin: 20px 0px 20px 20px;
+    width: 55%;
+    margin: 10px 0px 10px 20px;
   }
 }
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section3GridA .alvearImprime {
     width: 40%;
-    margin-left: 50px;
+    margin: 20px 0px 15px 40px;
   }
 }
 .embolturaA .footerGridA {
@@ -1324,8 +1371,8 @@ body::-webkit-scrollbar-track {
 @media (min-width: 500px) {
   .embolturaHis .mainGridHis .section1GridHis .h2Felipe {
     float: left;
-    width: 50%;
-    margin: 0px 20px 10px 0px;
+    width: 70%;
+    margin: 0px 20px 0px 0px;
   }
 }
 @media (min-width: 1024px) {
@@ -1352,9 +1399,9 @@ body::-webkit-scrollbar-track {
 @media (min-width: 500px) {
   .embolturaHis .mainGridHis .section2GridHis .h2Olga {
     float: left;
-    width: 50%;
+    width: 60%;
     margin-right: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 }
 @media (min-width: 1024px) {
@@ -1453,42 +1500,63 @@ body::-webkit-scrollbar-track {
     margin: 20px 20px 0px 20px;
   }
 }
+@media (min-width: 700px) {
+  .embolturaGridD .mainGridD .section1GridD {
+    margin: 40px 60px 0px 60px;
+  }
+}
 @media (min-width: 1024px) {
   .embolturaGridD .mainGridD .section1GridD {
-    margin: 5% 15% 0% 15%;
+    width: 80%;
+    margin: 5% 10% 0% 10%;
   }
 }
 @media (min-width: 500px) {
   .embolturaGridD .mainGridD .section2GridD {
-    margin: 40px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
+  }
+}
+@media (min-width: 700px) {
+  .embolturaGridD .mainGridD .section2GridD {
+    margin: 40px 60px 0px 60px;
   }
 }
 @media (min-width: 1024px) {
   .embolturaGridD .mainGridD .section2GridD {
-    margin: 5% 15% 0% 15%;
+    width: 80%;
+    margin: 5% 10% 0% 10%;
   }
 }
 @media (min-width: 500px) {
   .embolturaGridD .mainGridD .section3GridD {
-    margin: 40px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
+  }
+}
+@media (min-width: 700px) {
+  .embolturaGridD .mainGridD .section3GridD {
+    margin: 40px 60px 0px 60px;
   }
 }
 @media (min-width: 1024px) {
   .embolturaGridD .mainGridD .section3GridD {
-    margin: 5% 15% 0% 15%;
+    width: 80%;
+    margin: 5% 10% 0% 10%;
   }
-}
-.embolturaGridD .mainGridD .section4GridD {
-  margin-bottom: 20px;
 }
 @media (min-width: 500px) {
   .embolturaGridD .mainGridD .section4GridD {
-    margin: 40px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+  }
+}
+@media (min-width: 700px) {
+  .embolturaGridD .mainGridD .section4GridD {
+    margin: 40px 60px 40px 60px;
   }
 }
 @media (min-width: 1024px) {
   .embolturaGridD .mainGridD .section4GridD {
-    margin: 5% 15% 5% 15%;
+    width: 80%;
+    margin: 5% 10% 5% 10%;
   }
 }
 .embolturaGridD .footerGridD {
@@ -1572,15 +1640,6 @@ body::-webkit-scrollbar-track {
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 80%;
-  margin: 20px 10% 0 10%;
-}
-@media (min-width: 700px) {
-  .linkUPH, .linkPHV3, .contactarCon {
-    margin-left: 0%;
-    margin-right: 0%;
-    width: auto;
-  }
 }
 @media (min-width: 900px) {
   .linkUPH, .linkPHV3, .contactarCon {
@@ -1593,10 +1652,35 @@ body::-webkit-scrollbar-track {
   }
 }
 
+.linkUPH, .linkPHV3 {
+  width: 90%;
+  margin: 20px 5% 0 5%;
+}
+@media (min-width: 500px) {
+  .linkUPH, .linkPHV3 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
 .contactarCon {
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+  width: 90%;
+  margin: 20px 5% 0 5%;
+}
+@media (min-width: 500px) {
+  .contactarCon {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+@media (min-width: 900px) {
+  .contactarCon {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 }
 
 .linkUPH:hover, .linkPHV3:hover, .contactarCon:hover {

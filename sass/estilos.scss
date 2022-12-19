@@ -101,6 +101,16 @@ body::-webkit-scrollbar-track{
 
     @media  (min-width: 500px){
     margin-bottom: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+
+    @media  (min-width: 700px){
+
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
 }

@@ -19,52 +19,68 @@
 
         .section1GridD{
 
-            @media  (min-width: 500px){
+            @media (min-width: 500px) {
                 margin: 20px 20px 0px 20px;
             }
 
-            @media (min-width: 1024px){
-                margin: 5% 15% 0% 15%;
-                }
+            @media (min-width: 700px) {
+                margin: 40px 60px 0px 60px;
+            }
 
+            @media (min-width: 1024px) {
+                width: 80%;
+                margin: 5% 10% 0% 10%;
+            }
         
         }
 
         .section2GridD{
 
-                @media  (min-width: 500px){
-                    margin: 40px 20px 0px 20px;
-                }
+            @media (min-width: 500px) {
+                margin: 20px 20px 0px 20px;
+            }
 
-                @media (min-width: 1024px){
-                    margin: 5% 15% 0% 15%;
-                    }    
+            @media (min-width: 700px) {
+                margin: 40px 60px 0px 60px;
+            }
 
+            @media (min-width: 1024px) {
+                width: 80%;
+                margin: 5% 10% 0% 10%;
+            }
             }
 
         .section3GridD{
 
-            @media  (min-width: 500px){
-                margin: 40px 20px 0px 20px;
+            @media (min-width: 500px) {
+                margin: 20px 20px 0px 20px;
             }
 
-            @media (min-width: 1024px){
-                margin: 5% 15% 0% 15%;
-                }
+            @media (min-width: 700px) {
+                margin: 40px 60px 0px 60px;
+            }
+
+            @media (min-width: 1024px) {
+                width: 80%;
+                margin: 5% 10% 0% 10%;
+            }
 
         }
         
         .section4GridD{
 
-            margin-bottom: 20px;
+            @media (min-width: 500px) {
+                margin: 20px 20px 20px 20px;
+            }
 
-            @media  (min-width: 500px){
-                margin: 40px 20px 20px 20px;
-            }   
+            @media (min-width: 700px) {
+                margin: 40px 60px 40px 60px;
+            }
 
-            @media (min-width: 1024px){
-                margin: 5% 15% 5% 15%;
-                }
+            @media (min-width: 1024px) {
+                width: 80%;
+                margin: 5% 10% 5% 10%;
+            }
 
         }
     }

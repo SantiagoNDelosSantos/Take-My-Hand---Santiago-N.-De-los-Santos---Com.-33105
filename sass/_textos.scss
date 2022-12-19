@@ -13,7 +13,6 @@ h1{
     align-items: center;
     justify-content: center;
     margin: 0px;
- 
     
     @media (min-width: 500px){
         font-size: 4em;
@@ -41,7 +40,7 @@ h2{
     font-family: 'Orbitron';
     text-transform: uppercase;
     font-weight: 500;    
-    font-size: 16px;    
+    font-size: 20px;    
     padding: 1em 0;
     background: $gradienteAzul;   
     border-top: 0.15em solid $blanco;
@@ -49,15 +48,34 @@ h2{
     margin: 25px 0;
 
     @media (min-width: 500px){
-        font-size: 17px;
-        padding: 1em;
-        border: 0.20em solid $blanco;
+        font-size: 23px;
+        padding: 0.50em 0.30em;
+        border: 0.15em solid $blanco;
         border-radius: 30em;
         margin-top: 0;
     }    
 
     @media (min-width: 900px){
-        font-size: 18px;
+        font-size: 30px;
+    }
+
+    @media (min-width: 1024px){
+        font-size: 50px;
+        background: none;
+        color: $azulMarino;
+        border: none;
+        padding: 0px;
+        font-weight: bold;
+    }
+
+}
+
+.h2Libr{
+    
+    @media  (min-width: 500px){
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
 }
@@ -92,11 +110,16 @@ p{
 
     @media (min-width: 500px){
         margin: 0;
+        font-size: 15px;
         text-align: justify;
     }    
 
     @media (min-width: 900px){
         font-size: 16px;
+    }
+
+    @media (min-width: 1024px){
+        font-size: 17px;
     }
 
 }

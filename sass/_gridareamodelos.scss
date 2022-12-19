@@ -15,43 +15,29 @@
         "section2GridM"
         "section3GridM";
 
-        @media  (min-width: 1024px){
-            grid-template-areas: 
-            "h1GridM       h1GridM       h1GridM"
-            "section1GridM section2GridM section3GridM";
-        }
-
-
         .section1GridM{
 
-            @media  (min-width: 500px){
+
+            @media (min-width: 500px) {
                 margin: 20px 20px 0px 20px;
             }
 
-            @media  (min-width: 1024px){
-                width: 90%;
-                margin: 10% 5% 10% 5%; 
+            @media (min-width: 700px) {
+                margin: 40px 60px 0px 60px;
+            }
+
+            @media (min-width: 1024px) {
+                width: 80%;
+                margin: 5% 10% 0% 10%;
             }
             
             .phoenixP1{
             
                 @media  (min-width: 500px){
-                    float: left;
-                    width: 50%;
-                    margin-right: 20px;
-                    margin-bottom: 20px;
-                }
-
-                @media  (min-width: 700px){
-                    width: 65%;
-                }
-
-                @media  (min-width: 900px){
-                    width: 50%;
-                }
-
-                @media  (min-width: 1024px){
-                    width: 100%;
+                    width: 80%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    margin-bottom: 25px;
                 }
 
                 .conteiner-fluid{
@@ -106,33 +92,26 @@
 
         .section2GridM{
 
-            @media  (min-width: 500px){
-                margin: 40px 20px 0px 20px;
+            @media (min-width: 500px) {
+                margin: 20px 20px 0px 20px;
             }
 
-            @media  (min-width: 1024px){
-                width: 90%;
-                margin: 10% 5% 10% 5%; 
+            @media (min-width: 700px) {
+                margin: 40px 60px 0px 60px;
+            }
+
+            @media (min-width: 1024px) {
+                width: 80%;
+                margin: 5% 10% 0% 10%;
             }
 
             .phoenixV2-1{
-
+                            
                 @media  (min-width: 500px){
-                    float: left;
-                    width: 50%;
-                    margin-right: 20px;
-                    margin-bottom: 20px;
-                }
-
-                @media  (min-width: 700px){
-                    width: 55%;
-                    margin-right: 47px;
-                    
-                }
-
-                @media  (min-width: 1024px){
-                    width: 100%;
-                    margin-right: 20px;
+                    width: 80%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    margin-bottom: 25px;
                 }
 
                 .conteiner-fluid{
@@ -187,33 +166,27 @@
             
         .section3GridM{
 
-            @media  (min-width: 500px){
-                margin: 40px 20px 20px 20px;
+
+            @media (min-width: 500px) {
+                margin: 20px 20px 20px 20px;
             }
-                
-            @media  (min-width: 1024px){
-                width: 90%;
-                margin: 10% 5% 10% 5%; 
+
+            @media (min-width: 700px) {
+                margin: 40px 60px 40px 60px;
+            }
+
+            @media (min-width: 1024px) {
+                width: 80%;
+                margin: 5% 10% 5% 10%;
             }
 
             .phoenixV3-1{
-            
+                            
                 @media  (min-width: 500px){
-                    float: left;
-                    width: 50%;
-                    margin-right: 20px;
-                    margin-bottom: 20px;
-                }
-
-                @media  (min-width: 700px){
-                    width: 55%;
-                    margin-right: 47px;
-                    
-                }
-                
-                @media  (min-width: 1024px){
-                    width: 100%;
-                    margin-right: 20px;
+                    width: 80%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    margin-bottom: 25px;
                 }
 
                 .conteiner-fluid{

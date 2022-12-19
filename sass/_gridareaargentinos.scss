@@ -34,17 +34,15 @@
 
                 @media (min-width: 500px){
                 float: left;
-                width: 50%;
+                width: 68%;
                 height: auto;
-                margin-right: 20px;
-                margin-bottom: 20px;
+                margin-right: 2em;
+                margin-bottom: 1em;
                 }
 
                 @media (min-width: 1024px){
-                    width: 45%;
-                    margin-right: 50px;
-                    margin-bottom: 30px;
-
+                    margin-right: 3em;
+                    margin-bottom: 2em;
                 }
                 
             }
@@ -55,12 +53,12 @@
                     float: right;
                     width: 40%;
                     height: auto;
-                    margin-top: 20px;
-                    margin-bottom: 20px;
+                    margin-top: 1em;
+                    margin-bottom: 1em;
                 } 
 
                 @media (min-width: 1024px){
-                    width: 30%;
+                    width: 27%;
                 }
 
             }
@@ -69,9 +67,18 @@
             
                 @media (min-width: 500px){
                     float: left;
-                    width: 50%;
-                    margin: 20px 30px 0px 0;
+                    width: 100%;
+                    margin: 1em 2em 1em 0;
                 }
+
+                @media (min-width: 800px){
+                    width: 78%;
+                    margin: 2em 3em 2em 0;
+                }    
+
+                @media (min-width: 1024px){
+                    width: 65%;
+                }    
 
             }
         }
@@ -95,15 +102,13 @@
                 
                 @media (min-width: 500px){
                     float: left;
-                    width: 50%;
+                    width: 68%;
                     height: auto;
-                    margin-right: 20px;
-                    margin-bottom: 20px;
+                    margin-right: 2em;
                 }
 
                 @media (min-width: 1024px){
-                    margin-right: 50px;
-                    margin-bottom: 30px;
+                    margin-right: 3em;
                 }
 
             }
@@ -114,14 +119,14 @@
                     float: right;
                     width: 40%;
                     height: auto;
-                    margin-top: 20px;
-                    margin-bottom: 20px;
+                    margin-top: 1em;
+                    margin-bottom: 1em;
                 }
 
                 @media (min-width: 1024px){
-                    width: 40%;
-                    margin-left: 50px;
-                    margin-bottom: 20px;
+                    width: 30%;
+                    margin-top: 2em;
+                    margin-bottom: 2em;
                 }
 
             }
@@ -146,15 +151,13 @@
 
                 @media (min-width: 500px){
                     float: left;
-                    width: 50%;
+                    width: 68%;
                     height: auto;
-                    margin-right: 20px;
-                    margin-bottom: 20px;
+                    margin-right: 2em;
                 }
 
                 @media (min-width: 1024px){
-                    margin-right: 50px;
-                    margin-bottom: 30px;
+                    margin-right: 3em;
                 }
 
             }
@@ -163,14 +166,13 @@
 
                 @media (min-width: 500px){
                     float: right;
-                    width: 50%;
-                    height: auto;
-                    margin: 20px 0px 20px 20px;
+                    width: 55%;
+                    margin: 10px 0px 10px 20px;
                 }
 
                 @media (min-width: 1024px){
                     width: 40%;
-                    margin-left: 50px;
+                    margin: 20px 0px 15px 40px;
                 }
 
             }
