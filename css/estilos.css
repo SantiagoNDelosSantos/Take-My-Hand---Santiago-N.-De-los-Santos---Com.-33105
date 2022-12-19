@@ -480,9 +480,12 @@ body::-webkit-scrollbar-track {
 }
 @media (min-width: 700px) {
   .embolturaH .mainGridH .section1GridH .nosotrosH2Logo {
-    float: left;
     width: 40%;
-    margin: 0px 20px 10px 0px;
+  }
+}
+@media (min-width: 1024px) {
+  .embolturaH .mainGridH .section1GridH .nosotrosH2Logo {
+    width: 30%;
   }
 }
 .embolturaH .mainGridH .section2GridH {
