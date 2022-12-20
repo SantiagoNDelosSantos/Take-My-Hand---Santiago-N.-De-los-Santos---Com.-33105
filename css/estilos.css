@@ -711,6 +711,7 @@ body::-webkit-scrollbar-track {
 .embolturaH .mainGridH .section3GridH .contenedorForm .formSegundo .enviar {
   color: white;
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);
+  padding: 0.7em;
   border: 0.2em solid white;
   border-radius: 25px;
   font-family: "Orbitron";
@@ -1761,31 +1762,29 @@ body::-webkit-scrollbar-track {
 }
 
 .linkUPH, .linkPHV3 {
-  width: 90%;
+  width: auto;
   margin: 20px 5% 0 5%;
 }
 @media (min-width: 500px) {
   .linkUPH, .linkPHV3 {
-    width: 80%;
+    width: auto;
     margin-left: 10%;
     margin-right: 10%;
   }
 }
 
 .contactarCon {
-  width: 90%;
+  width: auto;
   margin: 20px 5% 0 5%;
 }
 @media (min-width: 500px) {
   .contactarCon {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 700px) {
   .contactarCon {
-    width: 50%;
     margin-left: 25%;
     margin-right: 25%;
   }

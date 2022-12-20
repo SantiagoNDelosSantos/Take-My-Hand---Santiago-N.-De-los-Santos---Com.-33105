@@ -1,6 +1,6 @@
-.linkUPH, .linkPHV3, .contactarCon{
+.linkUPH, .linkPHV3, .contactarCon {
 
-    color:$blanco;
+    color: $blanco;
     text-decoration: none;
     background: $gradienteAzul;
     padding: 0.70em;
@@ -13,54 +13,55 @@
     text-align: center;
     @extend .neoCelesteCuadrado;
 
-            @media (min-width: 900px) {
-                    font-size: 17px;
-            }
+    @media (min-width: 900px) {
+        font-size: 17px;
+    }
 
-            @media (min-width: 1024px) {
-                box-shadow:  6px 6px 12px #d9d9d9,
-                            -6px -6px 12px #ffffff;
-        }
+    @media (min-width: 1024px) {
+        box-shadow: 6px 6px 12px #d9d9d9,
+            -6px -6px 12px #ffffff;
+    }
+
 }
 
-.linkUPH, .linkPHV3{
-    width: 90%;    
+.linkUPH,.linkPHV3 {
+
+    width: auto;
     margin: 20px 5% 0 5%;
 
-    @media  (min-width: 500px){
-        width: 80%;
+    @media (min-width: 500px) {
+        width: auto;
         margin-left: 10%;
         margin-right: 10%;
     }
 
 }
 
-.contactarCon{
+.contactarCon {
 
-    width: 90%;    
+    width: auto;
     margin: 20px 5% 0 5%;
 
-    @media  (min-width: 500px){
-        width: 70%;
-        margin-left: 15%;
-        margin-right: 15%;
+    @media (min-width: 500px) {
+        margin-left: 20%;
+        margin-right: 20%;
     }
-    
-    @media (min-width: 900px) {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+
+    @media (min-width: 700px) {
+        margin-left: 25%;
+        margin-right: 25%;
     }
 }
 
-.linkUPH:hover, .linkPHV3:hover, .contactarCon:hover{
+.linkUPH:hover, .linkPHV3:hover, .contactarCon:hover {
     color: $azulMarino;
     background: $blanco;
     transition: .3s;
     border: 0.20em solid $azulMarino;
 }
 
-.enviarForm{  
+.enviarForm {
+
     color: $blanco;
     background: $gradienteAzul;
     border: 0.20em solid $blanco;
@@ -69,21 +70,20 @@
     font-size: 14px;
     @extend .neoCelesteCuadrado;
 
-@media (min-width: 900px){
-    font-size: 17px;
+    @media (min-width: 900px) {
+        font-size: 17px;
+    }
+
+    @media (min-width: 1024px) {
+        box-shadow: 10px 10px 20px #d9d9d9,
+            -10px -10px 20px #ffffff;
+    }
+
 }
 
-@media (min-width: 1024px) {
-    box-shadow:  10px 10px 20px #d9d9d9,
-                -10px -10px 20px #ffffff;
+.enviarForm:hover {
+    color: $azulMarino;
+    border: 0.20em solid $azulMarino;
+    background: $blanco;
+    transition: .3s;
 }
-
-}
-
-.enviarForm:hover{
-color: $azulMarino;
-border: 0.20em solid $azulMarino;
-background: $blanco;
-transition: .3s;
-}
-
