@@ -1,5 +1,6 @@
-footer{
-    padding: 0.50em;       
+footer {
+
+    padding: 0.50em;
     border-top: 0.20em solid $blanco;
     display: flex;
     justify-content: space-evenly;
@@ -7,11 +8,12 @@ footer{
     height: 132px;
     width: 100%;
 
-    @media  (min-width: 500px){
-    height: 140%;
+    @media (min-width: 500px) {
+        height: 140%;
     }
 
-    @media  (min-width: 700px){
+    @media (min-width: 700px) {
         height: 150%;
-        }
+    }
+    
 }

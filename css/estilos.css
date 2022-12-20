@@ -210,7 +210,6 @@ header nav ul li a.active, header nav ul li a:hover {
 /* Textos */
 h1 {
   color: white;
-  font-family: "Montserrat";
   text-transform: uppercase;
   font-weight: 700;
   font-size: 3em;
@@ -312,7 +311,6 @@ h3 {
 
 p {
   color: rgba(0, 14, 70, 0.86);
-  font-family: "Montserrat";
   font-weight: 500;
   font-size: 14px;
   text-align: center;
@@ -1859,7 +1857,9 @@ svg {
 
 /* Fin footer */
 @media (min-width: 500px) {
-  .section1GridH, .section2GridH, .section1GridM, .section2GridM, .section3GridM, .section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD {
+  .section1GridH, .section2GridH, .section1GridM, .section2GridM, .section3GridM,
+.section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis,
+.section1GridD, .section2GridD, .section3GridD, .section4GridD {
     padding: 3em;
     border: 0.2em solid white;
     border-top-right-radius: 2em;
@@ -1870,7 +1870,9 @@ svg {
   }
 }
 @media (min-width: 1024px) {
-  .section1GridH, .section2GridH, .section1GridM, .section2GridM, .section3GridM, .section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD {
+  .section1GridH, .section2GridH, .section1GridM, .section2GridM, .section3GridM,
+.section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis,
+.section1GridD, .section2GridD, .section3GridD, .section4GridD {
     background-image: url(../assets/img/fondos/fondoMarmolBlanco.jpg);
   }
 }/*# sourceMappingURL=estilos.css.map */

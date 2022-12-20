@@ -32,61 +32,61 @@
 
 /* Srcoll Bar */
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     width: 10px;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
     background: #0083FF;
 }
 
-body::-webkit-scrollbar-track{
-    background:     rgb(8, 15, 40);
+body::-webkit-scrollbar-track {
+    background: rgb(8, 15, 40);
 }
 
 /* Fin Srcoll Bar */
 
 /* Grid Area Home */
 
-.headerGridH{
+.headerGridH {
     grid-area: headerGridH;
 }
 
-.mainGridH{
+.mainGridH {
     grid-area: mainGridH;
 }
 
-.h1GridH{
+.h1GridH {
     grid-area: h1GridH;
 }
 
-.section1GridH{
+.section1GridH {
     grid-area: section1GridH;
 }
 
-.section2GridH{
+.section2GridH {
     grid-area: section2GridH;
 }
 
-.section3GridH{
+.section3GridH {
     grid-area: section3GridH;
 }
 
-.footerGridH{
+.footerGridH {
     grid-area: footerGridH;
 }
 
-.h3-FooterH{
+.h3-FooterH {
     grid-area: h3-FooterH;
     @include footerH3P($blanco, 0em, flex, center, center);
 }
 
-.ul-FooterH{
+.ul-FooterH {
     grid-area: ul-FooterH;
     @include footerSVG(0em, flex, center, center);
 }
 
-.p-FooterH{
+.p-FooterH {
     grid-area: p-FooterH;
     @include footerH3P($blanco, 0em, flex, center, center);
 }
@@ -97,16 +97,16 @@ body::-webkit-scrollbar-track{
 
 /*Bootstrap Galería*/
 
-.h2Galeria{
+.h2Galeria {
 
-    @media  (min-width: 500px){
-    margin-bottom: 20px;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    @media (min-width: 500px) {
+        margin-bottom: 20px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
-    @media  (min-width: 700px){
+    @media (min-width: 700px) {
 
         width: 100%;
         margin-left: 0%;
@@ -115,13 +115,14 @@ body::-webkit-scrollbar-track{
 
 }
 
-.row{
+.row {
     --bs-gutter-x: 0rem;
     margin: 0px;
 }
 
-.galeria1{
-    width: 80%;    
+.galeria1 {
+
+    width: 80%;
     height: 100%;
     margin-top: 0;
     margin-left: 2em;
@@ -130,33 +131,36 @@ body::-webkit-scrollbar-track{
     padding-top: 0px;
     border-radius: 30px;
 
-    @media  (min-width: 500px){
+    @media (min-width: 500px) {
         width: 100%;
         padding: 5%;
         margin: 0px;
         border-radius: 40px;
     }
+
 }
 
-.galeria{
-    width: 80%;    
+.galeria {
+
+    width: 80%;
     height: 100%;
     margin-left: 2em;
     margin-right: 2em;
     padding: 3%;
     border-radius: 30px;
 
-    @media  (min-width: 500px){
+    @media (min-width: 500px) {
         width: 100%;
         padding: 5%;
         margin: 0px;
         border-radius: 40px;
     }
 
-} 
+}
 
-.galeria6{
-    width: 80%;    
+.galeria6 {
+
+    width: 80%;
     height: 100%;
     margin-left: 2em;
     margin-right: 2em;
@@ -164,15 +168,16 @@ body::-webkit-scrollbar-track{
     padding-bottom: 0px;
     border-radius: 30px;
 
-    @media  (min-width: 500px){
+    @media (min-width: 500px) {
         width: 100%;
         padding: 5%;
         margin: 0px;
         border-radius: 40px;
     }
+
 }
 
-.section2GridH img:hover{
+.section2GridH img:hover {
     transform: scale(1.1);
     transition: all .3s;
 }
@@ -181,45 +186,45 @@ body::-webkit-scrollbar-track{
 
 /* Grid Area Modelos Gratuitos */
 
-.headerGridM{
+.headerGridM {
     grid-area: headerGridM;
 }
 
-.mainGridM{
+.mainGridM {
     grid-area: mainGridM;
 }
 
-.h1GridM{
+.h1GridM {
     grid-area: h1GridM;
 }
 
-.section1GridM{
+.section1GridM {
     grid-area: section1GridM;
 }
 
-.section2GridM{
+.section2GridM {
     grid-area: section2GridM;
 }
 
-.section3GridM{
+.section3GridM {
     grid-area: section3GridM;
 }
 
-.footerGridM{
+.footerGridM {
     grid-area: footerGridM;
 }
 
-.h3-FooterM{
+.h3-FooterM {
     grid-area: h3-FooterM;
     @include footerH3P($blanco, 0em, flex, center, center);
 }
 
-.ul-FooterM{
+.ul-FooterM {
     grid-area: ul-FooterM;
     @include footerSVG(0em, flex, center, center);
 }
 
-.p-FooterM{
+.p-FooterM {
     grid-area: p-FooterM;
     @include footerH3P($blanco, 0em, flex, center, center);
 }
@@ -230,45 +235,45 @@ body::-webkit-scrollbar-track{
 
 /* Grid Area Aregentinos Destacados */
 
-.headerGridA{
+.headerGridA {
     grid-area: headerGridA;
 }
 
-.mainGridA{
+.mainGridA {
     grid-area: mainGridA;
 }
 
-.h1GridA{
+.h1GridA {
     grid-area: h1GridA;
 }
 
-.section1GridA{
+.section1GridA {
     grid-area: section1GridA;
 }
 
-.section2GridA{
+.section2GridA {
     grid-area: section2GridA;
 }
 
-.section3GridA{
+.section3GridA {
     grid-area: section3GridA;
 }
 
-.footerGridA{
+.footerGridA {
     grid-area: footerGridA;
 }
 
-.h3-FooterA{
+.h3-FooterA {
     grid-area: h3-FooterA;
     @include footerH3P($blanco, 0em, flex, center, center);
 }
 
-.ul-FooterA{
+.ul-FooterA {
     grid-area: ul-FooterA;
     @include footerSVG(0em, flex, center, center);
 }
 
-.p-FooterA{
+.p-FooterA {
     grid-area: p-FooterA;
     @include footerH3P($blanco, 0em, flex, center, center);
 }
@@ -279,41 +284,41 @@ body::-webkit-scrollbar-track{
 
 /* Grid Area Historias */
 
-.headerGridHis{
+.headerGridHis {
     grid-area: headerGridHis;
 }
 
-.mainGridHis{
+.mainGridHis {
     grid-area: mainGridHis;
 }
 
-.h1GridHis{
+.h1GridHis {
     grid-area: h1GridHis;
 }
 
-.section1GridHis{
+.section1GridHis {
     grid-area: section1GridHis;
 }
 
-.section2GridHis{
+.section2GridHis {
     grid-area: section2GridHis;
 }
 
-.footerGridHis{
+.footerGridHis {
     grid-area: footerGridHis;
 }
 
-.h3-FooterHis{
+.h3-FooterHis {
     grid-area: h3-FooterHis;
     @include footerH3P($blanco, 0em, flex, center, center);
 }
 
-.ul-FooterHis{
+.ul-FooterHis {
     grid-area: ul-FooterHis;
     @include footerSVG(0em, flex, center, center);
 }
 
-.p-FooterHis{
+.p-FooterHis {
     grid-area: p-FooterHis;
     @include footerH3P($blanco, 0em, flex, center, center);
 }
@@ -324,49 +329,49 @@ body::-webkit-scrollbar-track{
 
 /* Grid Area Donaciones */
 
-.headerGridD{
+.headerGridD {
     grid-area: headerGridD;
 }
 
-.mainGridD{
+.mainGridD {
     grid-area: mainGridD;
 }
 
-.h1GridD{
+.h1GridD {
     grid-area: h1GridD;
 }
 
-.section1GridD{
+.section1GridD {
     grid-area: section1GridD;
 }
 
-.section2GridD{
+.section2GridD {
     grid-area: section2GridD;
 }
 
-.section3GridD{
+.section3GridD {
     grid-area: section3GridD;
 }
 
-.section4GridD{
+.section4GridD {
     grid-area: section4GridD;
 }
 
-.footerGridD{
+.footerGridD {
     grid-area: footerGridD;
 }
 
-.h3-FooterD{
+.h3-FooterD {
     grid-area: h3-FooterD;
     @include footerH3P($blanco, 0em, flex, center, center);
 }
 
-.ul-FooterD{
+.ul-FooterD {
     grid-area: ul-FooterD;
     @include footerSVG(0em, flex, center, center);
 }
 
-.p-FooterD{
+.p-FooterD {
     grid-area: p-FooterD;
     @include footerH3P($blanco, 0em, flex, center, center);
 }
@@ -377,23 +382,23 @@ body::-webkit-scrollbar-track{
 
 /* Fondos */
 
-.fondo1{
+.fondo1 {
     background-image: url(../assets/img/fondos/fondo1.jpg);
 }
 
-.fondo2{
+.fondo2 {
     background-image: url(../assets/img/fondos/fondo2.jpg);
 }
 
-.fondo3{
+.fondo3 {
     background-image: url(../assets/img/fondos/fondo3.jpg);
 }
 
-.fondo4{
+.fondo4 {
     background-image: url(../assets/img/fondos/fondo4.jpg);
 }
 
-.fondo5{
+.fondo5 {
     background-image: url(../assets/img/fondos/fondo5.jpg);
 }
 
@@ -411,7 +416,7 @@ body::-webkit-scrollbar-track{
 
 @import "footer";
 
-svg{
+svg {
     width: 30px;
     height: 30px;
     margin-left: 10px;
@@ -421,12 +426,14 @@ svg{
 /* Fin footer */
 
 
-@media  (min-width: 500px){
+@media (min-width: 500px) {
 
-    .section1GridH, .section2GridH, .section1GridM, .section2GridM, .section3GridM,.section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD{
+    .section1GridH, .section2GridH, .section1GridM, .section2GridM, .section3GridM,
+    .section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis,
+    .section1GridD, .section2GridD, .section3GridD, .section4GridD {
         padding: 3em;
         border: 0.20em solid $blanco;
-        border-top-right-radius: 2em; 
+        border-top-right-radius: 2em;
         border-bottom-left-radius: 2em;
         margin-bottom: 0;
         background-color: $celesteAcero;
@@ -435,9 +442,12 @@ svg{
 
 }
 
-@media  (min-width: 1024px){
+@media (min-width: 1024px) {
 
-    .section1GridH, .section2GridH, .section1GridM, .section2GridM, .section3GridM,.section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, .section1GridD, .section2GridD, .section3GridD, .section4GridD{
+    .section1GridH, .section2GridH, .section1GridM, .section2GridM, .section3GridM,
+    .section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis,
+    .section1GridD, .section2GridD, .section3GridD, .section4GridD {
         background-image: url(../assets/img/fondos/fondoMarmolBlanco.jpg);
     }
+    
 }

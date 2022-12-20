@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -6,23 +6,23 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-body{ 
-    
-    background-color: $celesteAcero;
-    font-family: 'Montserrat'; 
-    text-align: center;
-    line-height: 1.50;   
+body {
 
-    @media (min-width: 500px){
+    background-color: $celesteAcero;
+    font-family: 'Montserrat';
+    text-align: center;
+    line-height: 1.50;
+
+    @media (min-width: 500px) {
         background-color: $blanco;
     }
-    
-    @media (min-width: 1024px){
+
+    @media (min-width: 1024px) {
         background-color: $celesteAcero;
     }
-            
+
 }

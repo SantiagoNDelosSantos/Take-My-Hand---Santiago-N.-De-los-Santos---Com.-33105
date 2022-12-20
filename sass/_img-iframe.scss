@@ -1,51 +1,51 @@
-img{
+img {
 
-    width: 80%;  
+    width: 80%;
     height: auto;
     border-radius: 2em;
 
-    @media (min-width: 500px){
+    @media (min-width: 500px) {
         width: 100%;
-        margin: 0;    
+        margin: 0;
     }
 
 }
 
-iframe{
+iframe {
 
-    width: 80%;  
+    width: 80%;
     height: 30vh;
-    border-radius: 2em;    
+    border-radius: 2em;
     margin-top: 25px;
 
-    @media (min-width: 500px){
-    width: 100%;
-    height: 45vh;
+    @media (min-width: 500px) {
+        width: 100%;
+        height: 45vh;
     }
 
-    @media (min-width: 700px){
+    @media (min-width: 700px) {
         height: 55vh;
     }
 
-    @media (min-width: 800px){
+    @media (min-width: 800px) {
         height: 65vh;
     }
 
-    @media (min-width: 900px){
+    @media (min-width: 900px) {
         height: 75vh;
     }
 
-    @media (min-width: 1000px){
+    @media (min-width: 1000px) {
         height: 85vh;
     }
-    
+
 }
 
-.redondeadoProtesis{
+.redondeadoProtesis {
     border-radius: 3em;
 }
 
-.circulo1{
+.circulo1 {
 
     padding: 1em;
     height: 50%;
@@ -54,24 +54,24 @@ iframe{
     @extend .neoCelesteRedondo;
     margin: 0 25%;
 
-    @media (min-width: 500px){
+    @media (min-width: 500px) {
         height: 70%;
         width: 70%;
         margin: 0 15% 0 15%;
     }
 
-    @media (min-width: 1024px){
+    @media (min-width: 1024px) {
         margin-top: 10px;
         margin-bottom: 10px;
         background: #ffffff;
-        box-shadow:  6px 6px 12px #d9d9d9,
-                    -6px -6px 12px #ffffff;
+        box-shadow: 6px 6px 12px #d9d9d9,
+            -6px -6px 12px #ffffff;
         border: 0.30em solid $celesteAcero;
     }
 
 }
 
-.circulo2{
+.circulo2 {
 
     padding: 1em;
     height: 50%;
@@ -80,43 +80,42 @@ iframe{
     @extend .neoCelesteRedondo;
     margin: 0 25%;
 
-    @media (min-width: 500px){
+    @media (min-width: 500px) {
         width: 100%;
         margin: 0%;
     }
 
-    @media (min-width: 1024px){
+    @media (min-width: 1024px) {
 
         background: #ffffff;
-        box-shadow:  6px 6px 12px #d9d9d9,
-                    -6px -6px 12px #ffffff;
+        box-shadow: 6px 6px 12px #d9d9d9,
+            -6px -6px 12px #ffffff;
         border: 0.30em solid $celesteAcero;
     }
 
 }
 
-
-
 .logoForm {
+
     width: 30%;
-    height: 30%;        
+    height: 30%;
     border-radius: 50%;
     @extend .neoCelesteRedondo;
 
-    @media (min-width: 500px){
+    @media (min-width: 500px) {
         width: 40%;
         height: 40%;
     }
 
-    @media (min-width: 600px){
+    @media (min-width: 600px) {
         width: 30%;
         height: 30%;
     }
 
-    @media (min-width: 1024px){
-        padding: 0.50em;        
-        box-shadow:  5px 6px 12px #d9d9d9,
-                    -6px -6px 12px #ffffff;
+    @media (min-width: 1024px) {
+        padding: 0.50em;
+        box-shadow: 5px 6px 12px #d9d9d9,
+            -6px -6px 12px #ffffff;
     }
 
 }
