@@ -352,23 +352,34 @@ img {
 
 iframe {
   width: 80%;
-  height: auto;
+  height: 30vh;
   border-radius: 2em;
+  margin-top: 25px;
 }
 @media (min-width: 500px) {
   iframe {
     width: 100%;
-    height: 50vh;
+    height: 45vh;
+  }
+}
+@media (min-width: 700px) {
+  iframe {
+    height: 55vh;
   }
 }
 @media (min-width: 800px) {
   iframe {
-    height: 45vh;
+    height: 65vh;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   iframe {
-    height: 47vh;
+    height: 75vh;
+  }
+}
+@media (min-width: 1000px) {
+  iframe {
+    height: 85vh;
   }
 }
 
@@ -409,9 +420,8 @@ iframe {
 }
 @media (min-width: 500px) {
   .circulo2 {
+    width: 100%;
     margin: 0%;
-    margin-top: 3%;
-    margin-bottom: 3%;
   }
 }
 @media (min-width: 1024px) {
@@ -889,15 +899,15 @@ body::-webkit-scrollbar-track {
 @media (min-width: 700px) {
   .embolturaM .mainGridM .section1GridM {
     margin: 40px 60px 0px 60px;
+    display: flex;
+    padding: 2%;
+    gap: 2%;
   }
 }
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section1GridM {
     width: 80%;
     margin: 5% 10% 0% 10%;
-    display: flex;
-    padding: 2%;
-    gap: 2%;
   }
 }
 @media (min-width: 500px) {
@@ -908,7 +918,7 @@ body::-webkit-scrollbar-track {
     margin-bottom: 25px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 700px) {
   .embolturaM .mainGridM .section1GridM .phoenixP1 {
     width: 39%;
     margin: 0px;
@@ -954,7 +964,7 @@ body::-webkit-scrollbar-track {
     margin-right: 1em;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 700px) {
   .embolturaM .mainGridM .section1GridM .phoenixP2 {
     width: 61%;
     margin: 0px;
@@ -973,15 +983,15 @@ body::-webkit-scrollbar-track {
 @media (min-width: 700px) {
   .embolturaM .mainGridM .section2GridM {
     margin: 40px 60px 0px 60px;
+    display: flex;
+    padding: 2%;
+    gap: 2%;
   }
 }
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section2GridM {
     width: 80%;
     margin: 5% 10% 0% 10%;
-    display: flex;
-    padding: 2%;
-    gap: 2%;
   }
 }
 @media (min-width: 500px) {
@@ -992,7 +1002,7 @@ body::-webkit-scrollbar-track {
     margin-bottom: 25px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 700px) {
   .embolturaM .mainGridM .section2GridM .phoenixV2-1 {
     width: 50%;
     margin: 0px;
@@ -1040,7 +1050,7 @@ body::-webkit-scrollbar-track {
     margin-right: 1em;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 700px) {
   .embolturaM .mainGridM .section2GridM .phoenixV2-2 {
     width: 50%;
     margin: 0px;
@@ -1059,15 +1069,15 @@ body::-webkit-scrollbar-track {
 @media (min-width: 700px) {
   .embolturaM .mainGridM .section3GridM {
     margin: 40px 60px 40px 60px;
+    display: flex;
+    padding: 2%;
+    gap: 2%;
   }
 }
 @media (min-width: 1024px) {
   .embolturaM .mainGridM .section3GridM {
     width: 80%;
     margin: 5% 10% 5% 10%;
-    display: flex;
-    padding: 2%;
-    gap: 2%;
   }
 }
 @media (min-width: 500px) {
@@ -1078,7 +1088,7 @@ body::-webkit-scrollbar-track {
     margin-bottom: 25px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 700px) {
   .embolturaM .mainGridM .section3GridM .phoenixV3-1 {
     width: 50%;
     margin: 0px;
@@ -1126,7 +1136,7 @@ body::-webkit-scrollbar-track {
     margin-right: 1em;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 700px) {
   .embolturaM .mainGridM .section3GridM .phoenixV3-2 {
     width: 50%;
     margin: 0px;
@@ -1254,42 +1264,21 @@ body::-webkit-scrollbar-track {
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section1GridA .atomicLab {
     float: right;
-    width: 40%;
+    width: 35%;
     height: auto;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 2%;
+    margin-left: 5%;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .embolturaA .mainGridA .section1GridA .atomicLab {
-    width: 35%;
+    width: 30%;
   }
 }
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section1GridA .atomicLab {
     width: 25%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-left: 1%;
-  }
-}
-@media (min-width: 500px) {
-  .embolturaA .mainGridA .section1GridA .obama {
-    float: left;
-    width: 100%;
-    margin: 1em 2em 1em 0;
-  }
-}
-@media (min-width: 800px) {
-  .embolturaA .mainGridA .section1GridA .obama {
-    width: 75%;
-    margin: 2em 3em 2em 0;
-  }
-}
-@media (min-width: 1024px) {
-  .embolturaA .mainGridA .section1GridA .obama {
-    width: 70%;
   }
 }
 @media (min-width: 500px) {
@@ -1327,24 +1316,21 @@ body::-webkit-scrollbar-track {
 @media (min-width: 500px) {
   .embolturaA .mainGridA .section2GridA .francoC3DPro {
     float: right;
-    width: 40%;
+    width: 35%;
     height: auto;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 2%;
+    margin-left: 5%;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .embolturaA .mainGridA .section2GridA .francoC3DPro {
-    width: 35%;
+    width: 30%;
   }
 }
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section2GridA .francoC3DPro {
-    width: 30%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-left: 1%;
+    width: 25%;
   }
 }
 @media (min-width: 500px) {
@@ -1499,7 +1485,7 @@ body::-webkit-scrollbar-track {
 }
 @media (min-width: 1024px) {
   .embolturaHis .mainGridHis .section1GridHis .h2Felipe {
-    width: 40%;
+    width: 50%;
   }
 }
 @media (min-width: 500px) {
@@ -1528,7 +1514,7 @@ body::-webkit-scrollbar-track {
 }
 @media (min-width: 1024px) {
   .embolturaHis .mainGridHis .section2GridHis .h2Olga {
-    width: 40%;
+    width: 50%;
   }
 }
 .embolturaHis .footerGridHis {

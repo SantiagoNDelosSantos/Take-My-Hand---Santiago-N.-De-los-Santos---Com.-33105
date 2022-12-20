@@ -23,15 +23,15 @@
             }
 
             @media (min-width: 700px) {
-                margin: 40px 60px 0px 60px;
+                margin: 40px 60px 0px 60px;                
+                display: flex;
+                padding: 2%;
+                gap: 2%;
             }
 
             @media (min-width: 1024px) {
                 width: 80%;
                 margin: 5% 10% 0% 10%;
-                display: flex;
-                padding: 2%;
-                gap: 2%;
             }
             
 
@@ -44,7 +44,7 @@
                     margin-bottom: 25px;
                 }
 
-                @media (min-width: 1024px) {
+                @media (min-width: 700px) {
                     width: 39%;
                     margin: 0px;
                     display: flex;
@@ -103,7 +103,7 @@
             
             .phoenixP2{
 
-                @media (min-width: 1024px) {
+                @media (min-width: 700px) {
                     width: 61%;
                     margin: 0px;
                     padding: 1%;
@@ -125,14 +125,14 @@
 
             @media (min-width: 700px) {
                 margin: 40px 60px 0px 60px;
+                display: flex;
+                padding: 2%;
+                gap: 2%;
             }
 
             @media (min-width: 1024px) {
                 width: 80%;
                 margin: 5% 10% 0% 10%;
-                display: flex;
-                padding: 2%;
-                gap: 2%;
             }
 
             .phoenixV2-1{
@@ -144,7 +144,7 @@
                     margin-bottom: 25px;
                 }
                 
-                @media (min-width: 1024px) {
+                @media (min-width: 700px) {
                     width: 50%;
                     margin: 0px;
                     display: flex;
@@ -205,7 +205,7 @@
 
             .phoenixV2-2{
 
-                @media (min-width: 1024px) {
+                @media (min-width: 700px) {
                     width: 50%;
                     margin: 0px;
                     display: flex;
@@ -228,14 +228,14 @@
 
             @media (min-width: 700px) {
                 margin: 40px 60px 40px 60px;
+                display: flex;
+                padding: 2%;
+                gap: 2%;
             }
 
             @media (min-width: 1024px) {
                 width: 80%;
                 margin: 5% 10% 5% 10%;
-                display: flex;
-                padding: 2%;
-                gap: 2%;
             }
 
             .phoenixV3-1{
@@ -247,7 +247,7 @@
                     margin-bottom: 25px;
                 }
 
-                @media (min-width: 1024px) {
+                @media (min-width: 700px) {
                 width: 50%;
                 margin: 0px;
                 display: flex;
@@ -308,7 +308,7 @@
 
             .phoenixV3-2{
 
-                @media  (min-width: 1024px){
+                @media  (min-width: 700px){
                 width: 50%;
                 margin: 0px;
                 display: flex;
