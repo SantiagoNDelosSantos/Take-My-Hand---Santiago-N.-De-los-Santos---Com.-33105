@@ -27,7 +27,7 @@ iframe{
     }
 
     @media (min-width: 1024px){
-        height: 50vh;
+        height: 47vh;
     }    
 
 }
@@ -36,7 +36,7 @@ iframe{
     border-radius: 3em;
 }
 
-.circulo{
+.circulo1{
 
     padding: 1em;
     height: 50%;
@@ -61,6 +61,32 @@ iframe{
     }
 
 }
+
+.circulo2{
+
+    padding: 1em;
+    height: 50%;
+    width: 50%;
+    border: 0.30em solid $blanco;
+    @extend .neoCelesteRedondo;
+    margin: 0 25%;
+
+    @media (min-width: 500px){
+        margin: 0%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    @media (min-width: 1024px){
+        background: #ffffff;
+        box-shadow:  6px 6px 12px #d9d9d9,
+                    -6px -6px 12px #ffffff;
+        border: 0.30em solid $celesteAcero;
+    }
+
+}
+
+
 
 .logoForm {
     width: 30%;

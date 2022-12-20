@@ -29,8 +29,12 @@
             @media (min-width: 1024px) {
                 width: 80%;
                 margin: 5% 10% 0% 10%;
+                display: flex;
+                padding: 2%;
+                gap: 2%;
             }
             
+
             .phoenixP1{
             
                 @media  (min-width: 500px){
@@ -40,18 +44,26 @@
                     margin-bottom: 25px;
                 }
 
+                @media (min-width: 1024px) {
+                    width: 39%;
+                    margin: 0px;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 1%;
+                }
+
                 .conteiner-fluid{
                     
                     @media  (min-width: 700px){
-                        width: 84%;
-                        margin-left: 8%;
-                        margin-right: 8%;
+                        width: 100%;
+                        margin-left: 0%;
+                        margin-right: 0%;
                     }    
 
                     @media  (min-width: 1024px){                       
                         width: 100%;
-                        margin-left: 0%;
-                        margin-right: 0%;  
                     }
 
                     #carouselExampleDark{
@@ -87,7 +99,22 @@
                         }
                     }
                 }
-            } 
+            }
+            
+            .phoenixP2{
+
+                @media (min-width: 1024px) {
+                    width: 61%;
+                    margin: 0px;
+                    padding: 1%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    flex-direction: column;
+                }
+
+            }
+
         }
 
         .section2GridM{
@@ -103,6 +130,9 @@
             @media (min-width: 1024px) {
                 width: 80%;
                 margin: 5% 10% 0% 10%;
+                display: flex;
+                padding: 2%;
+                gap: 2%;
             }
 
             .phoenixV2-1{
@@ -113,6 +143,16 @@
                     margin-right: 10%;
                     margin-bottom: 25px;
                 }
+                
+                @media (min-width: 1024px) {
+                    width: 50%;
+                    margin: 0px;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 1%;
+                    }
 
                 .conteiner-fluid{
 
@@ -123,9 +163,9 @@
                     }
 
                     @media  (min-width: 1024px){                       
-                        width: 100%;
-                        margin-left: 0%;
-                        margin-right: 0%;  
+                        width: 70%;
+                        margin-left: 15%;
+                        margin-right: 15%;  
                     }
                         
                     #carouselExampleDark2{
@@ -162,6 +202,21 @@
                     }
                 }
             }
+
+            .phoenixV2-2{
+
+                @media (min-width: 1024px) {
+                    width: 50%;
+                    margin: 0px;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 1%;
+                }
+                
+            }
+
         }    
             
         .section3GridM{
@@ -178,6 +233,9 @@
             @media (min-width: 1024px) {
                 width: 80%;
                 margin: 5% 10% 5% 10%;
+                display: flex;
+                padding: 2%;
+                gap: 2%;
             }
 
             .phoenixV3-1{
@@ -189,6 +247,16 @@
                     margin-bottom: 25px;
                 }
 
+                @media (min-width: 1024px) {
+                width: 50%;
+                margin: 0px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: column;
+                padding: 1%;
+                }
+
                 .conteiner-fluid{
                     
                     @media (min-width: 900px){
@@ -198,9 +266,9 @@
                     }
 
                     @media  (min-width: 1024px){                       
-                        width: 100%;
-                        margin-left: 0%;
-                        margin-right: 0%;  
+                        width: 70%;
+                        margin-left: 15%;
+                        margin-right: 15%;  
                     }
 
                     #carouselExampleDark3{
@@ -237,6 +305,21 @@
                     }
                 }
             }
+
+            .phoenixV3-2{
+
+                @media  (min-width: 1024px){
+                width: 50%;
+                margin: 0px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: column;
+                padding: 1%;
+                }
+
+            }
+
         }
     }
 
