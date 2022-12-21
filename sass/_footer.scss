@@ -1,12 +1,12 @@
 footer {
 
+    background: $gradienteAzul;
     padding: 0.50em;
     border-top: 0.20em solid $blanco;
+    width: 100%;
+    height: 132px;
     display: flex;
     justify-content: space-evenly;
-    background: $gradienteAzul;
-    height: 132px;
-    width: 100%;
 
     @media (min-width: 500px) {
         height: 140%;
@@ -15,5 +15,5 @@ footer {
     @media (min-width: 700px) {
         height: 150%;
     }
-    
+
 }
