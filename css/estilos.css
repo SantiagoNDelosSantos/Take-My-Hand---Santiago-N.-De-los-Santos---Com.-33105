@@ -1730,11 +1730,11 @@ body::-webkit-scrollbar-track {
 }
 @media (min-width: 1024px) {
   .fondo1, .fondo2, .fondo3, .fondo4, .fondo5 {
-    height: 90.65vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 90.65vh;
   }
 }
 
