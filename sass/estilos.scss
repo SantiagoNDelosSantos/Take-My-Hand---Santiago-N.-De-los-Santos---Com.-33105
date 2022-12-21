@@ -100,14 +100,11 @@ body::-webkit-scrollbar-track {
 .h2Galeria {
 
     @media (min-width: 500px) {
-        margin-bottom: 20px;
         width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin: 0px 10% 20px 10%;
     }
 
     @media (min-width: 700px) {
-
         width: 100%;
         margin-left: 0%;
         margin-right: 0%;
@@ -124,55 +121,53 @@ body::-webkit-scrollbar-track {
 
     width: 80%;
     height: 100%;
-    margin-top: 0;
-    margin-left: 2em;
-    margin-right: 2em;
     padding: 3%;
     padding-top: 0px;
     border-radius: 30px;
+    margin: 0px 2em;
 
     @media (min-width: 500px) {
-        width: 100%;
         padding: 5%;
-        margin: 0px;
         border-radius: 40px;
+        width: 100%;
+        margin: 0px;
     }
 
 }
 
 .galeria {
 
+    padding: 3%;
+    border-radius: 30px;
     width: 80%;
     height: 100%;
     margin-left: 2em;
     margin-right: 2em;
-    padding: 3%;
-    border-radius: 30px;
 
     @media (min-width: 500px) {
-        width: 100%;
         padding: 5%;
-        margin: 0px;
         border-radius: 40px;
+        width: 100%;
+        margin: 0px;
     }
 
 }
 
 .galeria6 {
 
+    padding: 3%;
+    padding-bottom: 0px;
+    border-radius: 30px;
     width: 80%;
     height: 100%;
     margin-left: 2em;
     margin-right: 2em;
-    padding: 3%;
-    padding-bottom: 0px;
-    border-radius: 30px;
 
     @media (min-width: 500px) {
-        width: 100%;
         padding: 5%;
-        margin: 0px;
         border-radius: 40px;
+        width: 100%;
+        margin: 0px;
     }
 
 }
@@ -428,15 +423,15 @@ svg {
 
 @media (min-width: 500px) {
 
-    .section1GridH, .section2GridH, .section1GridM, .section2GridM, .section3GridM,
-    .section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis,
+    .section1GridH, .section2GridH, .section1GridM, .section2GridM, .section3GridM, 
+    .section1GridA, .section2GridA, .section3GridA, .section1GridHis, .section2GridHis, 
     .section1GridD, .section2GridD, .section3GridD, .section4GridD {
+        background-color: $celesteAcero;
         padding: 3em;
         border: 0.20em solid $blanco;
         border-top-right-radius: 2em;
         border-bottom-left-radius: 2em;
         margin-bottom: 0;
-        background-color: $celesteAcero;
         box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     }
 
@@ -449,5 +444,5 @@ svg {
     .section1GridD, .section2GridD, .section3GridD, .section4GridD {
         background-image: url(../assets/img/fondos/fondoMarmolBlanco.jpg);
     }
-    
+
 }
