@@ -60,21 +60,21 @@ header {
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);
   padding: 1rem;
   border-bottom: 0.2em solid white;
+  width: 100%;
+  height: 60px;
   display: inline-block;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  height: 60px;
-  width: 100%;
   z-index: 10;
 }
 header nav .checkbtn {
-  font-size: 30px;
   color: white;
+  font-size: 30px;
   float: right;
-  cursor: pointer;
-  display: block;
   margin-right: 0.1em;
+  display: block;
+  cursor: pointer;
 }
 @media (min-width: 700px) {
   header nav .checkbtn {
@@ -99,10 +99,10 @@ header nav #check:checked ~ label.checkbtn .menu {
 header nav label .menu {
   color: white;
   float: right;
-  cursor: pointer;
-  display: block;
   margin-right: 7px;
   margin-top: 5px;
+  display: block;
+  cursor: pointer;
 }
 @media (min-width: 700px) {
   header nav label .menu {
@@ -110,9 +110,9 @@ header nav label .menu {
   }
 }
 header nav label .close {
-  display: none;
   margin-top: 10px;
   margin-right: 3.5px;
+  display: none;
 }
 @media (min-width: 700px) {
   header nav label .close {
@@ -123,35 +123,35 @@ header nav a .enlace {
   display: none;
 }
 header nav a .logo {
-  width: 90px;
-  height: 39px;
   padding: 0.2em;
-  margin-left: 13px;
   border: 0.2em solid white;
   float: left;
+  width: 90px;
+  height: 39px;
+  margin-left: 13px;
 }
 header nav ul {
-  position: fixed;
+  text-align: center;
+  background-color: rgba(0, 0, 32, 0.79);
+  padding: 0px;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 32, 0.79);
+  position: fixed;
   top: 60px;
   left: -100%;
-  text-align: center;
   transition: all 0.7s;
-  padding: 0px;
 }
 @media (min-width: 700px) {
   header nav ul {
-    display: flex;
-    justify-content: center;
-    left: 0%;
     background-color: none;
-    transition: none;
     width: 84%;
     height: 0%;
     margin-top: -50px;
     margin-left: 102px;
+    display: flex;
+    justify-content: center;
+    left: 0%;
+    transition: none;
   }
 }
 header nav ul li {
@@ -163,22 +163,22 @@ header nav ul li {
 }
 @media (min-width: 700px) {
   header nav ul li {
-    margin-top: 14px;
     height: 7%;
+    margin-top: 14px;
   }
 }
 header nav ul li a {
   color: white;
   font-size: 1.7em;
-  padding: 0.5em;
-  border-radius: 3px;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 0.5em;
+  border-radius: 3px;
 }
 @media (min-width: 700px) {
   header nav ul li a {
-    font-weight: 600;
     font-size: 115%;
+    font-weight: 600;
     border-radius: 30px;
     margin-left: 3px;
     margin-top: 10px;
@@ -201,8 +201,8 @@ header nav ul li a {
   }
 }
 header nav ul li a.active, header nav ul li a:hover {
-  background: white;
   color: rgba(0, 14, 70, 0.86);
+  background: white;
   transition: all 0.3s;
 }
 
