@@ -1792,6 +1792,12 @@ body::-webkit-scrollbar-track {
     margin-right: 25%;
   }
 }
+@media (min-width: 1024px) {
+  .contactarCon {
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+}
 
 .linkUPH:hover, .linkPHV3:hover, .contactarCon:hover {
   color: rgba(0, 14, 70, 0.86);
