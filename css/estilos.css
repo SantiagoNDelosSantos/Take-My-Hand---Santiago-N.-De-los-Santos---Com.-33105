@@ -1270,9 +1270,7 @@ body::-webkit-scrollbar-track {
     float: right;
     width: 35%;
     height: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 5%;
+    margin: 2% 0% 2% 5%;
   }
 }
 @media (min-width: 700px) {
@@ -1322,9 +1320,7 @@ body::-webkit-scrollbar-track {
     float: right;
     width: 35%;
     height: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 5%;
+    margin: 2% 0% 2% 5%;
   }
 }
 @media (min-width: 700px) {
@@ -1373,22 +1369,17 @@ body::-webkit-scrollbar-track {
   .embolturaA .mainGridA .section3GridA .alvearImprime {
     float: right;
     width: 55%;
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-bottom: 2%;
+    margin: 2% 0% 2% 2%;
   }
 }
 @media (min-width: 1024px) {
   .embolturaA .mainGridA .section3GridA .alvearImprime {
     width: 40%;
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-bottom: 2%;
   }
 }
 .embolturaA .footerGridA {
-  display: grid;
   margin: 0em;
+  display: grid;
   grid-template-areas: "h3-FooterA" "ul-FooterA" "p-FooterA";
 }
 @media (min-width: 500px) {

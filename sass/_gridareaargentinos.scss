@@ -1,103 +1,46 @@
-.embolturaA{
+.embolturaA {
 
     display: grid;
-    grid-template-areas: 
-    "headerGridA"
-    "mainGridA"
-    "footerGridA";
+    grid-template-areas:
+        "headerGridA"
+        "mainGridA"
+        "footerGridA";
 
-    .mainGridA{
+    .mainGridA {
 
         display: grid;
-        grid-template-areas: 
-        "h1GridA"
-        "section1GridA"
-        "section2GridA"
-        "section3GridA";
+        grid-template-areas:
+            "h1GridA"
+            "section1GridA"
+            "section2GridA"
+            "section3GridA";
 
-        .section1GridA{
+        .section1GridA {
 
-            @media  (min-width: 500px){
+            @media (min-width: 500px) {
                 margin: 20px 20px 0px 20px;
             }
 
-            @media  (min-width: 700px){
+            @media (min-width: 700px) {
                 margin: 40px 60px 0px 60px;
             }
 
-            @media (min-width: 1024px){
+            @media (min-width: 1024px) {
                 width: 80%;
                 margin: 5% 10% 0% 10%;
             }
 
-            .h2yGino{
+            .h2yGino {
 
-                @media (min-width: 500px){
-                float: left;
-                width: 68%;
-                height: auto;
-                margin-right: 2em;
-                margin-bottom: 1em;
-                }
-
-                @media (min-width: 1024px){
-                    width: 55%;
-                    margin-right: 3em;
-                    margin-bottom: 2em;
-                }
-
-            }
-
-            .atomicLab{
-
-                @media (min-width: 500px){
-                    float: right;
-                    width: 35%;
-                    height: auto;
-                    margin-top: 2%;
-                    margin-bottom: 2%;
-                    margin-left: 5%;
-                } 
-
-                @media (min-width: 700px){
-                    width: 30%;
-                }
-
-
-                @media (min-width: 1024px){
-                    width: 25%;
-                }
-
-            }
-
-        }
-
-        .section2GridA{
-
-            @media  (min-width: 500px){
-                margin: 20px 20px 0px 20px;
-            }
-
-            @media  (min-width: 700px){
-                margin: 40px 60px 0px 60px;
-            }
-
-            @media (min-width: 1024px){
-                width: 80%;
-                margin: 5% 10% 0% 10%;
-            }
-
-            .h2Franco{
-
-                @media (min-width: 500px){
+                @media (min-width: 500px) {
                     float: left;
                     width: 68%;
                     height: auto;
                     margin-right: 2em;
                     margin-bottom: 1em;
-                    }
+                }
 
-                @media (min-width: 1024px){
+                @media (min-width: 1024px) {
                     width: 55%;
                     margin-right: 3em;
                     margin-bottom: 2em;
@@ -105,54 +48,108 @@
 
             }
 
-            .francoC3DPro{
+            .atomicLab {
 
-                @media (min-width: 500px){
+                @media (min-width: 500px) {
                     float: right;
                     width: 35%;
                     height: auto;
-                    margin-top: 2%;
-                    margin-bottom: 2%;
-                    margin-left: 5%;
-                } 
+                    margin: 2% 0% 2% 5%;
+                }
 
-                @media (min-width: 700px){
+                @media (min-width: 700px) {
                     width: 30%;
                 }
 
-                @media (min-width: 1024px){
+
+                @media (min-width: 1024px) {
                     width: 25%;
                 }
 
             }
+
         }
 
-        .section3GridA{
+        .section2GridA {
 
-            @media  (min-width: 500px){
+            @media (min-width: 500px) {
+                margin: 20px 20px 0px 20px;
+            }
+
+            @media (min-width: 700px) {
+                margin: 40px 60px 0px 60px;
+            }
+
+            @media (min-width: 1024px) {
+                width: 80%;
+                margin: 5% 10% 0% 10%;
+            }
+
+            .h2Franco {
+
+                @media (min-width: 500px) {
+                    float: left;
+                    width: 68%;
+                    height: auto;
+                    margin-right: 2em;
+                    margin-bottom: 1em;
+                }
+
+                @media (min-width: 1024px) {
+                    width: 55%;
+                    margin-right: 3em;
+                    margin-bottom: 2em;
+                }
+
+            }
+
+            .francoC3DPro {
+
+                @media (min-width: 500px) {
+                    float: right;
+                    width: 35%;
+                    height: auto;
+                    margin: 2% 0% 2% 5%;
+                }
+
+                @media (min-width: 700px) {
+                    width: 30%;
+                }
+
+                @media (min-width: 1024px) {
+                    width: 25%;
+                }
+
+            }
+
+        }
+
+        .section3GridA {
+
+            @media (min-width: 500px) {
                 margin: 20px 20px 20px 20px;
             }
 
-            @media  (min-width: 700px){
+            @media (min-width: 700px) {
                 margin: 40px 60px 40px 60px;
             }
 
-            @media (min-width: 1024px){
+            @media (min-width: 1024px) {
                 width: 80%;
                 margin: 5% 10% 5% 10%;
             }
 
-            .h2Joa{
+            .h2Joa {
 
-                @media (min-width: 500px){
+                @media (min-width: 500px) {
                     float: left;
                     width: 68%;
                     height: auto;
                     margin-right: 2em;
                     margin-bottom: 1em;
-                    }
+                }
 
-                @media (min-width: 1024px){
+                @media (min-width: 1024px) {
                     width: 55%;
                     margin-right: 3em;
                     margin-bottom: 2em;
@@ -160,48 +157,46 @@
 
             }
 
-            .alvearImprime{
+            .alvearImprime {
 
-                @media (min-width: 500px){
+                @media (min-width: 500px) {
                     float: right;
                     width: 55%;
-                    margin-top: 2%;
-                    margin-left: 2%;
-                    margin-bottom: 2%;
+                    margin: 2% 0% 2% 2%;
                 }
 
-                @media (min-width: 1024px){
+                @media (min-width: 1024px) {
                     width: 40%;
-                    margin-top: 2%;
-                    margin-left: 2%;
-                    margin-bottom: 2%;
                 }
 
             }
+
         }
+
     }
-        
-    .footerGridA{
 
-        display: grid;
+    .footerGridA {
+
         margin: 0em;
-        grid-template-areas: 
-        "h3-FooterA"
-        "ul-FooterA"
-        "p-FooterA";
+        display: grid;
+        grid-template-areas:
+            "h3-FooterA"
+            "ul-FooterA"
+            "p-FooterA";
 
-        @media (min-width: 500px){
+        @media (min-width: 500px) {
             display: grid;
-            grid-template-areas: 
-            "h3-FooterA ul-FooterA"
-            "p-FooterA p-FooterA";
+            grid-template-areas:
+                "h3-FooterA ul-FooterA"
+                "p-FooterA p-FooterA";
         }
 
-        @media (min-width: 700px){
+        @media (min-width: 700px) {
             display: grid;
-            grid-template-areas: 
-            "h3-FooterA ul-FooterA p-FooterA";
+            grid-template-areas:
+                "h3-FooterA ul-FooterA p-FooterA";
         }
 
-    }   
+    }
+
 }
