@@ -1,5 +1,5 @@
 .linkUPH, .linkPHV3, .contactarCon {
-    
+
     text-decoration: none;
     color: $blanco;
     font-size: 14px;
@@ -52,7 +52,7 @@
         margin-right: 25%;
     }
 
-    
+
     @media (min-width: 1024px) {
         margin-left: 35%;
         margin-right: 35%;
@@ -90,7 +90,7 @@
 
 .enviarForm:hover {
     color: $azulMarino;
-    background: $blanco;    
+    background: $blanco;
     border: 0.20em solid $azulMarino;
     transition: .3s;
 }
