@@ -1,56 +1,22 @@
-.embolturaGridD{
+.embolturaGridD {
 
     display: grid;
-    grid-template-areas: 
-    "headerGridD"
-    "mainGridD"
-    "footerGridD";
+    grid-template-areas:
+        "headerGridD"
+        "mainGridD"
+        "footerGridD";
 
-
-    .mainGridD{
+    .mainGridD {
 
         display: grid;
-        grid-template-areas: 
-        "h1GridD" 
-        "section1GridD"
-        "section2GridD"
-        "section3GridD"
-        "section4GridD";
+        grid-template-areas:
+            "h1GridD"
+            "section1GridD"
+            "section2GridD"
+            "section3GridD"
+            "section4GridD";
 
-        .section1GridD{
-
-            @media (min-width: 500px) {
-                margin: 20px 20px 0px 20px;
-            }
-
-            @media (min-width: 700px) {
-                margin: 40px 60px 0px 60px;
-            }
-
-            @media (min-width: 1024px) {
-                width: 80%;
-                margin: 5% 10% 0% 10%;
-            }
-        
-        }
-
-        .section2GridD{
-
-            @media (min-width: 500px) {
-                margin: 20px 20px 0px 20px;
-            }
-
-            @media (min-width: 700px) {
-                margin: 40px 60px 0px 60px;
-            }
-
-            @media (min-width: 1024px) {
-                width: 80%;
-                margin: 5% 10% 0% 10%;
-            }
-            }
-
-        .section3GridD{
+        .section1GridD {
 
             @media (min-width: 500px) {
                 margin: 20px 20px 0px 20px;
@@ -66,8 +32,42 @@
             }
 
         }
-        
-        .section4GridD{
+
+        .section2GridD {
+
+            @media (min-width: 500px) {
+                margin: 20px 20px 0px 20px;
+            }
+
+            @media (min-width: 700px) {
+                margin: 40px 60px 0px 60px;
+            }
+
+            @media (min-width: 1024px) {
+                width: 80%;
+                margin: 5% 10% 0% 10%;
+            }
+            
+        }
+
+        .section3GridD {
+
+            @media (min-width: 500px) {
+                margin: 20px 20px 0px 20px;
+            }
+
+            @media (min-width: 700px) {
+                margin: 40px 60px 0px 60px;
+            }
+
+            @media (min-width: 1024px) {
+                width: 80%;
+                margin: 5% 10% 0% 10%;
+            }
+
+        }
+
+        .section4GridD {
 
             @media (min-width: 500px) {
                 margin: 20px 20px 20px 20px;
@@ -83,29 +83,31 @@
             }
 
         }
+
     }
 
-    .footerGridD{
+    .footerGridD {
 
         display: grid;
         margin: 0em;
-        grid-template-areas: 
-        "h3-FooterD"
-        "ul-FooterD"
-        "p-FooterD";
+        grid-template-areas:
+            "h3-FooterD"
+            "ul-FooterD"
+            "p-FooterD";
 
-        @media  (min-width: 500px){
+        @media (min-width: 500px) {
             display: grid;
-            grid-template-areas: 
-            "h3-FooterD ul-FooterD"
-            "p-FooterD p-FooterD";
+            grid-template-areas:
+                "h3-FooterD ul-FooterD"
+                "p-FooterD p-FooterD";
         }
 
-        @media  (min-width: 700px){
+        @media (min-width: 700px) {
             display: grid;
-            grid-template-areas: 
-            "h3-FooterD ul-FooterD p-FooterD";
+            grid-template-areas:
+                "h3-FooterD ul-FooterD p-FooterD";
         }
 
     }
+
 }
