@@ -1,76 +1,75 @@
-.embolturaHis{
+.embolturaHis {
 
     display: grid;
-    grid-template-areas: 
-    "headerGridHis"
-    "mainGridHis"
-    "footerGridHis";
+    grid-template-areas:
+        "headerGridHis"
+        "mainGridHis"
+        "footerGridHis";
 
-    .mainGridHis{
+    .mainGridHis {
 
         display: grid;
-        grid-template-areas: 
-        "h1GridHis" 
-        "section1GridHis"
-        "section2GridHis";
+        grid-template-areas:
+            "h1GridHis"
+            "section1GridHis"
+            "section2GridHis";
 
-        .section1GridHis{
+        .section1GridHis {
 
-            @media  (min-width: 500px){
+            @media (min-width: 500px) {
                 margin: 20px 20px 0px 20px;
             }
 
-            @media  (min-width: 700px){
+            @media (min-width: 700px) {
                 margin: 40px 60px 0px 60px;
             }
 
-            @media (min-width: 1024px){
+            @media (min-width: 1024px) {
                 width: 80%;
                 margin: 5% 10% 0% 10%;
             }
 
+            .h2Felipe {
 
-            .h2Felipe{
-                
-                @media  (min-width: 500px){
+                @media (min-width: 500px) {
                     float: left;
                     width: 70%;
                     margin: 0px 20px 0px 0px;
                 }
-                
-                @media  (min-width: 1024px){
+
+                @media (min-width: 1024px) {
                     width: 50%;
                 }
 
             }
 
         }
-        
-        .section2GridHis{
 
-            @media  (min-width: 500px){
+        .section2GridHis {
+
+            @media (min-width: 500px) {
                 margin: 40px 20px 20px 20px;
             }
 
-            @media  (min-width: 700px){
+            @media (min-width: 700px) {
                 margin: 40px 60px 40px 60px;
             }
 
-            @media (min-width: 1024px){
+            @media (min-width: 1024px) {
                 width: 80%;
                 margin: 5% 10% 5% 10%;
             }
 
-            .h2Olga{
-                
-                @media  (min-width: 500px){
+            .h2Olga {
+
+                @media (min-width: 500px) {
                     float: left;
                     width: 60%;
                     margin-right: 20px;
                     margin-bottom: 0px;
                 }
 
-                @media  (min-width: 1024px){
+                @media (min-width: 1024px) {
                     width: 50%;
                 }
 
@@ -80,26 +79,28 @@
 
     }
 
-    .footerGridHis{
+    .footerGridHis {
 
-        display: grid;
         margin: 0em;
-        grid-template-areas: 
-        "h3-FooterHis"
-        "ul-FooterHis"
-        "p-FooterHis";
+        display: grid;
+        grid-template-areas:
+            "h3-FooterHis"
+            "ul-FooterHis"
+            "p-FooterHis";
 
-        @media  (min-width: 500px){
+        @media (min-width: 500px) {
             display: grid;
-            grid-template-areas: 
-            "h3-FooterHis ul-FooterHis"
-            "p-FooterHis p-FooterHis";
+            grid-template-areas:
+                "h3-FooterHis ul-FooterHis"
+                "p-FooterHis p-FooterHis";
         }
 
-        @media  (min-width: 700px){
+        @media (min-width: 700px) {
             display: grid;
-            grid-template-areas: 
-            "h3-FooterHis ul-FooterHis p-FooterHis";
+            grid-template-areas:
+                "h3-FooterHis ul-FooterHis p-FooterHis";
         }
+
     }
+
 }
