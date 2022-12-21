@@ -1741,17 +1741,17 @@ body::-webkit-scrollbar-track {
 /* Fin fondos */
 /* Enlaces externos */
 .linkUPH, .linkPHV3, .contactarCon {
-  color: white;
   text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);
   padding: 0.7em;
   border: 0.2em solid white;
   border-radius: 3em;
-  font-weight: 500;
-  font-size: 14px;
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 @media (min-width: 900px) {
   .linkUPH, .linkPHV3, .contactarCon {
@@ -1802,17 +1802,17 @@ body::-webkit-scrollbar-track {
 .linkUPH:hover, .linkPHV3:hover, .contactarCon:hover {
   color: rgba(0, 14, 70, 0.86);
   background: white;
-  transition: 0.3s;
   border: 0.2em solid rgba(0, 14, 70, 0.86);
+  transition: 0.3s;
 }
 
 .enviarForm {
+  font-family: "Orbitron";
   color: white;
+  font-size: 14px;
   background: linear-gradient(90deg, rgb(0, 0, 32) 0%, rgb(16, 19, 98) 50%, rgb(0, 0, 32) 100%);
   border: 0.2em solid white;
   border-radius: 25px;
-  font-family: "Orbitron";
-  font-size: 14px;
 }
 @media (min-width: 900px) {
   .enviarForm {
@@ -1827,8 +1827,8 @@ body::-webkit-scrollbar-track {
 
 .enviarForm:hover {
   color: rgba(0, 14, 70, 0.86);
-  border: 0.2em solid rgba(0, 14, 70, 0.86);
   background: white;
+  border: 0.2em solid rgba(0, 14, 70, 0.86);
   transition: 0.3s;
 }
 
