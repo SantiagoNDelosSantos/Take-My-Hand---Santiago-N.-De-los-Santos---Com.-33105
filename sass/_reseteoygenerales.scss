@@ -1,8 +1,8 @@
 * {
-    padding: 0;
-    margin: 0;
     text-decoration: none;
     list-style: none;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -12,10 +12,10 @@ html {
 
 body {
 
-    background-color: $celesteAcero;
     font-family: 'Montserrat';
     text-align: center;
     line-height: 1.50;
+    background-color: $celesteAcero;
 
     @media (min-width: 500px) {
         background-color: $blanco;
