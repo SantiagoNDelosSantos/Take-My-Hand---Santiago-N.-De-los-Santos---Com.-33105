@@ -1,21 +1,21 @@
 img {
 
+    border-radius: 2em;
     width: 80%;
     height: auto;
-    border-radius: 2em;
 
     @media (min-width: 500px) {
         width: 100%;
-        margin: 0;
+        margin: 0px;
     }
 
 }
 
 iframe {
 
+    border-radius: 2em;
     width: 80%;
     height: 30vh;
-    border-radius: 2em;
     margin-top: 25px;
 
     @media (min-width: 500px) {
@@ -48,25 +48,25 @@ iframe {
 .circulo1 {
 
     padding: 1em;
-    height: 50%;
-    width: 50%;
     border: 0.30em solid $blanco;
-    @extend .neoCelesteRedondo;
+    width: 50%;
+    height: 50%;
     margin: 0 25%;
+    @extend .neoCelesteRedondo;
 
     @media (min-width: 500px) {
-        height: 70%;
         width: 70%;
+        height: 70%;
         margin: 0 15% 0 15%;
     }
 
     @media (min-width: 1024px) {
+        border: 0.30em solid $celesteAcero;
         margin-top: 10px;
         margin-bottom: 10px;
         background: #ffffff;
         box-shadow: 6px 6px 12px #d9d9d9,
-            -6px -6px 12px #ffffff;
-        border: 0.30em solid $celesteAcero;
+                    -6px -6px 12px #ffffff;
     }
 
 }
@@ -74,11 +74,11 @@ iframe {
 .circulo2 {
 
     padding: 1em;
-    height: 50%;
-    width: 50%;
     border: 0.30em solid $blanco;
-    @extend .neoCelesteRedondo;
+    width: 50%;
+    height: 50%;
     margin: 0 25%;
+    @extend .neoCelesteRedondo;
 
     @media (min-width: 500px) {
         width: 100%;
@@ -86,20 +86,19 @@ iframe {
     }
 
     @media (min-width: 1024px) {
-
         background: #ffffff;
-        box-shadow: 6px 6px 12px #d9d9d9,
-            -6px -6px 12px #ffffff;
         border: 0.30em solid $celesteAcero;
+        box-shadow: 6px 6px 12px #d9d9d9,
+                    -6px -6px 12px #ffffff;
     }
 
 }
 
 .logoForm {
 
+    border-radius: 50%;
     width: 30%;
     height: 30%;
-    border-radius: 50%;
     @extend .neoCelesteRedondo;
 
     @media (min-width: 500px) {
@@ -115,7 +114,7 @@ iframe {
     @media (min-width: 1024px) {
         padding: 0.50em;
         box-shadow: 5px 6px 12px #d9d9d9,
-            -6px -6px 12px #ffffff;
+                    -6px -6px 12px #ffffff;
     }
 
 }
